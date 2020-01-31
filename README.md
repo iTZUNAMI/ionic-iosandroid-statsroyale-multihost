@@ -1,6 +1,6 @@
 # The Mad King (stats royale) 
 
-_Note: the Mad King requires Ionic CLI 3._
+_Note: the Mad King requires Ionic CLI 3
 
 <img src="/resources/android/icon/drawable-xhdpi-icon.png" />
 
@@ -32,8 +32,7 @@ Note:
 This is not a WebView app of the fan created website statsroyale.com.
 
 ## Screenshots (Android)
-<img src="/resources/build android/en1.png" width="500px"/>
-<img src="/resources/build android/en2.png" width="500px"/>
+<img src="/resources/build android/en1.png" width="450px"/><img src="/resources/build android/en2.png" width="450px"/>
 <img src="/resources/build android/en3.png" width="500px"/>
 <img src="/resources/build android/en4.png" width="500px"/>
 <img src="/resources/build android/en5.png" width="500px"/>
@@ -48,7 +47,7 @@ This is not a WebView app of the fan created website statsroyale.com.
 
 ## Screenshots (Tablet)
 
-<img src="/resources/build ios/Simulator Screen Shot 19 ago 2017, 18.14.05.png" width="500px"/>
+<img src="/resources/build ios/tablet/Simulator Screen Shot 19 ago 2017, 18.14.05.png" width="500px"/>
 
 ## i18n
 
