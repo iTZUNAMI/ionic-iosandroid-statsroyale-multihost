@@ -1,4 +1,4 @@
-# The Mad King (stats royale) <img src="/resources/android/icon/drawable-xhdpi-icon.png" />
+# The Mad King (stats royale) 
 
 _Note: the Mad King requires Ionic CLI 3._
 
