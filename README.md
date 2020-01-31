@@ -57,8 +57,38 @@ The Mad King comes with internationalization (i18n) out of the box with [ngx-tra
 We have added the following languages:
 
 Spanish
+
 German
+
 French
+
 Russian
+
 Portuguese
+
+## www
+
+Added a simple mobile friendly website/landing page for ios and andorid download page
+
+## crawling method 1 : simple
+
+v1: all stats are processed and taken from the statsroyale website and saved to our db. all client request check our db and if not updated or not present there will be a server request from our main server.
+
+problem: 100k users and too much request from our main server -> crawling by our IP has been blocked
+solution : method 2
+
+## crawling method 2 : hydra
+
+added a multiple crawling from different servers. all result are sent to our main db. all clients request all info from main server as well, but we have spliiter to about 8-10 different IP servers all request.
+
+problem : too much request as method 1, so servers has been banned after 1 month 
+final solution : method 3
+
+## crawling method 3: 3-way
+
+to prevent IP blocking i have changed the client request. Now the client (android/ios app) act as crawler. All infos are than sent and processed by our server and again sent back to client. With this 3-way request all request have different and unique IP and there aren't IP blocked request. Very strong method.
+
+
+
+
 
