@@ -1,68 +1,64 @@
-# The Ionic Super Starter 🎮
+# The Mad King (stats royale) 
 
-_Note: the Ionic Super Starter requires Ionic CLI 3._
+_Note: the Mad King requires Ionic CLI 3
 
-<img src="super2.png" width="400" />
+<img src="/resources/android/icon/drawable-xhdpi-icon.png" />
 
-The Ionic Super Starter is a batteries-included starter project for Ionic apps complete with pre-built pages, providers, and best practices for Ionic development.
+The Mad King : Stats and Chest tracker for Clash Royale 
 
-The goal of the Super Starter is to get you from zero to app store faster than before, with a set of opinions from the Ionic team around page layout, data/user management, and project structure.
+Check your next Chest!
+Wondering when that Legendary or Magical chest is coming? We got you covered
 
-The way to use this starter is to pick and choose the various page types you want use, and remove the ones you don't. If you want a blank slate, this starter isn't for you (use the `blank` type instead).
+Features:
+Check what chest is coming to you (Yes.. they are not random!)
+Add any player to your app:
+Check your stats, your clan stats or your favorite Youtube player
+Share your stats with your friends
 
-One of the big advances in Ionic was moving from a rigid route-based navigation system to a flexible push/pop navigation system modeled off common native SDKs. We've embraced this pattern to provide a set of reusable pages that can be navigated to anywhere in the app. Take a look at the [Settings page](https://github.com/ionic-team/ionic-starter-super/blob/master/src/pages/settings/settings.html#L38) for a cool example of a page navigating to itself to provide a different UI without duplicating code.
 
-## Table of Contents
+Youtube PRO players of Clash Royale added by default
+nickatnyte
+MOLT
+Chief Pat
 
-1. [Getting Started](#getting-started)
-2. [Pages](#pages)
-3. [Providers](#providers)
-4. [i18n](#i18n) (adding languages)
 
-## <a name="getting-started"></a>Getting Started
+Disclamer (also added on the app under Help tab):
+"This content is not affiliated with, endorsed, sponsored, or specifically approved by Supercell and Supercell is not responsible for it. For more information see Supercell’s Fan Content Policy: www.supercell.com/fan-content-policy."
 
-To test this starter out, install the latest version of the Ionic CLI and run:
+This is a fan guide app with the use of some Supercell assets based on the popular game Clash Royale. Permitted Fan Content normally includes for example non-commercial fan-generated online guides and guide apps, fan meetups, fan pages and gameplay videos as long as they follow this Policy.
+This fan app follow all the rules on this Policy for the assets of Supercell' Clash Royale.
 
-```bash
-ionic start mySuperApp super
-```
+Note:
+This is not a WebView app of the fan created website statsroyale.com.
 
-## Pages
+## Screenshots (Android)
+<img src="/resources/build android/en1.png" width="450px"/>
+<img src="/resources/build android/en2.png" width="450px"/>
+<img src="/resources/build android/en3.png" width="450px"/>
+<img src="/resources/build android/en4.png" width="450px"/>
+<img src="/resources/build android/en5.png" width="450px"/>
 
-The Super Starter comes with a variety of ready-made pages. These pages help you assemble common building blocks for your app so you can focus on your unique features and branding.
+## Screenshots (iOS)
 
-The app loads with the `FirstRunPage` set to `TutorialPage` as the default. If the user has already gone through this page once, it will be skipped the next time they load the app.
+<img src="/resources/build ios/Simulator Screen Shot 19 ago 2017, 18.10.52.png" width="450px"/>
+<img src="/resources/build ios/Simulator Screen Shot 19 ago 2017, 18.11.13.png" width="450px"/>
+<img src="/resources/build ios/Simulator Screen Shot 19 ago 2017, 18.11.26.png" width="450px"/>
+<img src="/resources/build ios/Simulator Screen Shot 19 ago 2017, 18.11.31.png" width="450px"/>
+<img src="/resources/build ios/Simulator Screen Shot 19 ago 2017, 18.11.44.png" width="450px"/>
 
-If the tutorial is skipped but the user hasn't logged in yet, the Welcome page will be displayed which is a "splash" prompting the user to log in or create an account.
+## Screenshots (Tablet)
 
-Once the user is authenticated, the app will load with the `MainPage` which is set to be the `TabsPage` as the default.
-
-The entry and main pages can be configured easily by updating the corresponding variables in [src/pages/pages.ts](https://github.com/ionic-team/ionic-starter-super/blob/master/src/pages/pages.ts).
-
-Please read the [Pages](https://github.com/ionic-team/ionic-starter-super/tree/master/src/pages) readme, and the readme for each page in the source for more documentation on each.
-
-## Providers
-
-The Super Starter comes with some basic implementations of common providers.
-
-### User
-
-The `User` provider is used to authenticate users through its `login(accountInfo)` and `signup(accountInfo)` methods, which perform `POST` requests to an API endpoint that you will need to configure.
-
-### Api
-
-The `Api` provider is a simple CRUD frontend to an API. Simply put the root of your API url in the Api class and call get/post/put/patch/delete 
+<img src="/resources/build ios/tablet/Simulator Screen Shot 19 ago 2017, 18.14.05.png" width="500px"/>
 
 ## i18n
 
-Ionic Super Starter comes with internationalization (i18n) out of the box with [ngx-translate](https://github.com/ngx-translate/core). This makes it easy to change the text used in the app by modifying only one file. 
+The Mad King comes with internationalization (i18n) out of the box with [ngx-translate](https://github.com/ngx-translate/core). This makes it easy to change the text used in the app by modifying only one file. 
 
-By default, the only language strings provided are American English.
+We have added the following languages:
 
-### Adding Languages
+Spanish
+German
+French
+Russian
+Portuguese
 
-To add new languages, add new files to the `src/assets/i18n` directory, following the pattern of LANGCODE.json where LANGCODE is the language/locale code (ex: en/gb/de/es/etc.).
-
-### Changing the Language
-
-To change the language of the app, edit `src/app/app.component.ts` and modify `translate.use('en')` to use the LANGCODE from `src/assets/i18n/`
