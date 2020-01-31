@@ -1,0 +1,29 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{ 'TAB3_TITLE_NAV' | translate }}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+  
+<ion-list *ngIf="posts">
+<ion-list-header>
+      {{ 'TAB3_RECENT' | translate }}
+</ion-list-header>
+  <ion-item-sliding *ngFor="let utente of posts.clan" >
+    <button ion-item (click)="openItemClan(utente.tag)">
+      <ion-avatar item-start>
+      <img [src]="livellotab1(utente.livello)" width="50%" />
+      </ion-avatar>
+      <h2><strong>{{ sistemaHtml(utente.username) | uppercase }}</strong></h2>
+      <h3>{{ utente.tag }}</h3>
+      <p>{{ clanUtente(utente.clan) }}</p>
+    </button>
+  </ion-item-sliding>
+
+</ion-list>
+
+</ion-content>

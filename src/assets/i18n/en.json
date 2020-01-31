@@ -1,0 +1,173 @@
+{
+"BACK_BUTTON_TEXT" : "Back",
+
+
+"TAB1_TITLE": "Players",
+"TAB2_TITLE": "Search",
+"TAB3_TITLE": "MK Clan",
+"TAB4_TITLE": "Help",
+"TAB5_TITLE": "More",
+
+
+"TUTORIAL_SKIP_BUTTON" : "Skip",
+"TUTORIAL_CONTINUE_BUTTON" : "Continue",
+"TUTORIAL_FINISH_BUTTON" : "Add my profile",
+
+"TUTORIAL_SLIDE1_TITLE": "Welcome to The Mad King",
+"TUTORIAL_SLIDE1_DESCRIPTION": "<b>Incoming Chests</b><br>Wondering when that Legendary or Epic chest is coming? We got you covered",
+
+"TUTORIAL_SLIDE2_TITLE": "Add your profile!",
+"TUTORIAL_SLIDE2_DESCRIPTION": "You can also <b>add any profile</b>, of your <b>friends</b> or your favorite <b>Youtube</b> player! ",
+
+"TUTORIAL_SLIDE3_TITLE": "Setup is fast and easy",
+"TUTORIAL_SLIDE3_DESCRIPTION": "Just add your <b>Clash Royale #TAG</b><br><br>",
+
+"TUTORIAL_SLIDE4_TITLE": "Like it?",
+"TUTORIAL_SLIDE4_DESCRIPTION": "Share with your friends and your clan!",
+
+
+
+"LIST_MASTER_TITLE": "Players",
+
+"ITEM_CREATE_TITLE": "New Player",
+"ITEM_NAME_HEADER" : "Nickname",
+"ITEM_NAME_PLACEHOLDER" : "e.g. myaccount",
+"ITEM_TAG_HEADER" : "Clash Royale player #TAG",
+"ITEM_TAG_PLACEHOLDER" : "e.g. : 2YJUJQLQ (without #)",
+"ITEM_AVATAR_HEADER" : "Choose your avatar",
+"ITEM_CREATE_ADDED" : "Added",
+"ITEM_AVATAR_REQ" : "*All fields are required to create profile",
+
+"LIST_TOAST" : "Welcome : Press + to add your profile!\nInstructions on Help tab",
+"SEARCH_ADD" : "Search on your local Players list",
+
+
+"DONE_BUTTON" : "Done",
+"CANCEL_BUTTON" : "Cancel",
+"DELETE_BUTTON" : "Delete",
+"YOUTUBE_BUTTON" : "Youtuber",
+"SHARE_BUTTON" : "Share",
+
+"SHARE_YOUTUBER" : "Check this channel",
+"SHARE_ALL" : "Check this profile",
+"SHARE_NOME" : "The Mad King App: ",
+
+"SEARCH_TITLE": "Search",
+"SEARCH_PLACEHOLDER" : "e.g : \"MOLT\"",
+
+
+"AVATAR_A": "Archers",
+"AVATAR_B": "Baby Dragon",
+"AVATAR_B1": "Bandit",
+"AVATAR_B2": "Barbarians",
+"AVATAR_B3": "Bomber",
+"AVATAR_B4": "Bowler",
+"AVATAR_D": "Dark Prince",
+"AVATAR_E": "Electro Wizard",
+"AVATAR_E1": "Executioner",
+"AVATAR_G": "Giant",
+"AVATAR_G1": "Giant Skeleton",
+"AVATAR_G2": "Goblins",
+"AVATAR_G3": "Golem",
+"AVATAR_I": "Ice Wizard",
+"AVATAR_M": "Mega Minion",
+"AVATAR_M1": "Minier",
+"AVATAR_M2": "Mini PEKKA",
+"AVATAR_M3": "Musketeer",
+"AVATAR_M4": "Mega Knight",
+"AVATAR_N": "Night Witch",
+"AVATAR_P": "PEKKA",
+"AVATAR_P2": "Prince",
+"AVATAR_P3": "Princess",
+"AVATAR_R": "Royal Giant",
+"AVATAR_T": "Three Musketeers",
+"AVATAR_W": "Witch",
+
+
+
+"ITEM_DETAILS_INVALID" : "Invalid #TAG",
+"ITEM_DETAILS_INVALID_LONG" : "Check the correct #TAG of your Clash Royale profile.Left Swipe on Players Tab page to delete this wrong user or press the trash button",
+"ITEM_DETAILS_INVALID_LONG_2" : "Common mistake is writing O (letter) instead of 0 (number). Please check better.",
+"ITEM_DETAILS_LIVELLO" : "Level",
+"ITEM_DETAILS_NOCLAN" : "No Clan",
+"ITEM_DETAILS_NEXTCHEST" : "Incoming Chest",
+"ITEM_DETAILS_NEXTCHEST_LONG" : "Check how many chest you have to open until your Legendary!",
+"ITEM_DETAILS_NEXTCHEST2" : "Followed by",
+"ITEM_DETAILS_NEXTCHEST3" : "Legendary or Epic Chest ?",
+"ITEM_DETAILS_NEXTCHEST4" : "You need to open more chests to unlock good chest..",
+"ITEM_DETAILS_WAIT" : "Profile added!",
+"ITEM_DETAILS_WAIT_LONG" : "Wait some minutes and check again",
+"ITEM_DETAILS_WAIT_LONG_2" : "If you see this page after 2-3h probably this is a WRONG TAG. Check Help tab for common mistake.",
+"ITEM_DETAILS_NEXTCHEST_PRIMO" : "Next Chest",
+"ITEM_DETAILS_UPDATE" : "Info: chest are updated every 24h",
+"ITEM_DETAILS_UPDATE_LAST" : "Last update: ",
+"ITEM_DETAILS_UPDATE_NOW" : "Refresh now ",
+"ITEM_DETAILS_UPDATE_LATER" : "Updated recently",
+"ITEM_DETAILS_UPDATE_DONE" : "Refresh requested! The update can require up to 2-3 minutes. So if it is not updated do it again",
+"ITEM_DETAILS_UPDATE_TOOGLE" : "Enable automatic updates",
+"ITEM_DETAILS_ON" : "Enabled",
+"ITEM_DETAILS_OFF" : "Disabled",
+"ITEM_DETAILS_MYINFO" : "Stats" ,
+"ITEM_DETAILS_MYCHEST" : "Chests",
+"ITEM_DETAILS_MYCLAN" : "Clan Royale",
+"ITEM_DETAILS_MYCLAN_NOCLAN" : "You don't have any Clan on Clash Royale",
+"ITEM_DETAILS_MYCLAN_ADD" : "Clan members that joined The Mad King",
+"ITEM_DETAILS_MYCLAN_ADD2" : "Invite them all !",
+"ITEM_DETAILS_ERROR0" : "Server Maintenance..check later!",
+
+"ITEM_DETAILS_STATS_TITOLO" : "Last known statistics and trophies",
+"ITEM_DETAILS_STATS_B1" : "Highest trophies",
+"ITEM_DETAILS_STATS_B2" : "Currents trophies",
+"ITEM_DETAILS_STATS_B3" : "Challenge cards won",
+"ITEM_DETAILS_STATS_B4" : "Tourney cards won",
+"ITEM_DETAILS_STATS_B5" : "Total donations",
+"ITEM_DETAILS_STATS_B6" : "Previous Season Rank",
+"ITEM_DETAILS_STATS_B7" : "Previous Season Trophies",
+"ITEM_DETAILS_STATS_B8" : "Previous Season Highest",
+"ITEM_DETAILS_STATS_B9" : "Total Wins",
+"ITEM_DETAILS_STATS_B10" : "Total Loses",
+"ITEM_DETAILS_STATS_B11" : "3 Crown Wins",
+
+
+"TAB3_TITLE_NAV" : "The Mad King Clan",
+"TAB3_RECENT" : "Recent players on The Mad King Clan",
+
+
+
+"TAB4_TITLE_NAV" : "Help ?!",
+"TAB4_TEXT1" : "Quick help",
+"TAB4_TEXT2" : "Step 1",
+"TAB4_TEXT3" : "Open Clash Royale. Press your name and under your profile page you will see your Clash Royale TAG.",
+"TAB4_TEXT4" : "Look the example below, for example the tag : 2YJUJQLQ (without #)",
+"TAB4_TEXT4_1" : "Common Mistake",
+"TAB4_TEXT4_2" : "Check your TAG: maybe you copied O (letter) instead of 0 (number). Please check better.",
+"TAB4_TEXT5" : "Step 2",
+"TAB4_TEXT6" : "Open now this app. Go to Players and press the '+' add button on the top right corner. On the TAG input write your Clash Royale TAG (for example 2YJUJQLQ) and complete other settings",
+"TAB4_TEXT61" : "Wrong name or hash? Left swipe on Players tab for delete it or press the trash button",
+"TAB4_TEXT7" : "Step 3 : Boyeah ",
+"TAB4_TEXT8" : "All done! Check your profile from Players tab.",
+
+
+"TAB5_TITLE_NAV" : "About",
+"TAB5_TEXT1" : "Finally you can save money and check when you will receive cool chest on Clash Royale.",
+"TAB5_TEXT2" : "Developer",
+"TAB5_TEXT2_1" : "The Mad King is created for players by iTZUNAMI",
+"TAB5_TEXT3" : "Website",
+"TAB5_TEXT4" : "Contacts",
+"TAB5_TEXT5" : "Translations by",
+"TAB5_TEXT6" : "Help us to translate in your language!",
+
+"TAB5_TEXT_T1" : " iTZUNAMI",
+"TAB5_TEXT_T2" : " Javier Bonora #UruguayFrom",
+"TAB5_TEXT_T3" : " Geron",
+"TAB5_TEXT_T4" : " @JonJonCS",
+"TAB5_TEXT_T5" : " @tyty1190_MC",
+
+ 
+"AVATAR_XXXX": "Baby Dragon"
+  
+
+
+
+
+}

@@ -1,0 +1,32 @@
+attuale: io.ionic.tzunami.statsroyale
+
+la prossima volta seguire
+https://developer.apple.com/account/ios/identifier/bundle
+poi iTunes connect
+poi upload
+
+itzunami.app.statsroyale
+
+wild
+itzunami.app.*
+suffix
+statsroyale
+
+icone quadrate no rounded
+e app store 1024x1024
+
+
+
+
+creare wildcard itune connect
+e mettere stesso id e suffisso su app
+creare build con archive 
+se non compare selezionare iphone o generic device e fare upload
+build settings ->code singing identity ios developer per archive
+su itunes connect compilare tutte le info e mettere
+
+
+nuovo
+
+itzunami.app.itzunami.app.chestroyale
+

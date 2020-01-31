@@ -1,0 +1,412 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{ item.name }}</ion-title>
+
+    <ion-buttons end>
+        <button ion-button icon-only (click)="deleteItem(item)" *ngIf="item.profilePic != null" style="margin-right:15px">
+        <ion-icon name="trash" ></ion-icon>
+      </button>
+ 
+
+       <button ion-button icon-only (click)="share(item.tag)" >
+        <ion-icon name="share" ></ion-icon>
+      </button>
+    
+    </ion-buttons>
+
+  </ion-navbar>
+
+ <ion-toolbar no-border-top  >
+    
+   <ion-segment [(ngModel)]="mystats" color="light">
+    <ion-segment-button value="mychest">
+      {{ 'ITEM_DETAILS_MYCHEST' | translate | uppercase  }}
+    </ion-segment-button>
+    <ion-segment-button value="myinfo">
+      {{ 'ITEM_DETAILS_MYINFO' | translate | uppercase }}
+    </ion-segment-button>
+    <ion-segment-button value="myclan" *ngIf="item.name != null">
+      {{ 'ITEM_DETAILS_MYCLAN' | translate | uppercase }}
+    </ion-segment-button>
+  </ion-segment>
+</ion-toolbar>
+
+</ion-header>
+
+
+
+ <ion-content class="grid-basic-page" >
+
+<div [ngSwitch]="mystats">
+
+  
+<div *ngSwitchCase="'mychest'">
+ <ion-grid *ngIf="posts">
+
+
+<ion-row *ngIf="posts.userinfo.stato == 0" >
+       <ion-col >
+        <div>
+            {{ 'ITEM_DETAILS_ERROR0' | translate }}
+          <br><br>
+            {{ posts.userinfo.err | uppercase }}
+          <br><br>
+          <img src="assets/img/details/error0.png" /><br>
+        </div>
+      </ion-col>
+ </ion-row> 
+
+
+ <ion-row *ngIf="posts.userinfo.stato == 1" >
+    <ion-col >
+      <div><img [src]="livello(posts.userinfo.livello)"  style="max-width:50% !important;" /></div>
+      <div class="meta">{{ 'ITEM_DETAILS_LIVELLO' | translate | uppercase }}</div>
+      <div class="tag">{{ posts.userinfo.livello | uppercase }} </div> 
+    </ion-col>
+    <ion-col >
+      <div>
+      <img src="assets/img/details/user_2.png" style="max-width:80% !important;"/><br>  
+      <div class="meta">{{ sistemaHtml(posts.userinfo.username) | uppercase }}</div>
+      <div class="tag">{{ posts.userinfo.tag | uppercase }} </div> 
+      </div>
+    </ion-col>
+    <ion-col *ngIf="posts.userinfo.clan != 0">
+      <div>
+        <img src="assets/img/details/stemma.png" style="max-width:50%  !important;"/><br>
+        <div class="meta">{{ sistemaLunghezza(posts.userinfo.clan,posts.userinfo.username) | uppercase }} </div>
+        <div class="tag">{{ posts.userinfo.clantag | uppercase }} </div> 
+      </div>
+    </ion-col>
+
+     <ion-col *ngIf="posts.userinfo.clan == 0">
+      <div>
+        <img src="assets/img/details/noclan.png" style="max-width:50%  !important;"/><br>
+        <div class="meta">{{ 'ITEM_DETAILS_NOCLAN' | translate }}</div>
+      </div>
+    </ion-col>
+ </ion-row>
+
+
+  
+
+
+  <ion-row *ngIf="posts.userinfo.stato == 2" >
+       <ion-col >
+        <div>
+          <img src="assets/img/details/invalid.png" /><br>
+        <div class="meta"> {{ 'ITEM_DETAILS_INVALID' | translate | uppercase }}</div>
+          <br><br>
+          {{ 'ITEM_DETAILS_INVALID_LONG_2' | translate }}
+           <br><br>
+          {{ 'ITEM_DETAILS_INVALID_LONG' | translate }}
+        </div>
+      </ion-col>
+ </ion-row>    
+
+ <ion-row *ngIf="posts.userinfo.stato == 3" >
+       <ion-col >
+        <div>
+          <img src="assets/img/details/back.jpg" />
+          <br><br>
+          <h4> {{ 'ITEM_DETAILS_WAIT' | translate }}</h4>
+          <br><br>
+          {{ 'ITEM_DETAILS_WAIT_LONG' | translate }}
+          <br><br>
+          {{ 'ITEM_DETAILS_WAIT_LONG_2' | translate }}
+        </div>
+      </ion-col>
+ </ion-row> 
+
+<ion-row *ngIf="posts.userinfo.stato == 4" >
+    <ion-col >
+        <div><img [src]="posts.urlicona" width="50%" /></div>
+        <br><br>
+        <div class="meta">{{ posts.nome  }}</div>
+        <div class="tag">{{ posts.messaggio  }} </div> 
+        <br><br>
+        <div class="tag" *ngIf="posts.userinfo.android == 1"><a [href]="posts.urlapp">Donwload Android</a></div> 
+        <div class="tag" *ngIf="posts.userinfo.ios == 1"><a [href]="posts.urlapp2">Donwload iOS</a></div> 
+        <br><br>
+        <div class="tag">{{ posts.messaggio2  }} </div> 
+      </ion-col>
+ </ion-row>
+
+
+
+</ion-grid>
+
+
+ <ion-grid *ngIf="chestarrayfinale?.length && posts.userinfo.stato == 1">
+
+    <ion-row *ngIf="posts.userinfo.stato == 1" >
+     <ion-col >
+        <h3>{{ 'ITEM_DETAILS_NEXTCHEST' | translate }}</h3>
+        {{ 'ITEM_DETAILS_NEXTCHEST_LONG' | translate }}
+      </ion-col>
+    </ion-row>
+
+    <ion-row >
+      <ion-col *ngIf="chestarrayfinale[0]" >
+        <div><img [src]="convertiBaule(chestarrayfinale[0].tipo)" width="40%"/><br><div class="meta">{{ convertiNumero(chestarrayfinale[0].prossimo) | translate | uppercase  }}</div></div>
+      </ion-col>
+      </ion-row>
+
+    <ion-row *ngIf="posts.userinfo.stato == 1" >
+     <ion-col >
+        {{ 'ITEM_DETAILS_NEXTCHEST2' | translate }}
+      </ion-col>
+    </ion-row>
+
+      <ion-row >
+      <ion-col *ngIf="chestarrayfinale[1]">
+        <div><img [src]="convertiBaule(chestarrayfinale[1].tipo)" /><br>1</div>
+      </ion-col>
+      <ion-col *ngIf="chestarrayfinale[2]">
+        <div><img [src]="convertiBaule(chestarrayfinale[2].tipo)" /><br>2</div>
+      </ion-col>
+       <ion-col *ngIf="chestarrayfinale[3]">
+        <div><img [src]="convertiBaule(chestarrayfinale[3].tipo)" /><br>3</div>
+      </ion-col>
+         <ion-col *ngIf="chestarrayfinale[4]">
+        <div><img [src]="convertiBaule(chestarrayfinale[4].tipo)" /><br>4</div>
+      </ion-col>
+    </ion-row>
+
+
+    <ion-row >
+   
+      <ion-col *ngIf="chestarrayfinale[5]">
+        <div><img [src]="convertiBaule(chestarrayfinale[5].tipo)" /><br>5</div>
+      </ion-col>
+      <ion-col *ngIf="chestarrayfinale[6]">
+        <div><img [src]="convertiBaule(chestarrayfinale[6].tipo)" /><br>6</div>
+      </ion-col>
+       <ion-col *ngIf="chestarrayfinale[7]">
+        <div><img [src]="convertiBaule(chestarrayfinale[7].tipo)" /><br>7</div>
+      </ion-col>
+      <ion-col *ngIf="chestarrayfinale[8]">
+        <div><img [src]="convertiBaule(chestarrayfinale[8].tipo)" /><br>8</div>
+      </ion-col>
+    </ion-row>
+
+
+    <ion-row >
+   
+      <ion-col >
+        <div><img [src]="convertiBauleRandom(9)" /><br>9</div>
+      </ion-col>
+      <ion-col>
+        <div><img [src]="convertiBauleRandom(10)" /><br>10</div>
+      </ion-col>
+       <ion-col >
+        <div><img [src]="convertiBauleRandom(11)" /><br>11</div>
+      </ion-col>
+      <ion-col >
+        <div><img [src]="convertiBauleRandom(12)" /><br>12</div>
+      </ion-col>
+    </ion-row>
+        <ion-row *ngIf="posts.userinfo.stato == 1" >
+     <ion-col >
+        <h3>{{ 'ITEM_DETAILS_NEXTCHEST3' | translate }}</h3>
+            {{ 'ITEM_DETAILS_NEXTCHEST4' | translate }}
+      </ion-col>
+    </ion-row>
+
+     <ion-row >
+      <ion-col *ngIf="chestarrayfinale[9]" >
+        <div><img [src]="convertiBaule(chestarrayfinale[9].tipo)" /><br>{{convertiNumero(chestarrayfinale[9].prossimo)}}</div>
+      </ion-col>
+      <ion-col *ngIf="chestarrayfinale[10]">
+        <div><img [src]="convertiBaule(chestarrayfinale[10].tipo)" /><br>{{convertiNumero(chestarrayfinale[10].prossimo)}}</div>
+      </ion-col>
+       <ion-col *ngIf="chestarrayfinale[11]">
+        <div><img [src]="convertiBaule(chestarrayfinale[11].tipo)" /><br>{{convertiNumero(chestarrayfinale[11].prossimo)}}</div>
+      </ion-col>
+     
+  
+           <ion-col *ngIf="chestarrayfinale[12]" >
+        <div><img [src]="convertiBaule(chestarrayfinale[12].tipo)" /><br>{{convertiNumero(chestarrayfinale[12].prossimo)}}</div>
+      </ion-col>
+      <ion-col *ngIf="chestarrayfinale[13]">
+        <div><img [src]="convertiBaule(chestarrayfinale[13].tipo)" /><br>{{convertiNumero( chestarrayfinale[13].prossimo)}}</div>
+      </ion-col>
+
+    </ion-row>
+
+
+   <ion-row *ngIf="posts.userinfo.stato == 1 && item.name != null" >
+     <ion-col >
+       <br>
+        {{ 'ITEM_DETAILS_UPDATE' | translate }}
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
+
+  <br><br><br>
+
+   <ion-list *ngIf="posts && posts.userinfo.stato == 1 && item.name != null">
+      <ion-item>
+          <ion-label>{{ 'ITEM_DETAILS_UPDATE_LAST' | translate }}</ion-label>
+          <ion-label text-right>{{ posts.l }}</ion-label>
+        </ion-item>
+        
+         <ion-item>
+              <ion-label>{{ 'ITEM_DETAILS_UPDATE_TOOGLE' | translate }}</ion-label>
+              <ion-toggle [(ngModel)]="isToggled" (ionChange)="updateF()"></ion-toggle>
+          </ion-item>
+
+          <ion-item  *ngIf="posts.fl == 1">
+              <ion-label>
+              <button ion-button block color="miocolore" (click)="aggiorna()">
+              {{ 'ITEM_DETAILS_UPDATE_NOW' | translate }}
+              </button>
+            </ion-label>
+           </ion-item>
+
+           <ion-item  *ngIf="posts.fl == 0">
+              <ion-label>
+              <button ion-button block clear >
+              {{ 'ITEM_DETAILS_UPDATE_LATER' | translate }}
+              </button>
+            </ion-label>
+           </ion-item>
+
+     </ion-list>
+
+
+    
+</div> <!-- fine tab bauli -->
+
+
+
+<div *ngSwitchCase="'myinfo'">
+  <p>
+      {{ 'ITEM_DETAILS_STATS_TITOLO' | translate }}
+</p>
+<ion-grid *ngIf="posts">
+<ion-row>
+    <ion-col >
+          <div><img src="assets/img/details/b9.png" style="max-width:70px !important;"/></div>
+          <div class="meta"> {{ posts.userinfo.s9 | uppercase }} </div>
+          <div class="tag">{{ 'ITEM_DETAILS_STATS_B9' | translate }} </div> 
+      </ion-col>
+         <ion-col >
+          <div><img src="assets/img/details/b10.png" style="max-width:70px !important;"/></div>
+          <div class="meta"> {{ posts.userinfo.s11 | uppercase }} </div>
+          <div class="tag">{{ 'ITEM_DETAILS_STATS_B10' | translate }} </div> 
+      </ion-col>
+       <ion-col >
+          <div><img src="assets/img/details/b1.png" style="max-width:70px !important;" /></div>
+          <div class="meta"> {{ posts.userinfo.s1 | uppercase }} </div>
+          <div class="tag">{{ 'ITEM_DETAILS_STATS_B1' | translate }} </div> 
+      </ion-col>
+       
+</ion-row> 
+<ion-row>
+      <ion-col >
+          <div><img src="assets/img/details/b2.png" style="max-width:70px !important;"/></div>
+          <div class="meta"> {{ posts.userinfo.s2 | uppercase }} </div>
+          <div class="tag">{{ 'ITEM_DETAILS_STATS_B2' | translate }} </div> 
+      </ion-col>
+           <ion-col >
+          <div><img src="assets/img/details/b5.png" style="max-width:70px !important;"/></div>
+          <div class="meta"> {{ posts.userinfo.s5 | uppercase }} </div>
+          <div class="tag">{{ 'ITEM_DETAILS_STATS_B5' | translate }} </div> 
+      </ion-col>
+           <ion-col >
+          <div><img src="assets/img/details/b11.png" style="max-width:70px !important;"/></div>
+          <div class="meta"> {{ posts.userinfo.s11 | uppercase }} </div>
+          <div class="tag">{{ 'ITEM_DETAILS_STATS_B11' | translate }} </div> 
+      </ion-col>
+</ion-row> 
+<ion-row>
+      <ion-col >
+          <div><img src="assets/img/details/b4.png" style="max-width:70px !important;"/></div>
+          <div class="meta"> {{ posts.userinfo.s4 | uppercase }} </div>
+          <div class="tag">{{ 'ITEM_DETAILS_STATS_B4' | translate }} </div> 
+      </ion-col>
+       <ion-col >
+          <div><img src="assets/img/details/b3.png" style="max-width:70px !important;"/></div>
+          <div class="meta"> {{ posts.userinfo.s3 | uppercase }} </div>
+          <div class="tag">{{ 'ITEM_DETAILS_STATS_B3' | translate }} </div> 
+      </ion-col>
+         <ion-col >
+          <div><img src="assets/img/details/b8.png" style="max-width:70px !important;"/></div>
+          <div class="meta"> {{ posts.userinfo.s8 | uppercase }} </div>
+          <div class="tag">{{ 'ITEM_DETAILS_STATS_B8' | translate }} </div> 
+      </ion-col>
+</ion-row>   
+ <ion-row>
+      <ion-col >
+          <div><img src="assets/img/details/b6.png" style="max-width:70px !important;"/></div>
+          <div class="meta"> {{ posts.userinfo.s6 | uppercase }} </div>
+          <div class="tag">{{ 'ITEM_DETAILS_STATS_B6' | translate }} </div> 
+      </ion-col>
+     
+        <ion-col >
+          <div><img src="assets/img/details/b7.png" style="max-width:70px !important;"/></div>
+          <div class="meta"> {{ posts.userinfo.s7 | uppercase }} </div>
+          <div class="tag">{{ 'ITEM_DETAILS_STATS_B7' | translate }} </div> 
+      </ion-col>
+      <ion-col >
+        
+      </ion-col>
+            
+</ion-row> 
+
+   
+
+</ion-grid>
+
+
+</div>    <!-- fine tab stats -->
+
+
+
+   
+<div *ngSwitchCase="'myclan'">
+
+    <!-- caso no clan -->
+    <div *ngIf="posts && posts.userinfo.clan == 0">
+   
+      <ion-list-header>
+            {{ 'ITEM_DETAILS_MYCLAN_NOCLAN' | translate }}
+      </ion-list-header>
+       
+    </div>
+
+    <!-- caso elenco giocatori del clan -->
+    <div *ngIf="posts && posts.userinfo.clan != 0 && clanlist">
+      <ion-list-header>
+            {{ 'ITEM_DETAILS_MYCLAN_ADD' | translate | uppercase }}
+      </ion-list-header>
+      <ion-item-sliding *ngFor="let utente of clanlist" >
+        <button ion-item (click)="openItemClan(utente.tag)" >
+          <ion-avatar item-start>
+          <img [src]="livellotab1(utente.livello)" width="50%" />
+          </ion-avatar>
+          <h2><strong>{{ utente.username | uppercase }}</strong></h2>
+          <h3>{{ utente.tag }}</h3>
+        </button>
+      </ion-item-sliding>
+      
+     
+    <br>
+    <div padding>
+    <button ion-button block (click)="share(item.tag)" color="miocolore">{{ 'ITEM_DETAILS_MYCLAN_ADD2' | translate | uppercase  }}</button>
+    </div>
+     <br> <br>
+    </div>
+
+
+</div>  
+
+
+</div> <!-- fine segments -->
+
+
+
+</ion-content> 
+

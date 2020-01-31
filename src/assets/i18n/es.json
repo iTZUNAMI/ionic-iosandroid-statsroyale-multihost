@@ -1,0 +1,168 @@
+
+{
+    
+"BACK_BUTTON_TEXT" : "Atrás",
+
+
+"TAB1_TITLE" : "Jugadores",
+"TAB2_TITLE" : "Buscar",
+"TAB3_TITLE" : "MK Clan",
+"TAB4_TITLE" : "Ayuda",
+"TAB5_TITLE" : "Más",
+
+
+"TUTORIAL_SKIP_BUTTON" : "Omitir",
+"TUTORIAL_CONTINUE_BUTTON" : "Continuar",
+"TUTORIAL_FINISH_BUTTON" : "Agregar a mi perfil",
+
+"TUTORIAL_SLIDE1_TITLE" : "Bienvenido a The Mad King",
+"TUTORIAL_SLIDE1_DESCRIPTION" : "<b>Próximos cofres</b><br>¿Se pregunta cuándo vendrá el cofre Legendario o Epico? Te decimos",
+
+"TUTORIAL_SLIDE2_TITLE" : "Agregar a mi perfil!",
+"TUTORIAL_SLIDE2_DESCRIPTION" : "Tú también puedes <b>agregar cualquier perfil</b>, de tus <b>amigos</b> o tu favorito <b>youtuber</b> jugador! ",
+
+"TUTORIAL_SLIDE3_TITLE" : "La configuración es rápida y sencilla",
+"TUTORIAL_SLIDE3_DESCRIPTION" : "Solo agrega tu <b>Clash Royale #código</b><br><br>",
+
+"TUTORIAL_SLIDE4_TITLE" : "Te gusta?",
+"TUTORIAL_SLIDE4_DESCRIPTION" : "¡Comparte con tus amigos y tu clan!",
+
+
+
+"LIST_MASTER_TITLE" : "Jugadores",
+
+"ITEM_CREATE_TITLE" : "Nuevo jugador",
+"ITEM_NAME_HEADER" : "Apodo",
+"ITEM_NAME_PLACEHOLDER" : "Por ejemplo, mi cuenta",
+"ITEM_TAG_HEADER" : "Clash Royale #código de jugador",
+"ITEM_TAG_PLACEHOLDER" : "ejemplo : 2YJUJQLQ (sin #)",
+"ITEM_AVATAR_HEADER" : "Elige tu avatar",
+"ITEM_CREATE_ADDED" : "Agregar",
+"ITEM_AVATAR_REQ" : "*Todos los campos son obligatorios para crear el perfil",
+
+"LIST_TOAST" : "Bienvenido: Presiona en + para agregar tu perfil!\nInstrucciones en la pestaña de Ayuda",
+"SEARCH_ADD" : "Busca en tu lista de jugadores locales",
+
+
+"DONE_BUTTON" : "Hecho",
+"CANCEL_BUTTON" : "Cancelar",
+"DELETE_BUTTON" : "Borrar",
+"YOUTUBE_BUTTON" : "Youtuber",
+"SHARE_BUTTON" : "Buscar",
+
+"SHARE_YOUTUBER" : "Ver este canal",
+"SHARE_ALL" : "Ver este perfil",
+"SHARE_NOME" : "The Mad King Aplicación: ",
+
+"SEARCH_TITLE" : "Buscar",
+"SEARCH_PLACEHOLDER" : "ejemplo : \"MOLT\"",
+
+
+"AVATAR_A" : "Arqueras",
+"AVATAR_B" : "Bebé Dragón",
+"AVATAR_B1" : "Bandida",
+"AVATAR_B2" : "Bárbaros",
+"AVATAR_B3" : "Bombardero",
+"AVATAR_B4" : "Lanzarrocas",
+"AVATAR_D" : "Príncipe Oscuro",
+"AVATAR_E" : "Mago Eléctrico",
+"AVATAR_E1" : "Verdugo",
+"AVATAR_G" : "Gigante",
+"AVATAR_G1" : "Esqueletos Gigantes",
+"AVATAR_G2" : "Duendes",
+"AVATAR_G3" : "Golem",
+"AVATAR_I" : "Mago de Hielo",
+"AVATAR_M" : "Mega Esbirro",
+"AVATAR_M1" : "Minero",
+"AVATAR_M2" : "Mini PEKKA",
+"AVATAR_M3" : "Mosquetera",
+"AVATAR_M4" : "Mega Caballero",
+"AVATAR_N" : "Bruja Nocturna",
+"AVATAR_P" : "PEKKA",
+"AVATAR_P2" : "Príncipe",
+"AVATAR_P3" : "Princesa",
+"AVATAR_R" : "Gigante Noble",
+"AVATAR_T" : "Trío de Mosquetas",
+"AVATAR_W" : "Bruja",
+
+
+
+"ITEM_DETAILS_INVALID" : "#Código inválido",
+"ITEM_DETAILS_INVALID_LONG" : "Comprueba el #código correcto de tu perfil de Clash Royale. Desliza el dedo hacia arriba en la pestaña de los jugadores para eliminar este usuario equivocado o presiona el botón de basura",
+"ITEM_DETAILS_INVALID_LONG_2" : "Un error común es escribir O (letra) en lugar de 0 (número). Por favor, compruebe mejor.",
+"ITEM_DETAILS_LIVELLO" : "Nivel",
+"ITEM_DETAILS_NOCLAN" : "No hay Clan",
+"ITEM_DETAILS_NEXTCHEST" : "Cofre entrante",
+"ITEM_DETAILS_NEXTCHEST_LONG" : "Compruebe cuantos cofres tiene que abrir!",
+"ITEM_DETAILS_NEXTCHEST2" : "Seguido por",
+"ITEM_DETAILS_NEXTCHEST3" : "Cofre legendario o épico?",
+"ITEM_DETAILS_NEXTCHEST4" : "Necesita abrir más cofres para desbloquear un buen cofre.",
+"ITEM_DETAILS_WAIT" : "Perfil agregado!",
+"ITEM_DETAILS_WAIT_LONG" : "Espere unos minutos y vuelva a comprobarlo",
+"ITEM_DETAILS_WAIT_LONG_2" : "Si usted ve esta página después de 2-3h probablemente esto es una etiqueta equivocada. Comprobar en la pestaña de ayuda por el error.",
+"ITEM_DETAILS_NEXTCHEST_PRIMO" : "Siguiente cofre",
+"ITEM_DETAILS_UPDATE" : "Info: el cofre se actualiza cada 24h",
+"ITEM_DETAILS_UPDATE_LAST" : "Última actualización: ",
+"ITEM_DETAILS_UPDATE_NOW" : "Actualizar ahora",
+"ITEM_DETAILS_UPDATE_LATER" : "Recientemente actualizado",
+"ITEM_DETAILS_UPDATE_DONE" : "Actualización solicitada! La actualización puede requerir hasta 2-3 minutos. Así que si no se actualiza hazlo de nuevo",
+"ITEM_DETAILS_UPDATE_TOOGLE" : "Activar actualizaciones automáticas",
+"ITEM_DETAILS_ON" : "Activado",
+"ITEM_DETAILS_OFF" : "Desactivado",
+"ITEM_DETAILS_MYINFO" : "Estadísticas",
+"ITEM_DETAILS_MYCHEST" : "Cofres",
+"ITEM_DETAILS_MYCLAN" : "Clan Royale",
+"ITEM_DETAILS_MYCLAN_NOCLAN" : "No tienes Clan on Clash Royale",
+"ITEM_DETAILS_MYCLAN_ADD" : "Miembros del clan que se unieron a The Mad King",
+"ITEM_DETAILS_MYCLAN_ADD2" : "Invítelos a todos !",
+"ITEM_DETAILS_ERROR0" : "Servidor en Mantenimiento .. ¡Intenta más tarde!",
+
+"ITEM_DETAILS_STATS_TITOLO" : "Últimas estadísticas y trofeos conocidos",
+"ITEM_DETAILS_STATS_B1" : "Máximo de trofeos",
+"ITEM_DETAILS_STATS_B2" : "Trofeos actuales",
+"ITEM_DETAILS_STATS_B3" : "Cartas de desafío ganadas",
+"ITEM_DETAILS_STATS_B4" : "Cartas de torneo ganadas",
+"ITEM_DETAILS_STATS_B5" : "Total de donaciones",
+"ITEM_DETAILS_STATS_B6" : "Temporada de rango anterior",
+"ITEM_DETAILS_STATS_B7" : "Temporada de trofeos anteriores",
+"ITEM_DETAILS_STATS_B8" : "Temporada anterior",
+"ITEM_DETAILS_STATS_B9" : "Total de victoras",
+"ITEM_DETAILS_STATS_B10" : "Total de perdidas",
+"ITEM_DETAILS_STATS_B11" : "Victorias de tres coronas",
+
+
+"TAB3_TITLE_NAV" : "The Mad King Clan",
+"TAB3_RECENT" : "Jugadores recientes de Clash Royale",
+
+
+
+"TAB4_TITLE_NAV" : "Ayuda ?!",
+"TAB4_TEXT1" : "Ayuda rápida",
+"TAB4_TEXT2" : "Paso 1",
+"TAB4_TEXT3" : "Abre Clash Royale, presiona tu nombre y debajo de tu ventana de perfil verás el código de tu cuenta.",
+"TAB4_TEXT4" : "Mira el siguiente ejemplo, por ejemplo la etiqueta : 2YJUJQLQ (sin #)",
+"TAB4_TEXT4_1" : "Error común",
+"TAB4_TEXT4_2" : "Compruebe su #código: quizás usted copió O (letra) en vez de 0 (número). Por favor, compruebe mejor.",
+"TAB4_TEXT5" : "Paso 2",
+"TAB4_TEXT6" : "Abre ahora esta aplicación. Ve a Jugadores y presiona el botón '+' agregar en la esquina superior derecha. En la entrada TAG escribe tu #código de Clash Royale (por ejemplo 2YJUJQLQ) y completa otros ajustes",
+"TAB4_TEXT61" : "¿Nombre incorrecto o hash? Deslice hacia la izquierda en la pestaña Jugadores para eliminarla o presione el botón de papelera",
+"TAB4_TEXT7" : "Paso 3 : ¡Sí! ",
+"TAB4_TEXT8" : "Todo listo! Revisa tu perfil desde la pestaña Jugadores.",
+
+
+"TAB5_TITLE_NAV" : "Acerca de",
+"TAB5_TEXT1" : "Por último, puede ahorrar dinero y comprobar cuándo recibirá el cofre en Clash Royale.",
+"TAB5_TEXT2" : "Desarrollador",
+"TAB5_TEXT2_1" : "The Mad King fue creado para los jugadores por iTZUNAMI",
+"TAB5_TEXT3" : "Página Web",
+"TAB5_TEXT4" : "Contactos",
+"TAB5_TEXT5" : "Traducciones",
+"TAB5_TEXT6" : " ",
+
+
+
+"NONE" : "NONE"
+      
+      
+    }
+    

@@ -1,0 +1,68 @@
+Stats Royale : Stats and Chest tracker for Clash Royale 
+
+Check your next Chest!
+Wondering when that Legendary or Magical chest is coming? We got you covered
+
+Features:
+Check what chest is coming to you (Yes.. they are not random!)
+Add any player to your app:
+Check your stats, your clan stats or your favorite Youtube player
+Share your stats with your friends
+
+
+Youtube PRO players of Clash Royale added by default
+nickatnyte
+MOLT
+Chief Pat
+
+
+Disclamer (also added on the app under Help tab):
+"This content is not affiliated with, endorsed, sponsored, or specifically approved by Supercell and Supercell is not responsible for it. For more information see Supercell’s Fan Content Policy: www.supercell.com/fan-content-policy."
+
+This is a fan guide app with the use of some Supercell assets based on the popular game Clash Royale. Permitted Fan Content normally includes for example non-commercial fan-generated online guides and guide apps, fan meetups, fan pages and gameplay videos as long as they follow this Policy.
+This fan app follow all the rules on this Policy for the assets of Supercell' Clash Royale.
+
+Note:
+This is not a WebView app of the fan created website statsroyale.com.
+
+
+
+
+
+
+
+ITALIANO
+Stats Royale per Clash Royale : controlla i Bauli in arrivo !
+
+
+Stats Royale : scopri i tuoi prossimi bauli di Clash Royale
+
+Bauli in arrivo
+Vuoi sapere quali saranno i tuoi prossimi Bauli ? Ora è possibile.
+
+Caratteristiche:
+Vedi in tempo reale quale Baule stai per sbloccare (Baule Leggendario/Super Magico/ecc)
+Aggiungi qualsiasi giocatore :
+Vedi info dei tuoi amici, del tuo clan o dei tuoi Youtuber preferiti
+Condividi le tue statistiche con i tuoi amici
+
+Youtuber italiani aggiunti di default che giocano a Clash Royale:
+CiccioGamer89
+St3pny
+DragonSteak TV
+Grax
+Anima
+
+Youtuber internazionali di Clash Royale
+nickatnyte
+MOLT
+
+Disclamer (aggiunto anche nell'app sotto il tab Help):
+"This content is not affiliated with, endorsed, sponsored, or specifically approved by Supercell and Supercell is not responsible for it. For more information see Supercell’s Fan Content Policy: www.supercell.com/fan-content-policy."
+
+This is a fan guide app with the use of some Supercell assets based on the popular game Clash Royale. Permitted Fan Content normally includes for example non-commercial fan-generated online guides and guide apps, fan meetups, fan pages and gameplay videos as long as they follow this Policy.
+This fan app follow all the rules on this Policy for the assets of Supercell' Clash Royale.
+
+Note:
+This is not a WebView app of the fan created website statsroyale.com.
+

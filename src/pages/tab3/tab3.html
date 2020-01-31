@@ -1,0 +1,51 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{ 'TAB5_TITLE_NAV' | translate }}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+<p>
+ {{ 'TAB5_TEXT1' | translate }}
+ <br><br>
+  <img src="assets/img/tab3/king.png" style="display: block;margin: 0 auto;max-width:50%;"/>
+  <br><br>
+</p>
+<h5>{{ 'TAB5_TEXT2' | translate }}</h5>
+<p>
+ {{ 'TAB5_TEXT2_1' | translate }}
+ <br><br>
+ <img src="assets/img/tab3/tourn-green.png" style="display: block;margin: 0 auto;max-width:30%;"/>
+</p>
+ <h5>{{ 'TAB5_TEXT5' | translate }}</h5>
+<p>
+ <img src="assets/img/tab3/it.png" style="width:10%;"/>{{ 'TAB5_TEXT_T1' | translate }}
+ <br>
+ <img src="assets/img/tab3/es.png" style="width:10%;"/>{{ 'TAB5_TEXT_T2' | translate }}
+ <br>
+ <img src="assets/img/tab3/ru.png" style="width:10%;"/>{{ 'TAB5_TEXT_T3' | translate }}
+ <br>
+ <img src="assets/img/tab3/br.png" style="width:10%;"/>{{ 'TAB5_TEXT_T4' | translate }}
+ <br>
+ <img src="assets/img/tab3/fr.png" style="width:10%;"/>{{ 'TAB5_TEXT_T5' | translate }}
+ <br>
+
+ <br>
+ {{ 'TAB5_TEXT6' | translate }}
+</p>
+ <div showWhen="android">
+<p>
+  <button ion-button block (click)="mostraUrl('http://itzunami.net/chestroyale/share/')" color="miocolore">{{ 'TAB5_TEXT3' | translate }}</button>
+ <br>
+  <button ion-button block color="secondary" (click)="mostraUrl('http://itzunami.net/chestroyale/share/?cnt=help')">{{ 'TAB5_TEXT4' | translate }}</button>
+</p>
+</div>
+Disclamer
+<p>
+  "This content is not affiliated with, endorsed, sponsored, or specifically approved by Supercell and Supercell is not responsible for it. For more information see Supercell’s Fan Content Policy: www.supercell.com/fan-content-policy."
+</p>
+
+</ion-content>

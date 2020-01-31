@@ -1,0 +1,166 @@
+{
+
+"BACK_BUTTON_TEXT" : "Indietro",
+
+
+"TAB1_TITLE": "Players",
+"TAB2_TITLE": "Cerca",
+"TAB3_TITLE": "MK Clan",
+"TAB4_TITLE": "Aiuto",
+"TAB5_TITLE": "Info",
+
+
+
+"TUTORIAL_SKIP_BUTTON" : "Salta",
+"TUTORIAL_CONTINUE_BUTTON" : "Continua",
+"TUTORIAL_FINISH_BUTTON" : "Aggiungi il mio profilo",
+
+"TUTORIAL_SLIDE1_TITLE": "The Mad King ( il Re Folle )",
+"TUTORIAL_SLIDE1_DESCRIPTION": "<b>Bauli in arrivo!</b><br>Vuoi sapere quali saranno i tuoi prossimi bauli? Ora è possibile.",
+
+"TUTORIAL_SLIDE2_TITLE": "Aggiungi il tuo profilo!",
+"TUTORIAL_SLIDE2_DESCRIPTION": "Guarda <b>qualsiasi profilo</b>, anche dei tuoi <b>amici o del clan</b>, o perchè no i tuoi <b>Youtuber</b> preferiti! ",
+
+"TUTORIAL_SLIDE3_TITLE": "Semplice e veloce",
+"TUTORIAL_SLIDE3_DESCRIPTION": "Ti basta aggiungere il <b>#TAG</b> univoco del giocatore di Clash Royale!<br>",
+
+"TUTORIAL_SLIDE4_TITLE": "Ti piace?",
+"TUTORIAL_SLIDE4_DESCRIPTION": "Allora condividi l'app con i tuoi amici del clan!",
+
+
+
+"LIST_MASTER_TITLE": "Players",
+
+"ITEM_CREATE_TITLE": "Nuovo giocatore",
+"ITEM_NAME_HEADER" : "Nome",
+"ITEM_NAME_PLACEHOLDER" : "es: il mio account",
+"ITEM_TAG_HEADER" : "TAG utente di Clash Royale",
+"ITEM_TAG_PLACEHOLDER" : "es: 2YJUJQLQ (senza #)",
+"ITEM_AVATAR_HEADER" : "La tua avatar",
+"ITEM_CREATE_ADDED" : "Aggiunto",
+"ITEM_AVATAR_REQ" : "*Tutti i campi sono richiesti per aggiungere un profilo",
+
+"LIST_TOAST" : "Benvenuto : Premi + per aggiungere il tuo profilo!\nPiccola guida nel tab Aiuto",
+"SEARCH_ADD" : "Cerca nei tuoi giocatori aggiunti in locale",
+
+
+"DONE_BUTTON" : "Fatto",
+"CANCEL_BUTTON" : "Cancella",
+"DELETE_BUTTON" : "Rimuovi",
+"YOUTUBE_BUTTON" : "Youtuber",
+"SHARE_BUTTON" : "Condividi",
+
+"SHARE_YOUTUBER" : "Guarda questo canale",
+"SHARE_ALL" : "Guarda questo profilo",
+"SHARE_NOME" : "The Mad King (il Re Folle) App: ",
+
+"SEARCH_TITLE": "Cerca",
+"SEARCH_PLACEHOLDER" : "Cerca nei players, es: \"MOLT\"",
+
+
+"AVATAR_A": "Arcieri",
+"AVATAR_B": "Cucciolo di Drago",
+"AVATAR_B1": "Fuorilegge",
+"AVATAR_B2": "Barbari",
+"AVATAR_B3": "Bombarolo",
+"AVATAR_B4": "Bocciatore",
+"AVATAR_D": "Principe Nero",
+"AVATAR_E": "Stregone Elettrico",
+"AVATAR_E1": "Boia",
+"AVATAR_G": "Gigante",
+"AVATAR_G1": "Scheletro Gigante",
+"AVATAR_G2": "Goblins",
+"AVATAR_G3": "Golem",
+"AVATAR_I": "Stregone di Ghiaccio",
+"AVATAR_M": "Mega Sgherro",
+"AVATAR_M1": "Minatore",
+"AVATAR_M2": "Mini PEKKA",
+"AVATAR_M3": "Moschettiere",
+"AVATAR_M4": "Gran Cavaliere",
+"AVATAR_N": "Strega Notturna",
+"AVATAR_P": "PEKKA",
+"AVATAR_P2": "Principe",
+"AVATAR_P3": "Principessa",
+"AVATAR_R": "Gigante Royale",
+"AVATAR_T": "Tre Moschettieri",
+"AVATAR_W": "Strega",
+
+
+"ITEM_DETAILS_INVALID" : "#TAG Sbagliato",
+"ITEM_DETAILS_INVALID_LONG" : "Ricontrolla il #TAG dell'utente di Clash Royale.Swipe sinistro per eliminare questo utente nella pagina dei Players o premi il cestino",
+"ITEM_DETAILS_INVALID_LONG_2" : "Errore comune: confondi  O (lettera) che invece è uno 0 (numero). Controlla meglio.",
+"ITEM_DETAILS_LIVELLO" : "Livello",
+"ITEM_DETAILS_NOCLAN" : "No Clan",
+"ITEM_DETAILS_NEXTCHEST" : "Bauli in arrivo",
+"ITEM_DETAILS_NEXTCHEST_LONG" : "Guarda quanti bauli devi aprire prima del prossimo baule Leggendario",
+"ITEM_DETAILS_NEXTCHEST2" : "Seguito da",
+"ITEM_DETAILS_NEXTCHEST3" : "Baule Leggendario o Epico ?",
+"ITEM_DETAILS_NEXTCHEST4" : "Devi aprire molti altri bauli per questi..",
+"ITEM_DETAILS_WAIT" : "Profilo aggiunto!",
+"ITEM_DETAILS_WAIT_LONG" : "Aspetta qualche minuto e ricontrolla questa pagina",
+"ITEM_DETAILS_WAIT_LONG_2" : "Se vedi questa pagina dopo 24h probabilmente il TAG è errato. Controlla il tab Aiuto per gli errori comuni.",
+"ITEM_DETAILS_NEXTCHEST_PRIMO" : "Prossimo Baule",
+"ITEM_DETAILS_UPDATE" : "Info : le statistiche vengono aggiornate ogni 24 ore",
+"ITEM_DETAILS_UPDATE_LAST" : "Aggiornato il: ",
+"ITEM_DETAILS_UPDATE_NOW" : "Aggiorna adesso ",
+"ITEM_DETAILS_UPDATE_LATER" : "Aggiornato di recente",
+"ITEM_DETAILS_UPDATE_DONE" : "Aggiornamento richiesto! Può richiedere 2-3 minuti..se non aggiorna clicca nuovamente",
+"ITEM_DETAILS_UPDATE_TOOGLE" : "Aggiornamenti automatici",
+"ITEM_DETAILS_ON" : "Attivato",
+"ITEM_DETAILS_OFF" : "Disattivato",
+"ITEM_DETAILS_MYINFO" : "Stats" ,
+"ITEM_DETAILS_MYCHEST" : "Bauli",
+"ITEM_DETAILS_MYCLAN" : "Clan Royale",
+"ITEM_DETAILS_MYCLAN_NOCLAN" : "Non hai nessun clan su Clash Royale",
+"ITEM_DETAILS_MYCLAN_ADD" : "Membri del clan che usano The Mad King",
+"ITEM_DETAILS_MYCLAN_ADD2" : "Invitali tutti !",
+"ITEM_DETAILS_ERROR0" : "Server in aggiornamento..controlla tra un pò!",
+
+
+"ITEM_DETAILS_STATS_TITOLO" : "Ultime statistiche e trofei raggiunti",
+"ITEM_DETAILS_STATS_B1" : "Trofei maggiori",
+"ITEM_DETAILS_STATS_B2" : "Trofei correnti",
+"ITEM_DETAILS_STATS_B3" : "Carte Evento Vinte",
+"ITEM_DETAILS_STATS_B4" : "Carte Torneo Vinte",
+"ITEM_DETAILS_STATS_B5" : "Donazioni Totali",
+"ITEM_DETAILS_STATS_B6" : "Rank Stagione passata",
+"ITEM_DETAILS_STATS_B7" : "Trofei Stagione passata",
+"ITEM_DETAILS_STATS_B8" : "Trofei Maggiori Stagione passata",
+"ITEM_DETAILS_STATS_B9" : "Vittorie Totali",
+"ITEM_DETAILS_STATS_B10" : "Sconfitte totali",
+"ITEM_DETAILS_STATS_B11" : "Vittorie 3 corone",
+
+
+"TAB3_TITLE_NAV" : "The Mad King Clan",
+"TAB3_RECENT" : "Giocatori che si sono aggiunti di recente",
+
+
+
+"TAB4_TITLE_NAV" : "Aiuto ?!",
+"TAB4_TEXT1" : "Passo passo...",
+"TAB4_TEXT2" : "Step 1",
+"TAB4_TEXT3" : "Apri Clash Royale. Clicca sul tuo nome e vai nella pagina del tuo profilo. Dovresti vedere il tuo TAG di Clash Royale.",
+"TAB4_TEXT4" : "Guarda l'esempio qua sotto. Ad esempio 2YJUJQLQ (senza il #)",
+"TAB4_TEXT4_1" : "Errore Comune",
+"TAB4_TEXT4_2" : "Confondi  O (lettera) che invece è uno 0 (numero). Controlla meglio.",
+"TAB4_TEXT5" : "Step 2",
+"TAB4_TEXT6" : "Apri quest'app. Vai su Players e clicca sul '+' tasto aggiungi in alto a destra. Ora compila i campi e dove richiesto inserisci il tuo TAG di Clash Royale. (ad esempio 2YJUJQLQ)",
+"TAB4_TEXT61" : "Nome errato o hash sbagliato? Vai sul tab Players e fai uno swipe sinistro per cancellare il giocatore o premi il cestino",
+"TAB4_TEXT7" : "Step 3 : Boyeah ",
+"TAB4_TEXT8" : "Tutto fatto! Ora puoi vedere i tuoi prossimi bauli!",
+
+"TAB5_TITLE_NAV" : "Informazioni",
+"TAB5_TEXT1" : "The Mad King : finalmente puoi vedere i tuoi prossimi bauli, e perchè no risparmiare un pò di soldi.",
+"TAB5_TEXT2" : "Developer",
+"TAB5_TEXT2_1" : "The Mad King (il RE Folle) è un'app per giocatori creata da iTZUNAMI",
+"TAB5_TEXT3" : "Sito Web",
+"TAB5_TEXT4" : "Contatti",
+"TAB5_TEXT5" : "Traduzioni",
+"TAB5_TEXT6" : "",
+
+
+
+
+"AVATAR_XXXX": "Baby Dragon"
+  
+}

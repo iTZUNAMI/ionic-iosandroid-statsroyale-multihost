@@ -1,0 +1,5512 @@
+[{
+        "idName": "arrows",
+        "rarity": "Common",
+        "type": "Spell",
+        "name": "Arrows",
+        "description": "Arrows pepper a large area, damaging everyone hit. Reduced damage to Crown Towers.",
+        "arena": 0,
+        "elixirCost": 3,
+        "order": 1,
+        "radius": 4,
+        "target": "Air & Ground",
+        "stats": [{
+                "level": 1,
+                "areaDamage": 115,
+                "crownTowerDamage": 46
+            },
+            {
+                "level": 2,
+                "areaDamage": 126,
+                "crownTowerDamage": 51
+            },
+            {
+                "level": 3,
+                "areaDamage": 139,
+                "crownTowerDamage": 56
+            },
+            {
+                "level": 4,
+                "areaDamage": 152,
+                "crownTowerDamage": 61
+            },
+            {
+                "level": 5,
+                "areaDamage": 168,
+                "crownTowerDamage": 67
+            },
+            {
+                "level": 6,
+                "areaDamage": 184,
+                "crownTowerDamage": 74
+            },
+            {
+                "level": 7,
+                "areaDamage": 202,
+                "crownTowerDamage": 81
+            },
+            {
+                "level": 8,
+                "areaDamage": 221,
+                "crownTowerDamage": 89
+            },
+            {
+                "level": 9,
+                "areaDamage": 243,
+                "crownTowerDamage": 98
+            },
+            {
+                "level": 10,
+                "areaDamage": 268,
+                "crownTowerDamage": 107
+            },
+            {
+                "level": 11,
+                "areaDamage": 295,
+                "crownTowerDamage": 118
+            },
+            {
+                "level": 12,
+                "areaDamage": 323,
+                "crownTowerDamage": 130
+            },
+            {
+                "level": 13,
+                "areaDamage": 355,
+                "crownTowerDamage": 142
+            }
+        ]
+    },
+    {
+        "idName": "bomber",
+        "rarity": "Common",
+        "type": "Troop",
+        "name": "Bomber",
+        "description": "Small, lightly protected skeleton that throws bombs. Deals area damage that can wipe out a swarm of enemies.",
+        "arena": 0,
+        "elixirCost": 3,
+        "order": 2,
+        "hitSpeed": 1900,
+        "speed": 60,
+        "deployTime": 1000,
+        "range": 4.5,
+        "target": "Ground",
+        "count": 1,
+        "transport": "Ground",
+        "stats": [{
+                "level": 1,
+                "hitpoints": 147,
+                "areaDamage": 128,
+                "dps": 67
+            },
+            {
+                "level": 2,
+                "hitpoints": 161,
+                "areaDamage": 140,
+                "dps": 73
+            },
+            {
+                "level": 3,
+                "hitpoints": 177,
+                "areaDamage": 154,
+                "dps": 81
+            },
+            {
+                "level": 4,
+                "hitpoints": 195,
+                "areaDamage": 170,
+                "dps": 89
+            },
+            {
+                "level": 5,
+                "hitpoints": 214,
+                "areaDamage": 186,
+                "dps": 97
+            },
+            {
+                "level": 6,
+                "hitpoints": 235,
+                "areaDamage": 204,
+                "dps": 107
+            },
+            {
+                "level": 7,
+                "hitpoints": 258,
+                "areaDamage": 225,
+                "dps": 118
+            },
+            {
+                "level": 8,
+                "hitpoints": 283,
+                "areaDamage": 247,
+                "dps": 130
+            },
+            {
+                "level": 9,
+                "hitpoints": 311,
+                "areaDamage": 271,
+                "dps": 142
+            },
+            {
+                "level": 10,
+                "hitpoints": 342,
+                "areaDamage": 298,
+                "dps": 156
+            },
+            {
+                "level": 11,
+                "hitpoints": 376,
+                "areaDamage": 327,
+                "dps": 172
+            },
+            {
+                "level": 12,
+                "hitpoints": 413,
+                "areaDamage": 359,
+                "dps": 188
+            },
+            {
+                "level": 13,
+                "hitpoints": 454,
+                "areaDamage": 395,
+                "dps": 207
+            }
+        ]
+    },
+    {
+        "idName": "archers",
+        "rarity": "Common",
+        "type": "Troop",
+        "name": "Archers",
+        "description": "A pair of unarmored ranged attackers. They'll help you take down ground and air units, but you're on your own with hair coloring advice.",
+        "arena": 0,
+        "elixirCost": 3,
+        "order": 3,
+        "hitSpeed": 1200,
+        "speed": 60,
+        "deployTime": 1000,
+        "range": 5,
+        "target": "Air & Ground",
+        "count": 2,
+        "transport": "Ground",
+        "stats": [{
+                "level": 1,
+                "hitpoints": 120,
+                "damage": 41,
+                "dps": 34
+            },
+            {
+                "level": 2,
+                "hitpoints": 132,
+                "damage": 45,
+                "dps": 37
+            },
+            {
+                "level": 3,
+                "hitpoints": 145,
+                "damage": 49,
+                "dps": 40
+            },
+            {
+                "level": 4,
+                "hitpoints": 159,
+                "damage": 54,
+                "dps": 45
+            },
+            {
+                "level": 5,
+                "hitpoints": 175,
+                "damage": 59,
+                "dps": 49
+            },
+            {
+                "level": 6,
+                "hitpoints": 192,
+                "damage": 65,
+                "dps": 54
+            },
+            {
+                "level": 7,
+                "hitpoints": 211,
+                "damage": 72,
+                "dps": 60
+            },
+            {
+                "level": 8,
+                "hitpoints": 231,
+                "damage": 79,
+                "dps": 65
+            },
+            {
+                "level": 9,
+                "hitpoints": 254,
+                "damage": 86,
+                "dps": 71
+            },
+            {
+                "level": 10,
+                "hitpoints": 279,
+                "damage": 95,
+                "dps": 79
+            },
+            {
+                "level": 11,
+                "hitpoints": 307,
+                "damage": 104,
+                "dps": 86
+            },
+            {
+                "level": 12,
+                "hitpoints": 337,
+                "damage": 114,
+                "dps": 95
+            },
+            {
+                "level": 13,
+                "hitpoints": 370,
+                "damage": 126,
+                "dps": 105
+            }
+        ]
+    },
+    {
+        "idName": "knight",
+        "rarity": "Common",
+        "type": "Troop",
+        "name": "Knight",
+        "description": "A tough melee fighter. The Barbarian's handsome, cultured cousin. Rumor has it that he was knighted based on the sheer awesomeness of his mustache alone.",
+        "arena": 0,
+        "elixirCost": 3,
+        "order": 4,
+        "hitSpeed": 1100,
+        "speed": 60,
+        "deployTime": 1000,
+        "range": 0,
+        "target": "Ground",
+        "count": 1,
+        "transport": "Ground",
+        "stats": [{
+                "level": 1,
+                "hitpoints": 660,
+                "damage": 75,
+                "dps": 68
+            },
+            {
+                "level": 2,
+                "hitpoints": 726,
+                "damage": 82,
+                "dps": 74
+            },
+            {
+                "level": 3,
+                "hitpoints": 798,
+                "damage": 90,
+                "dps": 81
+            },
+            {
+                "level": 4,
+                "hitpoints": 877,
+                "damage": 99,
+                "dps": 90
+            },
+            {
+                "level": 5,
+                "hitpoints": 963,
+                "damage": 109,
+                "dps": 99
+            },
+            {
+                "level": 6,
+                "hitpoints": 1056,
+                "damage": 120,
+                "dps": 109
+            },
+            {
+                "level": 7,
+                "hitpoints": 1161,
+                "damage": 132,
+                "dps": 120
+            },
+            {
+                "level": 8,
+                "hitpoints": 1273,
+                "damage": 144,
+                "dps": 130
+            },
+            {
+                "level": 9,
+                "hitpoints": 1399,
+                "damage": 159,
+                "dps": 144
+            },
+            {
+                "level": 10,
+                "hitpoints": 1537,
+                "damage": 174,
+                "dps": 158
+            },
+            {
+                "level": 11,
+                "hitpoints": 1689,
+                "damage": 192,
+                "dps": 174
+            },
+            {
+                "level": 12,
+                "hitpoints": 1854,
+                "damage": 210,
+                "dps": 190
+            },
+            {
+                "level": 13,
+                "hitpoints": 2039,
+                "damage": 231,
+                "dps": 210
+            }
+        ]
+    },
+    {
+        "idName": "fireball",
+        "rarity": "Rare",
+        "type": "Spell",
+        "name": "Fireball",
+        "description": "Annnnnd... Fireball. Incinerates a small area, dealing high damage. Reduced damage to Crown Towers.",
+        "arena": 0,
+        "elixirCost": 4,
+        "order": 5,
+        "radius": 2.5,
+        "target": "Air & Ground",
+        "stats": [{
+                "level": 1,
+                "areaDamage": 325,
+                "crownTowerDamage": 130
+            },
+            {
+                "level": 2,
+                "areaDamage": 357,
+                "crownTowerDamage": 143
+            },
+            {
+                "level": 3,
+                "areaDamage": 396,
+                "crownTowerDamage": 158
+            },
+            {
+                "level": 4,
+                "areaDamage": 432,
+                "crownTowerDamage": 173
+            },
+            {
+                "level": 5,
+                "areaDamage": 476,
+                "crownTowerDamage": 190
+            },
+            {
+                "level": 6,
+                "areaDamage": 520,
+                "crownTowerDamage": 208
+            },
+            {
+                "level": 7,
+                "areaDamage": 572,
+                "crownTowerDamage": 229
+            },
+            {
+                "level": 8,
+                "areaDamage": 627,
+                "crownTowerDamage": 251
+            },
+            {
+                "level": 9,
+                "areaDamage": 689,
+                "crownTowerDamage": 276
+            },
+            {
+                "level": 10,
+                "areaDamage": 757,
+                "crownTowerDamage": 303
+            },
+            {
+                "level": 11,
+                "areaDamage": 832,
+                "crownTowerDamage": 333
+            }
+        ]
+    },
+    {
+        "idName": "mini-pekka",
+        "rarity": "Rare",
+        "type": "Troop",
+        "name": "Mini P.E.K.K.A.",
+        "description": "The Arena is a certified butterfly-free zone. No distractions for P.E.K.K.A., only destruction.",
+        "arena": 0,
+        "elixirCost": 4,
+        "order": 6,
+        "hitSpeed": 1800,
+        "speed": 90,
+        "deployTime": 1000,
+        "range": 0,
+        "target": "Ground",
+        "count": 1,
+        "transport": "Ground",
+        "stats": [{
+                "level": 1,
+                "hitpoints": 600,
+                "damage": 325,
+                "dps": 180
+            },
+            {
+                "level": 2,
+                "hitpoints": 660,
+                "damage": 357,
+                "dps": 198
+            },
+            {
+                "level": 3,
+                "hitpoints": 726,
+                "damage": 393,
+                "dps": 216
+            },
+            {
+                "level": 4,
+                "hitpoints": 798,
+                "damage": 432,
+                "dps": 240
+            },
+            {
+                "level": 5,
+                "hitpoints": 876,
+                "damage": 474,
+                "dps": 263
+            },
+            {
+                "level": 6,
+                "hitpoints": 960,
+                "damage": 520,
+                "dps": 288
+            },
+            {
+                "level": 7,
+                "hitpoints": 1056,
+                "damage": 572,
+                "dps": 317
+            },
+            {
+                "level": 8,
+                "hitpoints": 1158,
+                "damage": 627,
+                "dps": 348
+            },
+            {
+                "level": 9,
+                "hitpoints": 1272,
+                "damage": 689,
+                "dps": 382
+            },
+            {
+                "level": 10,
+                "hitpoints": 1398,
+                "damage": 757,
+                "dps": 420
+            },
+            {
+                "level": 11,
+                "hitpoints": 1536,
+                "damage": 832,
+                "dps": 462
+            }
+        ]
+    },
+    {
+        "idName": "musketeer",
+        "rarity": "Rare",
+        "type": "Troop",
+        "name": "Musketeer",
+        "description": "Don't be fooled by her delicately coiffed hair, the Musketeer is a mean shot with her trusty boomstick.",
+        "arena": 0,
+        "elixirCost": 4,
+        "order": 7,
+        "hitSpeed": 1100,
+        "speed": 60,
+        "deployTime": 1000,
+        "range": 6,
+        "target": "Air & Ground",
+        "count": 1,
+        "transport": "Ground",
+        "stats": [{
+                "level": 1,
+                "hitpoints": 340,
+                "damage": 100,
+                "dps": 90
+            },
+            {
+                "level": 2,
+                "hitpoints": 374,
+                "damage": 110,
+                "dps": 100
+            },
+            {
+                "level": 3,
+                "hitpoints": 411,
+                "damage": 121,
+                "dps": 110
+            },
+            {
+                "level": 4,
+                "hitpoints": 452,
+                "damage": 133,
+                "dps": 120
+            },
+            {
+                "level": 5,
+                "hitpoints": 496,
+                "damage": 146,
+                "dps": 132
+            },
+            {
+                "level": 6,
+                "hitpoints": 544,
+                "damage": 160,
+                "dps": 145
+            },
+            {
+                "level": 7,
+                "hitpoints": 598,
+                "damage": 176,
+                "dps": 160
+            },
+            {
+                "level": 8,
+                "hitpoints": 656,
+                "damage": 193,
+                "dps": 175
+            },
+            {
+                "level": 9,
+                "hitpoints": 720,
+                "damage": 212,
+                "dps": 192
+            },
+            {
+                "level": 10,
+                "hitpoints": 792,
+                "damage": 233,
+                "dps": 211
+            },
+            {
+                "level": 11,
+                "hitpoints": 870,
+                "damage": 256,
+                "dps": 232
+            }
+        ]
+    },
+    {
+        "idName": "giant",
+        "rarity": "Rare",
+        "type": "Troop",
+        "name": "Giant",
+        "description": "Slow but durable, only attacks buildings. A real one-man wrecking crew!",
+        "arena": 0,
+        "elixirCost": 5,
+        "order": 8,
+        "hitSpeed": 1500,
+        "speed": 45,
+        "deployTime": 1000,
+        "range": 0,
+        "target": "Buildings",
+        "count": 1,
+        "transport": "Ground",
+        "stats": [{
+                "level": 1,
+                "hitpoints": 1900,
+                "damage": 120,
+                "dps": 80
+            },
+            {
+                "level": 2,
+                "hitpoints": 2090,
+                "damage": 132,
+                "dps": 88
+            },
+            {
+                "level": 3,
+                "hitpoints": 2299,
+                "damage": 145,
+                "dps": 96
+            },
+            {
+                "level": 4,
+                "hitpoints": 2527,
+                "damage": 159,
+                "dps": 106
+            },
+            {
+                "level": 5,
+                "hitpoints": 2774,
+                "damage": 175,
+                "dps": 116
+            },
+            {
+                "level": 6,
+                "hitpoints": 3040,
+                "damage": 192,
+                "dps": 128
+            },
+            {
+                "level": 7,
+                "hitpoints": 3344,
+                "damage": 211,
+                "dps": 140
+            },
+            {
+                "level": 8,
+                "hitpoints": 3667,
+                "damage": 231,
+                "dps": 154
+            },
+            {
+                "level": 9,
+                "hitpoints": 4028,
+                "damage": 254,
+                "dps": 169
+            },
+            {
+                "level": 10,
+                "hitpoints": 4427,
+                "damage": 279,
+                "dps": 186
+            },
+            {
+                "level": 11,
+                "hitpoints": 4864,
+                "damage": 307,
+                "dps": 204
+            }
+        ]
+    },
+    {
+        "idName": "prince",
+        "rarity": "Epic",
+        "type": "Troop",
+        "name": "Prince",
+        "description": "Don't let the little pony fool you. Once the Prince gets a running start, you WILL be trampled. Deals double damage once he gets charging.",
+        "arena": 0,
+        "elixirCost": 5,
+        "order": 9,
+        "hitSpeed": 1500,
+        "speed": 60,
+        "deployTime": 1000,
+        "range": 0,
+        "target": "Ground",
+        "count": 1,
+        "transport": "Ground",
+        "stats": [{
+                "level": 1,
+                "hitpoints": 1100,
+                "damage": 245,
+                "chargeDamage": 490,
+                "dps": 163
+            },
+            {
+                "level": 2,
+                "hitpoints": 1210,
+                "damage": 269,
+                "chargeDamage": 539,
+                "dps": 179
+            },
+            {
+                "level": 3,
+                "hitpoints": 1331,
+                "damage": 296,
+                "chargeDamage": 592,
+                "dps": 197
+            },
+            {
+                "level": 4,
+                "hitpoints": 1463,
+                "damage": 325,
+                "chargeDamage": 651,
+                "dps": 216
+            },
+            {
+                "level": 5,
+                "hitpoints": 1606,
+                "damage": 357,
+                "chargeDamage": 715,
+                "dps": 238
+            },
+            {
+                "level": 6,
+                "hitpoints": 1760,
+                "damage": 392,
+                "chargeDamage": 784,
+                "dps": 261
+            },
+            {
+                "level": 7,
+                "hitpoints": 1936,
+                "damage": 431,
+                "chargeDamage": 862,
+                "dps": 287
+            },
+            {
+                "level": 8,
+                "hitpoints": 2123,
+                "damage": 472,
+                "chargeDamage": 945,
+                "dps": 314
+            }
+        ]
+    },
+    {
+        "idName": "baby-dragon",
+        "rarity": "Epic",
+        "type": "Troop",
+        "name": "Baby Dragon",
+        "description": "Flying troop that deals area damage. Baby dragons hatch cute, hungry and ready for barbeque.",
+        "arena": 0,
+        "elixirCost": 4,
+        "order": 10,
+        "hitSpeed": 1600,
+        "speed": 90,
+        "deployTime": 1000,
+        "range": 3.5,
+        "target": "Air & Ground",
+        "count": 1,
+        "transport": "Air",
+        "stats": [{
+                "level": 1,
+                "hitpoints": 800,
+                "areaDamage": 100,
+                "dps": 62
+            },
+            {
+                "level": 2,
+                "hitpoints": 880,
+                "areaDamage": 110,
+                "dps": 68
+            },
+            {
+                "level": 3,
+                "hitpoints": 968,
+                "areaDamage": 121,
+                "dps": 75
+            },
+            {
+                "level": 4,
+                "hitpoints": 1064,
+                "areaDamage": 133,
+                "dps": 83
+            },
+            {
+                "level": 5,
+                "hitpoints": 1168,
+                "areaDamage": 146,
+                "dps": 91
+            },
+            {
+                "level": 6,
+                "hitpoints": 1280,
+                "areaDamage": 160,
+                "dps": 100
+            },
+            {
+                "level": 7,
+                "hitpoints": 1408,
+                "areaDamage": 176,
+                "dps": 110
+            },
+            {
+                "level": 8,
+                "hitpoints": 1544,
+                "areaDamage": 193,
+                "dps": 120
+            }
+        ]
+    },
+    {
+        "idName": "skeleton-army",
+        "rarity": "Epic",
+        "type": "Troop",
+        "name": "Skeleton Army",
+        "description": "Summons an army of Skeletons. Meet Larry and his friends Harry, Gerry, Terry, Mary, etc.",
+        "arena": 0,
+        "elixirCost": 3,
+        "order": 11,
+        "hitSpeed": 1000,
+        "speed": 90,
+        "deployTime": 1000,
+        "range": 0,
+        "target": "Ground",
+        "count": 15,
+        "transport": "Ground",
+        "stats": [{
+                "level": 1,
+                "hitpoints": 51,
+                "damage": 51,
+                "dps": 51
+            },
+            {
+                "level": 2,
+                "hitpoints": 56,
+                "damage": 56,
+                "dps": 56
+            },
+            {
+                "level": 3,
+                "hitpoints": 61,
+                "damage": 61,
+                "dps": 61
+            },
+            {
+                "level": 4,
+                "hitpoints": 67,
+                "damage": 67,
+                "dps": 67
+            },
+            {
+                "level": 5,
+                "hitpoints": 74,
+                "damage": 74,
+                "dps": 74
+            },
+            {
+                "level": 6,
+                "hitpoints": 81,
+                "damage": 81,
+                "dps": 81
+            },
+            {
+                "level": 7,
+                "hitpoints": 89,
+                "damage": 89,
+                "dps": 89
+            },
+            {
+                "level": 8,
+                "hitpoints": 98,
+                "damage": 98,
+                "dps": 98
+            }
+        ]
+    },
+    {
+        "idName": "witch",
+        "rarity": "Epic",
+        "type": "Troop",
+        "name": "Witch",
+        "description": "Summons Skeletons, shoots destructo beams, has glowing pink eyes that unfortunately don't shoot lasers.",
+        "arena": 0,
+        "elixirCost": 5,
+        "order": 12,
+        "hitSpeed": 700,
+        "speed": 60,
+        "deployTime": 1000,
+        "spawnSpeed": 7500,
+        "range": 5,
+        "target": "Air & Ground",
+        "count": 1,
+        "transport": "Ground",
+        "stats": [{
+                "level": 1,
+                "hitpoints": 500,
+                "areaDamage": 52,
+                "dps": 74,
+                "skeletonLevel": 6
+            },
+            {
+                "level": 2,
+                "hitpoints": 550,
+                "areaDamage": 57,
+                "dps": 81,
+                "skeletonLevel": 7
+            },
+            {
+                "level": 3,
+                "hitpoints": 605,
+                "areaDamage": 62,
+                "dps": 88,
+                "skeletonLevel": 8
+            },
+            {
+                "level": 4,
+                "hitpoints": 665,
+                "areaDamage": 69,
+                "dps": 98,
+                "skeletonLevel": 9
+            },
+            {
+                "level": 5,
+                "hitpoints": 730,
+                "areaDamage": 75,
+                "dps": 107,
+                "skeletonLevel": 10
+            },
+            {
+                "level": 6,
+                "hitpoints": 800,
+                "areaDamage": 83,
+                "dps": 118,
+                "skeletonLevel": 11
+            },
+            {
+                "level": 7,
+                "hitpoints": 880,
+                "areaDamage": 91,
+                "dps": 130,
+                "skeletonLevel": 12
+            },
+            {
+                "level": 8,
+                "hitpoints": 965,
+                "areaDamage": 100,
+                "dps": 142,
+                "skeletonLevel": 13
+            }
+        ]
+    },
+    {
+        "idName": "spear-goblins",
+        "rarity": "Common",
+        "type": "Troop",
+        "name": "Spear Goblins",
+        "description": "Three unarmored ranged attackers. Who the heck taught these guys to throw spears!?! Who thought that was a good idea?!",
+        "arena": 1,
+        "elixirCost": 2,
+        "order": 13,
+        "hitSpeed": 1300,
+        "speed": 120,
+        "deployTime": 1000,
+        "range": 5,
+        "target": "Air & Ground",
+        "count": 3,
+        "transport": "Ground",
+        "stats": [{
+                "level": 1,
+                "hitpoints": 52,
+                "damage": 24,
+                "dps": 18
+            },
+            {
+                "level": 2,
+                "hitpoints": 57,
+                "damage": 26,
+                "dps": 20
+            },
+            {
+                "level": 3,
+                "hitpoints": 62,
+                "damage": 29,
+                "dps": 22
+            },
+            {
+                "level": 4,
+                "hitpoints": 69,
+                "damage": 31,
+                "dps": 23
+            },
+            {
+                "level": 5,
+                "hitpoints": 75,
+                "damage": 35,
+                "dps": 26
+            },
+            {
+                "level": 6,
+                "hitpoints": 83,
+                "damage": 38,
+                "dps": 29
+            },
+            {
+                "level": 7,
+                "hitpoints": 91,
+                "damage": 42,
+                "dps": 32
+            },
+            {
+                "level": 8,
+                "hitpoints": 100,
+                "damage": 46,
+                "dps": 35
+            },
+            {
+                "level": 9,
+                "hitpoints": 110,
+                "damage": 50,
+                "dps": 38
+            },
+            {
+                "level": 10,
+                "hitpoints": 121,
+                "damage": 55,
+                "dps": 42
+            },
+            {
+                "level": 11,
+                "hitpoints": 133,
+                "damage": 61,
+                "dps": 46
+            },
+            {
+                "level": 12,
+                "hitpoints": 146,
+                "damage": 67,
+                "dps": 51
+            },
+            {
+                "level": 13,
+                "hitpoints": 160,
+                "damage": 74,
+                "dps": 56
+            }
+        ]
+    },
+    {
+        "idName": "goblins",
+        "rarity": "Common",
+        "type": "Troop",
+        "name": "Goblins",
+        "description": "Three fast, unarmored melee attackers. Small, fast, green and mean!",
+        "arena": 1,
+        "elixirCost": 2,
+        "order": 14,
+        "hitSpeed": 1100,
+        "speed": 120,
+        "deployTime": 1000,
+        "range": 0,
+        "target": "Ground",
+        "count": 3,
+        "transport": "Ground",
+        "stats": [{
+                "level": 1,
+                "hitpoints": 80,
+                "damage": 50,
+                "dps": 45
+            },
+            {
+                "level": 2,
+                "hitpoints": 88,
+                "damage": 55,
+                "dps": 50
+            },
+            {
+                "level": 3,
+                "hitpoints": 96,
+                "damage": 60,
+                "dps": 54
+            },
+            {
+                "level": 4,
+                "hitpoints": 106,
+                "damage": 66,
+                "dps": 60
+            },
+            {
+                "level": 5,
+                "hitpoints": 116,
+                "damage": 73,
+                "dps": 66
+            },
+            {
+                "level": 6,
+                "hitpoints": 128,
+                "damage": 80,
+                "dps": 72
+            },
+            {
+                "level": 7,
+                "hitpoints": 140,
+                "damage": 88,
+                "dps": 80
+            },
+            {
+                "level": 8,
+                "hitpoints": 154,
+                "damage": 96,
+                "dps": 87
+            },
+            {
+                "level": 9,
+                "hitpoints": 169,
+                "damage": 106,
+                "dps": 96
+            },
+            {
+                "level": 10,
+                "hitpoints": 186,
+                "damage": 116,
+                "dps": 105
+            },
+            {
+                "level": 11,
+                "hitpoints": 204,
+                "damage": 128,
+                "dps": 116
+            },
+            {
+                "level": 12,
+                "hitpoints": 224,
+                "damage": 140,
+                "dps": 127
+            },
+            {
+                "level": 13,
+                "hitpoints": 247,
+                "damage": 154,
+                "dps": 140
+            }
+        ]
+    },
+    {
+        "idName": "goblin-hut",
+        "rarity": "Rare",
+        "type": "Building",
+        "name": "Goblin Hut",
+        "description": "Building that spawns Spear Goblins. But don't look inside. You don't want to see how they are made.",
+        "arena": 1,
+        "elixirCost": 5,
+        "order": 15,
+        "spawnSpeed": 4900,
+        "target": "Air & Ground",
+        "deployTime": 1000,
+        "lifetime": 1000,
+        "stats": [{
+                "level": 1,
+                "hitpoints": 700,
+                "spearGoblinLevel": 3
+            },
+            {
+                "level": 2,
+                "hitpoints": 770,
+                "spearGoblinLevel": 4
+            },
+            {
+                "level": 3,
+                "hitpoints": 847,
+                "spearGoblinLevel": 5
+            },
+            {
+                "level": 4,
+                "hitpoints": 931,
+                "spearGoblinLevel": 6
+            },
+            {
+                "level": 5,
+                "hitpoints": 1022,
+                "spearGoblinLevel": 7
+            },
+            {
+                "level": 6,
+                "hitpoints": 1120,
+                "spearGoblinLevel": 8
+            },
+            {
+                "level": 7,
+                "hitpoints": 1232,
+                "spearGoblinLevel": 9
+            },
+            {
+                "level": 8,
+                "hitpoints": 1351,
+                "spearGoblinLevel": 10
+            },
+            {
+                "level": 9,
+                "hitpoints": 1484,
+                "spearGoblinLevel": 11
+            },
+            {
+                "level": 10,
+                "hitpoints": 1631,
+                "spearGoblinLevel": 12
+            },
+            {
+                "level": 11,
+                "hitpoints": 1792,
+                "spearGoblinLevel": 13
+            }
+        ]
+    },
+    {
+        "idName": "valkyrie",
+        "rarity": "Rare",
+        "type": "Troop",
+        "name": "Valkyrie",
+        "description": "Tough melee fighter, deals area damage around her. Swarm or horde, no problem! She can take them all out with a few spins.",
+        "arena": 1,
+        "elixirCost": 4,
+        "order": 16,
+        "hitSpeed": 1500,
+        "speed": 60,
+        "deployTime": 1000,
+        "range": 0,
+        "target": "Ground",
+        "count": 1,
+        "transport": "Ground",
+        "stats": [{
+                "level": 1,
+                "hitpoints": 880,
+                "areaDamage": 120,
+                "dps": 80
+            },
+            {
+                "level": 2,
+                "hitpoints": 968,
+                "areaDamage": 132,
+                "dps": 88
+            },
+            {
+                "level": 3,
+                "hitpoints": 1064,
+                "areaDamage": 145,
+                "dps": 96
+            },
+            {
+                "level": 4,
+                "hitpoints": 1170,
+                "areaDamage": 159,
+                "dps": 106
+            },
+            {
+                "level": 5,
+                "hitpoints": 1284,
+                "areaDamage": 175,
+                "dps": 116
+            },
+            {
+                "level": 6,
+                "hitpoints": 1408,
+                "areaDamage": 192,
+                "dps": 128
+            },
+            {
+                "level": 7,
+                "hitpoints": 1548,
+                "areaDamage": 211,
+                "dps": 140
+            },
+            {
+                "level": 8,
+                "hitpoints": 1698,
+                "areaDamage": 231,
+                "dps": 154
+            },
+            {
+                "level": 9,
+                "hitpoints": 1865,
+                "areaDamage": 254,
+                "dps": 169
+            },
+            {
+                "level": 10,
+                "hitpoints": 2050,
+                "areaDamage": 279,
+                "dps": 186
+            },
+            {
+                "level": 11,
+                "hitpoints": 2252,
+                "areaDamage": 307,
+                "dps": 204
+            }
+        ]
+    },
+    {
+        "idName": "lightning",
+        "rarity": "Epic",
+        "type": "Spell",
+        "name": "Lightning",
+        "description": "Bolts of lightning damage and stun up to three enemy troops or buildings with the most hitpoints in the target area. Reduced damage to Crown Towers.",
+        "arena": 1,
+        "elixirCost": 6,
+        "order": 17,
+        "duration": 1500,
+        "radius": 3.5,
+        "target": "Air & Ground",
+        "stunDuration": 500,
+        "count": 3,
+        "stats": [{
+                "level": 1,
+                "damage": 650,
+                "crownTowerDamage": 260
+            },
+            {
+                "level": 2,
+                "damage": 715,
+                "crownTowerDamage": 286
+            },
+            {
+                "level": 3,
+                "damage": 786,
+                "crownTowerDamage": 315
+            },
+            {
+                "level": 4,
+                "damage": 864,
+                "crownTowerDamage": 346
+            },
+            {
+                "level": 5,
+                "damage": 949,
+                "crownTowerDamage": 380
+            },
+            {
+                "level": 6,
+                "damage": 1040,
+                "crownTowerDamage": 416
+            },
+            {
+                "level": 7,
+                "damage": 1144,
+                "crownTowerDamage": 458
+            },
+            {
+                "level": 8,
+                "damage": 1254,
+                "crownTowerDamage": 502
+            }
+        ]
+    },
+    {
+        "idName": "goblin-barrel",
+        "rarity": "Epic",
+        "type": "Spell",
+        "name": "Goblin Barrel",
+        "description": "Spawns three Goblins anywhere in the Arena. It's going to be a thrilling ride, boys!",
+        "arena": 1,
+        "elixirCost": 3,
+        "order": 18,
+        "radius": 1.5,
+        "target": "Ground",
+        "count": 3,
+        "stats": [{
+                "level": 1,
+                "goblinLevel": 6
+            },
+            {
+                "level": 2,
+                "goblinLevel": 7
+            },
+            {
+                "level": 3,
+                "goblinLevel": 8
+            },
+            {
+                "level": 4,
+                "goblinLevel": 9
+            },
+            {
+                "level": 5,
+                "goblinLevel": 10
+            },
+            {
+                "level": 6,
+                "goblinLevel": 11
+            },
+            {
+                "level": 7,
+                "goblinLevel": 12
+            },
+            {
+                "level": 8,
+                "goblinLevel": 13
+            }
+        ]
+    },
+    {
+        "idName": "skeletons",
+        "rarity": "Common",
+        "type": "Troop",
+        "name": "Skeletons",
+        "description": "Four fast, very weak melee fighters. Surround your enemies with this pile of bones!",
+        "arena": 2,
+        "elixirCost": 1,
+        "order": 19,
+        "hitSpeed": 1000,
+        "speed": 90,
+        "deployTime": 1000,
+        "range": 0,
+        "target": "Ground",
+        "count": 4,
+        "transport": "Ground",
+        "stats": [{
+                "level": 1,
+                "hitpoints": 32,
+                "damage": 32,
+                "dps": 32
+            },
+            {
+                "level": 2,
+                "hitpoints": 35,
+                "damage": 35,
+                "dps": 35
+            },
+            {
+                "level": 3,
+                "hitpoints": 38,
+                "damage": 38,
+                "dps": 38
+            },
+            {
+                "level": 4,
+                "hitpoints": 42,
+                "damage": 42,
+                "dps": 42
+            },
+            {
+                "level": 5,
+                "hitpoints": 46,
+                "damage": 46,
+                "dps": 46
+            },
+            {
+                "level": 6,
+                "hitpoints": 51,
+                "damage": 51,
+                "dps": 51
+            },
+            {
+                "level": 7,
+                "hitpoints": 56,
+                "damage": 56,
+                "dps": 56
+            },
+            {
+                "level": 8,
+                "hitpoints": 61,
+                "damage": 61,
+                "dps": 61
+            },
+            {
+                "level": 9,
+                "hitpoints": 67,
+                "damage": 67,
+                "dps": 67
+            },
+            {
+                "level": 10,
+                "hitpoints": 74,
+                "damage": 74,
+                "dps": 74
+            },
+            {
+                "level": 11,
+                "hitpoints": 81,
+                "damage": 81,
+                "dps": 81
+            },
+            {
+                "level": 12,
+                "hitpoints": 89,
+                "damage": 89,
+                "dps": 89
+            },
+            {
+                "level": 13,
+                "hitpoints": 98,
+                "damage": 98,
+                "dps": 98
+            }
+        ]
+    },
+    {
+        "idName": "minions",
+        "rarity": "Common",
+        "type": "Troop",
+        "name": "Minions",
+        "description": "Three fast, unarmored flying attackers. Roses are red, minions are blue, they can fly, and will crush you!",
+        "arena": 2,
+        "elixirCost": 3,
+        "order": 20,
+        "hitSpeed": 1000,
+        "speed": 90,
+        "deployTime": 1000,
+        "range": 2,
+        "target": "Air & Ground",
+        "count": 3,
+        "transport": "Air",
+        "stats": [{
+                "level": 1,
+                "hitpoints": 90,
+                "damage": 40,
+                "dps": 40
+            },
+            {
+                "level": 2,
+                "hitpoints": 99,
+                "damage": 44,
+                "dps": 44
+            },
+            {
+                "level": 3,
+                "hitpoints": 108,
+                "damage": 48,
+                "dps": 48
+            },
+            {
+                "level": 4,
+                "hitpoints": 119,
+                "damage": 53,
+                "dps": 53
+            },
+            {
+                "level": 5,
+                "hitpoints": 131,
+                "damage": 58,
+                "dps": 58
+            },
+            {
+                "level": 6,
+                "hitpoints": 144,
+                "damage": 64,
+                "dps": 64
+            },
+            {
+                "level": 7,
+                "hitpoints": 158,
+                "damage": 70,
+                "dps": 70
+            },
+            {
+                "level": 8,
+                "hitpoints": 173,
+                "damage": 77,
+                "dps": 77
+            },
+            {
+                "level": 9,
+                "hitpoints": 190,
+                "damage": 84,
+                "dps": 84
+            },
+            {
+                "level": 10,
+                "hitpoints": 209,
+                "damage": 93,
+                "dps": 93
+            },
+            {
+                "level": 11,
+                "hitpoints": 230,
+                "damage": 102,
+                "dps": 102
+            },
+            {
+                "level": 12,
+                "hitpoints": 252,
+                "damage": 112,
+                "dps": 112
+            },
+            {
+                "level": 13,
+                "hitpoints": 278,
+                "damage": 123,
+                "dps": 123
+            }
+        ]
+    },
+    {
+        "idName": "tombstone",
+        "rarity": "Rare",
+        "type": "Building",
+        "name": "Tombstone",
+        "description": "Troop building that periodically deploys Skeletons to fight the enemy. When destroyed, spawns 4 Skeletons. Creepy!",
+        "arena": 2,
+        "elixirCost": 3,
+        "order": 21,
+        "spawnSpeed": 2900,
+        "target": "Ground",
+        "deployTime": 1000,
+        "lifetime": 40000,
+        "stats": [{
+                "level": 1,
+                "hitpoints": 240,
+                "skeletonLevel": 3
+            },
+            {
+                "level": 2,
+                "hitpoints": 264,
+                "skeletonLevel": 4
+            },
+            {
+                "level": 3,
+                "hitpoints": 290,
+                "skeletonLevel": 5
+            },
+            {
+                "level": 4,
+                "hitpoints": 319,
+                "skeletonLevel": 6
+            },
+            {
+                "level": 5,
+                "hitpoints": 350,
+                "skeletonLevel": 7
+            },
+            {
+                "level": 6,
+                "hitpoints": 384,
+                "skeletonLevel": 8
+            },
+            {
+                "level": 7,
+                "hitpoints": 422,
+                "skeletonLevel": 9
+            },
+            {
+                "level": 8,
+                "hitpoints": 462,
+                "skeletonLevel": 10
+            },
+            {
+                "level": 9,
+                "hitpoints": 508,
+                "skeletonLevel": 11
+            },
+            {
+                "level": 10,
+                "hitpoints": 558,
+                "skeletonLevel": 12
+            },
+            {
+                "level": 11,
+                "hitpoints": 614,
+                "skeletonLevel": 13
+            }
+        ]
+    },
+    {
+        "idName": "bomb-tower",
+        "rarity": "Rare",
+        "type": "Building",
+        "name": "Bomb Tower",
+        "description": "Defensive building that houses a Bomber. Deals area damage to anything dumb enough to stand near it.",
+        "arena": 2,
+        "elixirCost": 5,
+        "order": 22,
+        "hitSpeed": 1600,
+        "deployTime": 1000,
+        "lifetime": 40000,
+        "range": 6,
+        "target": "Ground",
+        "stats": [{
+                "level": 1,
+                "hitpoints": 950,
+                "areaDamage": 100,
+                "dps": 62
+            },
+            {
+                "level": 2,
+                "hitpoints": 1045,
+                "areaDamage": 110,
+                "dps": 68
+            },
+            {
+                "level": 3,
+                "hitpoints": 1149,
+                "areaDamage": 121,
+                "dps": 75
+            },
+            {
+                "level": 4,
+                "hitpoints": 1263,
+                "areaDamage": 133,
+                "dps": 83
+            },
+            {
+                "level": 5,
+                "hitpoints": 1387,
+                "areaDamage": 146,
+                "dps": 91
+            },
+            {
+                "level": 6,
+                "hitpoints": 1520,
+                "areaDamage": 160,
+                "dps": 100
+            },
+            {
+                "level": 7,
+                "hitpoints": 1673,
+                "areaDamage": 176,
+                "dps": 110
+            },
+            {
+                "level": 8,
+                "hitpoints": 1835,
+                "areaDamage": 193,
+                "dps": 120
+            },
+            {
+                "level": 9,
+                "hitpoints": 2016,
+                "areaDamage": 212,
+                "dps": 132
+            },
+            {
+                "level": 10,
+                "hitpoints": 2217,
+                "areaDamage": 233,
+                "dps": 145
+            },
+            {
+                "level": 11,
+                "hitpoints": 2436,
+                "areaDamage": 256,
+                "dps": 160
+            }
+        ]
+    },
+    {
+        "idName": "giant-skeleton",
+        "rarity": "Epic",
+        "type": "Troop",
+        "name": "Giant Skeleton",
+        "description": "The bigger the skeleton, the bigger the bomb. Carries a bomb that blows up when the Giant Skeleton dies.",
+        "arena": 2,
+        "elixirCost": 6,
+        "order": 23,
+        "hitSpeed": 1500,
+        "speed": 60,
+        "deployTime": 1000,
+        "range": 0,
+        "target": "Ground",
+        "count": 1,
+        "transport": "Ground",
+        "stats": [{
+                "level": 1,
+                "hitpoints": 2000,
+                "damage": 130,
+                "dps": 86,
+                "deathDamage": 720
+            },
+            {
+                "level": 2,
+                "hitpoints": 2200,
+                "damage": 143,
+                "dps": 95,
+                "deathDamage": 792
+            },
+            {
+                "level": 3,
+                "hitpoints": 2420,
+                "damage": 157,
+                "dps": 104,
+                "deathDamage": 871
+            },
+            {
+                "level": 4,
+                "hitpoints": 2660,
+                "damage": 172,
+                "dps": 114,
+                "deathDamage": 957
+            },
+            {
+                "level": 5,
+                "hitpoints": 2920,
+                "damage": 189,
+                "dps": 126,
+                "deathDamage": 1051
+            },
+            {
+                "level": 6,
+                "hitpoints": 3200,
+                "damage": 208,
+                "dps": 138,
+                "deathDamage": 1152
+            },
+            {
+                "level": 7,
+                "hitpoints": 3520,
+                "damage": 228,
+                "dps": 152,
+                "deathDamage": 1267
+            },
+            {
+                "level": 8,
+                "hitpoints": 3860,
+                "damage": 250,
+                "dps": 166,
+                "deathDamage": 1389
+            }
+        ]
+    },
+    {
+        "idName": "balloon",
+        "rarity": "Epic",
+        "type": "Troop",
+        "name": "Balloon",
+        "description": "As pretty as they are, you won't want a parade of THESE balloons showing up on the horizon. Drops powerful bombs and when shot down, crashes dealing area damage.",
+        "arena": 2,
+        "elixirCost": 5,
+        "order": 24,
+        "hitSpeed": 3000,
+        "speed": 90,
+        "deployTime": 1000,
+        "range": 0,
+        "target": "Buildings",
+        "count": 1,
+        "transport": "Air",
+        "stats": [{
+                "level": 1,
+                "hitpoints": 1050,
+                "damage": 600,
+                "dps": 200,
+                "deathDamage": 205
+            },
+            {
+                "level": 2,
+                "hitpoints": 1155,
+                "damage": 660,
+                "dps": 220,
+                "deathDamage": 225
+            },
+            {
+                "level": 3,
+                "hitpoints": 1270,
+                "damage": 726,
+                "dps": 242,
+                "deathDamage": 248
+            },
+            {
+                "level": 4,
+                "hitpoints": 1396,
+                "damage": 798,
+                "dps": 266,
+                "deathDamage": 272
+            },
+            {
+                "level": 5,
+                "hitpoints": 1533,
+                "damage": 876,
+                "dps": 292,
+                "deathDamage": 299
+            },
+            {
+                "level": 6,
+                "hitpoints": 1680,
+                "damage": 960,
+                "dps": 320,
+                "deathDamage": 328
+            },
+            {
+                "level": 7,
+                "hitpoints": 1848,
+                "damage": 1056,
+                "dps": 352,
+                "deathDamage": 360
+            },
+            {
+                "level": 8,
+                "hitpoints": 2026,
+                "damage": 1158,
+                "dps": 386,
+                "deathDamage": 395
+            }
+        ]
+    },
+    {
+        "idName": "cannon",
+        "rarity": "Common",
+        "type": "Building",
+        "name": "Cannon",
+        "description": "Defensive building. Shoots cannonballs with deadly effect, but cannot target flying troops.",
+        "arena": 3,
+        "elixirCost": 3,
+        "order": 25,
+        "hitSpeed": 800,
+        "deployTime": 1000,
+        "lifetime": 30000,
+        "range": 5.5,
+        "target": "Ground",
+        "stats": [{
+                "level": 1,
+                "hitpoints": 350,
+                "damage": 60,
+                "dps": 75
+            },
+            {
+                "level": 2,
+                "hitpoints": 385,
+                "damage": 66,
+                "dps": 82
+            },
+            {
+                "level": 3,
+                "hitpoints": 423,
+                "damage": 72,
+                "dps": 90
+            },
+            {
+                "level": 4,
+                "hitpoints": 465,
+                "damage": 79,
+                "dps": 98
+            },
+            {
+                "level": 5,
+                "hitpoints": 511,
+                "damage": 85,
+                "dps": 106
+            },
+            {
+                "level": 6,
+                "hitpoints": 560,
+                "damage": 96,
+                "dps": 120
+            },
+            {
+                "level": 7,
+                "hitpoints": 616,
+                "damage": 105,
+                "dps": 131
+            },
+            {
+                "level": 8,
+                "hitpoints": 675,
+                "damage": 115,
+                "dps": 143
+            },
+            {
+                "level": 9,
+                "hitpoints": 742,
+                "damage": 127,
+                "dps": 158
+            },
+            {
+                "level": 10,
+                "hitpoints": 815,
+                "damage": 139,
+                "dps": 173
+            },
+            {
+                "level": 11,
+                "hitpoints": 896,
+                "damage": 153,
+                "dps": 191
+            },
+            {
+                "level": 12,
+                "hitpoints": 983,
+                "damage": 168,
+                "dps": 210
+            },
+            {
+                "level": 13,
+                "hitpoints": 1081,
+                "damage": 185,
+                "dps": 231
+            }
+        ]
+    },
+    {
+        "idName": "barbarians",
+        "rarity": "Common",
+        "type": "Troop",
+        "name": "Barbarians",
+        "description": "A horde of melee attackers with mean mustaches and even meaner tempers.",
+        "arena": 3,
+        "elixirCost": 5,
+        "order": 26,
+        "hitSpeed": 1500,
+        "speed": 60,
+        "deployTime": 1000,
+        "range": 0,
+        "target": "Ground",
+        "count": 4,
+        "transport": "Ground",
+        "stats": [{
+                "level": 1,
+                "hitpoints": 300,
+                "damage": 75,
+                "dps": 50
+            },
+            {
+                "level": 2,
+                "hitpoints": 330,
+                "damage": 82,
+                "dps": 54
+            },
+            {
+                "level": 3,
+                "hitpoints": 363,
+                "damage": 90,
+                "dps": 60
+            },
+            {
+                "level": 4,
+                "hitpoints": 399,
+                "damage": 99,
+                "dps": 66
+            },
+            {
+                "level": 5,
+                "hitpoints": 438,
+                "damage": 109,
+                "dps": 72
+            },
+            {
+                "level": 6,
+                "hitpoints": 480,
+                "damage": 120,
+                "dps": 80
+            },
+            {
+                "level": 7,
+                "hitpoints": 528,
+                "damage": 132,
+                "dps": 88
+            },
+            {
+                "level": 8,
+                "hitpoints": 579,
+                "damage": 144,
+                "dps": 96
+            },
+            {
+                "level": 9,
+                "hitpoints": 636,
+                "damage": 159,
+                "dps": 106
+            },
+            {
+                "level": 10,
+                "hitpoints": 699,
+                "damage": 174,
+                "dps": 116
+            },
+            {
+                "level": 11,
+                "hitpoints": 768,
+                "damage": 192,
+                "dps": 128
+            },
+            {
+                "level": 12,
+                "hitpoints": 843,
+                "damage": 210,
+                "dps": 140
+            },
+            {
+                "level": 13,
+                "hitpoints": 927,
+                "damage": 231,
+                "dps": 154
+            }
+        ]
+    },
+    {
+        "idName": "rocket",
+        "rarity": "Rare",
+        "type": "Spell",
+        "name": "Rocket",
+        "description": "Deals high damage to a small area. Looks really awesome doing it. Reduced damage to Crown Towers.",
+        "arena": 3,
+        "elixirCost": 6,
+        "order": 27,
+        "radius": 2,
+        "target": "Air & Ground",
+        "stats": [{
+                "level": 1,
+                "areaDamage": 700,
+                "crownTowerDamage": 280
+            },
+            {
+                "level": 2,
+                "areaDamage": 770,
+                "crownTowerDamage": 308
+            },
+            {
+                "level": 3,
+                "areaDamage": 847,
+                "crownTowerDamage": 339
+            },
+            {
+                "level": 4,
+                "areaDamage": 931,
+                "crownTowerDamage": 373
+            },
+            {
+                "level": 5,
+                "areaDamage": 1022,
+                "crownTowerDamage": 409
+            },
+            {
+                "level": 6,
+                "areaDamage": 1120,
+                "crownTowerDamage": 448
+            },
+            {
+                "level": 7,
+                "areaDamage": 1232,
+                "crownTowerDamage": 493
+            },
+            {
+                "level": 8,
+                "areaDamage": 1351,
+                "crownTowerDamage": 541
+            },
+            {
+                "level": 9,
+                "areaDamage": 1484,
+                "crownTowerDamage": 594
+            },
+            {
+                "level": 10,
+                "areaDamage": 1631,
+                "crownTowerDamage": 653
+            },
+            {
+                "level": 11,
+                "areaDamage": 1792,
+                "crownTowerDamage": 717
+            }
+        ]
+    },
+    {
+        "idName": "barbarian-hut",
+        "rarity": "Rare",
+        "type": "Building",
+        "name": "Barbarian Hut",
+        "description": "Troop building that periodically deploys Barbarians to fight the enemy. Time to make the Barbarians.",
+        "arena": 3,
+        "elixirCost": 7,
+        "order": 28,
+        "spawnSpeed": 14000,
+        "target": "Ground",
+        "deployTime": 1000,
+        "lifetime": 1000,
+        "stats": [{
+                "level": 1,
+                "hitpoints": 1100,
+                "barbarianLevel": 3
+            },
+            {
+                "level": 2,
+                "hitpoints": 1210,
+                "barbarianLevel": 4
+            },
+            {
+                "level": 3,
+                "hitpoints": 1331,
+                "barbarianLevel": 5
+            },
+            {
+                "level": 4,
+                "hitpoints": 1463,
+                "barbarianLevel": 6
+            },
+            {
+                "level": 5,
+                "hitpoints": 1606,
+                "barbarianLevel": 7
+            },
+            {
+                "level": 6,
+                "hitpoints": 1760,
+                "barbarianLevel": 8
+            },
+            {
+                "level": 7,
+                "hitpoints": 1936,
+                "barbarianLevel": 9
+            },
+            {
+                "level": 8,
+                "hitpoints": 2123,
+                "barbarianLevel": 10
+            },
+            {
+                "level": 9,
+                "hitpoints": 2332,
+                "barbarianLevel": 11
+            },
+            {
+                "level": 10,
+                "hitpoints": 2563,
+                "barbarianLevel": 12
+            },
+            {
+                "level": 11,
+                "hitpoints": 2816,
+                "barbarianLevel": 13
+            }
+        ]
+    },
+    {
+        "idName": "rage",
+        "rarity": "Epic",
+        "type": "Spell",
+        "name": "Rage",
+        "description": "Increases troop movement and attack speed. Buildings attack faster and summon troops quicker, too. Chaaaarge!",
+        "arena": 3,
+        "elixirCost": 2,
+        "order": 29,
+        "radius": 5,
+        "boost": "+35%",
+        "stats": [{
+                "level": 1,
+                "duration": 6000
+            },
+            {
+                "level": 2,
+                "duration": 6500
+            },
+            {
+                "level": 3,
+                "duration": 7000
+            },
+            {
+                "level": 4,
+                "duration": 7500
+            },
+            {
+                "level": 5,
+                "duration": 8000
+            },
+            {
+                "level": 6,
+                "duration": 8500
+            },
+            {
+                "level": 7,
+                "duration": 9000
+            },
+            {
+                "level": 8,
+                "duration": 9500
+            }
+        ]
+    },
+    {
+        "idName": "x-bow",
+        "rarity": "Epic",
+        "type": "Building",
+        "name": "X-Bow",
+        "description": "Nice tower you got there. Would be a shame if this X-Bow whittled it down from his side of the Arena...",
+        "arena": 3,
+        "elixirCost": 6,
+        "order": 30,
+        "hitSpeed": 250,
+        "deployTime": 4000,
+        "lifetime": 40000,
+        "range": 11.5,
+        "target": "Ground",
+        "stats": [{
+                "level": 1,
+                "hitpoints": 1000,
+                "damage": 20,
+                "dps": 80
+            },
+            {
+                "level": 2,
+                "hitpoints": 1100,
+                "damage": 22,
+                "dps": 88
+            },
+            {
+                "level": 3,
+                "hitpoints": 1210,
+                "damage": 24,
+                "dps": 96
+            },
+            {
+                "level": 4,
+                "hitpoints": 1330,
+                "damage": 26,
+                "dps": 104
+            },
+            {
+                "level": 5,
+                "hitpoints": 1460,
+                "damage": 29,
+                "dps": 116
+            },
+            {
+                "level": 6,
+                "hitpoints": 1600,
+                "damage": 32,
+                "dps": 128
+            },
+            {
+                "level": 7,
+                "hitpoints": 1760,
+                "damage": 35,
+                "dps": 140
+            },
+            {
+                "level": 8,
+                "hitpoints": 1930,
+                "damage": 38,
+                "dps": 152
+            }
+        ]
+    },
+    {
+        "idName": "tesla",
+        "rarity": "Common",
+        "type": "Building",
+        "name": "Tesla",
+        "description": "Defensive building. Whenever it's not zapping the enemy, the power of Electrickery is best kept grounded.",
+        "arena": 4,
+        "elixirCost": 4,
+        "order": 31,
+        "hitSpeed": 800,
+        "deployTime": 1000,
+        "lifetime": 40000,
+        "range": 5.5,
+        "target": "Air & Ground",
+        "stats": [{
+                "level": 1,
+                "hitpoints": 450,
+                "damage": 64,
+                "dps": 80
+            },
+            {
+                "level": 2,
+                "hitpoints": 495,
+                "damage": 70,
+                "dps": 87
+            },
+            {
+                "level": 3,
+                "hitpoints": 544,
+                "damage": 77,
+                "dps": 96
+            },
+            {
+                "level": 4,
+                "hitpoints": 598,
+                "damage": 85,
+                "dps": 106
+            },
+            {
+                "level": 5,
+                "hitpoints": 657,
+                "damage": 93,
+                "dps": 116
+            },
+            {
+                "level": 6,
+                "hitpoints": 720,
+                "damage": 102,
+                "dps": 127
+            },
+            {
+                "level": 7,
+                "hitpoints": 792,
+                "damage": 112,
+                "dps": 140
+            },
+            {
+                "level": 8,
+                "hitpoints": 868,
+                "damage": 123,
+                "dps": 153
+            },
+            {
+                "level": 9,
+                "hitpoints": 954,
+                "damage": 135,
+                "dps": 168
+            },
+            {
+                "level": 10,
+                "hitpoints": 1048,
+                "damage": 149,
+                "dps": 186
+            },
+            {
+                "level": 11,
+                "hitpoints": 1152,
+                "damage": 163,
+                "dps": 203
+            },
+            {
+                "level": 12,
+                "hitpoints": 1264,
+                "damage": 179,
+                "dps": 223
+            },
+            {
+                "level": 13,
+                "hitpoints": 1390,
+                "damage": 197,
+                "dps": 246
+            }
+        ]
+    },
+    {
+        "idName": "minion-horde",
+        "rarity": "Common",
+        "type": "Troop",
+        "name": "Minion Horde",
+        "description": "Six fast, unarmored flying attackers. Three's a croud, six is a horde!",
+        "arena": 4,
+        "elixirCost": 5,
+        "order": 32,
+        "hitSpeed": 1000,
+        "speed": 90,
+        "deployTime": 1000,
+        "range": 2,
+        "target": "Air & Ground",
+        "count": 6,
+        "transport": "Air",
+        "stats": [{
+                "level": 1,
+                "hitpoints": 90,
+                "damage": 40,
+                "dps": 40
+            },
+            {
+                "level": 2,
+                "hitpoints": 99,
+                "damage": 44,
+                "dps": 44
+            },
+            {
+                "level": 3,
+                "hitpoints": 108,
+                "damage": 48,
+                "dps": 48
+            },
+            {
+                "level": 4,
+                "hitpoints": 119,
+                "damage": 53,
+                "dps": 53
+            },
+            {
+                "level": 5,
+                "hitpoints": 131,
+                "damage": 58,
+                "dps": 58
+            },
+            {
+                "level": 6,
+                "hitpoints": 144,
+                "damage": 64,
+                "dps": 64
+            },
+            {
+                "level": 7,
+                "hitpoints": 158,
+                "damage": 70,
+                "dps": 70
+            },
+            {
+                "level": 8,
+                "hitpoints": 173,
+                "damage": 77,
+                "dps": 77
+            },
+            {
+                "level": 9,
+                "hitpoints": 190,
+                "damage": 84,
+                "dps": 84
+            },
+            {
+                "level": 10,
+                "hitpoints": 209,
+                "damage": 93,
+                "dps": 93
+            },
+            {
+                "level": 11,
+                "hitpoints": 230,
+                "damage": 102,
+                "dps": 102
+            },
+            {
+                "level": 12,
+                "hitpoints": 252,
+                "damage": 112,
+                "dps": 112
+            },
+            {
+                "level": 13,
+                "hitpoints": 278,
+                "damage": 123,
+                "dps": 123
+            }
+        ]
+    },
+    {
+        "idName": "inferno-tower",
+        "rarity": "Rare",
+        "type": "Building",
+        "name": "Inferno Tower",
+        "description": "Defensive building, roasts targets for damage that increases over time. Burns through even the biggest and toughest enemies!",
+        "arena": 4,
+        "elixirCost": 5,
+        "order": 33,
+        "hitSpeed": 400,
+        "deployTime": 1000,
+        "lifetime": 40000,
+        "range": 6,
+        "target": "Air & Ground",
+        "stats": [{
+                "level": 1,
+                "hitpoints": 800,
+                "damage": "20-400",
+                "dps": "50-1000"
+            },
+            {
+                "level": 2,
+                "hitpoints": 880,
+                "damage": "22-440",
+                "dps": "55-1100"
+            },
+            {
+                "level": 3,
+                "hitpoints": 968,
+                "damage": "24-484",
+                "dps": "60-1210"
+            },
+            {
+                "level": 4,
+                "hitpoints": 1064,
+                "damage": "26-532",
+                "dps": "65-1330"
+            },
+            {
+                "level": 5,
+                "hitpoints": 1168,
+                "damage": "29-584",
+                "dps": "72-1460"
+            },
+            {
+                "level": 6,
+                "hitpoints": 1280,
+                "damage": "32-640",
+                "dps": "80-1600"
+            },
+            {
+                "level": 7,
+                "hitpoints": 1408,
+                "damage": "35-704",
+                "dps": "87-1760"
+            },
+            {
+                "level": 8,
+                "hitpoints": 1544,
+                "damage": "38-772",
+                "dps": "95-1930"
+            },
+            {
+                "level": 9,
+                "hitpoints": 1696,
+                "damage": "42-848",
+                "dps": "105-2120"
+            },
+            {
+                "level": 10,
+                "hitpoints": 1864,
+                "damage": "46-932",
+                "dps": "115-2330"
+            },
+            {
+                "level": 11,
+                "hitpoints": 2048,
+                "damage": "51-1024",
+                "dps": "127-2560"
+            }
+        ]
+    },
+    {
+        "idName": "hog-rider",
+        "rarity": "Rare",
+        "type": "Troop",
+        "name": "Hog Rider",
+        "description": "Fast melee troop that targets buildings and can jump over the river. He followed the echoing call of \"Hog Riderrrrr\" all the way through the Arena Doors.",
+        "arena": 4,
+        "elixirCost": 4,
+        "order": 34,
+        "hitSpeed": 1500,
+        "speed": 120,
+        "deployTime": 1000,
+        "range": 0,
+        "target": "Buildings",
+        "count": 1,
+        "transport": "Ground",
+        "stats": [{
+                "level": 1,
+                "hitpoints": 800,
+                "damage": 150,
+                "dps": 100
+            },
+            {
+                "level": 2,
+                "hitpoints": 880,
+                "damage": 165,
+                "dps": 110
+            },
+            {
+                "level": 3,
+                "hitpoints": 968,
+                "damage": 181,
+                "dps": 120
+            },
+            {
+                "level": 4,
+                "hitpoints": 1064,
+                "damage": 199,
+                "dps": 132
+            },
+            {
+                "level": 5,
+                "hitpoints": 1168,
+                "damage": 219,
+                "dps": 146
+            },
+            {
+                "level": 6,
+                "hitpoints": 1280,
+                "damage": 240,
+                "dps": 160
+            },
+            {
+                "level": 7,
+                "hitpoints": 1408,
+                "damage": 264,
+                "dps": 176
+            },
+            {
+                "level": 8,
+                "hitpoints": 1544,
+                "damage": 289,
+                "dps": 192
+            },
+            {
+                "level": 9,
+                "hitpoints": 1696,
+                "damage": 318,
+                "dps": 212
+            },
+            {
+                "level": 10,
+                "hitpoints": 1864,
+                "damage": 349,
+                "dps": 232
+            },
+            {
+                "level": 11,
+                "hitpoints": 2048,
+                "damage": 384,
+                "dps": 256
+            }
+        ]
+    },
+    {
+        "idName": "freeze",
+        "rarity": "Epic",
+        "type": "Spell",
+        "name": "Freeze",
+        "description": "Freezes troops and buildings, making them unable to move or attack. Everybody chill.",
+        "arena": 4,
+        "elixirCost": 4,
+        "order": 35,
+        "radius": 3,
+        "target": "Air & Ground",
+        "stats": [{
+                "level": 1,
+                "freezeDuration": 4000
+            },
+            {
+                "level": 2,
+                "freezeDuration": 4300
+            },
+            {
+                "level": 3,
+                "freezeDuration": 4600
+            },
+            {
+                "level": 4,
+                "freezeDuration": 4900
+            },
+            {
+                "level": 5,
+                "freezeDuration": 5200
+            },
+            {
+                "level": 6,
+                "freezeDuration": 5500
+            },
+            {
+                "level": 7,
+                "freezeDuration": 5800
+            },
+            {
+                "level": 8,
+                "freezeDuration": 6100
+            }
+        ]
+    },
+    {
+        "idName": "pekka",
+        "rarity": "Epic",
+        "type": "Troop",
+        "name": "P.E.K.K.A.",
+        "description": "A heavily armored, slow melee fighter. Swings from the hip but packs a huge punch.",
+        "arena": 4,
+        "elixirCost": 7,
+        "order": 36,
+        "hitSpeed": 1800,
+        "speed": 45,
+        "deployTime": 1000,
+        "range": 0,
+        "target": "Ground",
+        "count": 1,
+        "transport": "Ground",
+        "stats": [{
+                "level": 1,
+                "hitpoints": 2600,
+                "damage": 510,
+                "dps": 283
+            },
+            {
+                "level": 2,
+                "hitpoints": 2860,
+                "damage": 561,
+                "dps": 311
+            },
+            {
+                "level": 3,
+                "hitpoints": 3146,
+                "damage": 617,
+                "dps": 342
+            },
+            {
+                "level": 4,
+                "hitpoints": 3458,
+                "damage": 678,
+                "dps": 376
+            },
+            {
+                "level": 5,
+                "hitpoints": 3796,
+                "damage": 744,
+                "dps": 413
+            },
+            {
+                "level": 6,
+                "hitpoints": 4160,
+                "damage": 816,
+                "dps": 453
+            },
+            {
+                "level": 7,
+                "hitpoints": 4576,
+                "damage": 897,
+                "dps": 498
+            },
+            {
+                "level": 8,
+                "hitpoints": 5018,
+                "damage": 984,
+                "dps": 546
+            }
+        ]
+    },
+    {
+        "idName": "inferno-dragon",
+        "rarity": "Legendary",
+        "type": "Troop",
+        "name": "Inferno Dragon",
+        "description": "Shoots a focused beam of fire that increases in damage over time. Wears a helmet because flying can be dangerous.",
+        "elixirCost": 4,
+        "arena": 4,
+        "order": 37,
+        "hitSpeed": 400,
+        "speed": 60,
+        "deployTime": 1000,
+        "range": 4,
+        "target": "Air & Ground",
+        "count": 1,
+        "transport": "Air",
+        "stats": [{
+                "level": 1,
+                "hitpoints": 1000,
+                "damage": "30-350",
+                "dps": "75-875"
+            },
+            {
+                "level": 2,
+                "hitpoints": 1100,
+                "damage": "33-385",
+                "dps": "82-962"
+            },
+            {
+                "level": 3,
+                "hitpoints": 1210,
+                "damage": "36-423",
+                "dps": "90-1057"
+            },
+            {
+                "level": 4,
+                "hitpoints": 1330,
+                "damage": "39-465",
+                "dps": "97-1162"
+            },
+            {
+                "level": 5,
+                "hitpoints": 1460,
+                "damage": "43-511",
+                "dps": "107-1277"
+            }
+        ]
+    },
+    {
+        "idName": "lava-hound",
+        "rarity": "Legendary",
+        "type": "Troop",
+        "name": "Lava Hound",
+        "description": "The Lava Hound is a majestic flying beast that attacks buildings. The Lava Pups are less majestic angry babies that attack anything.",
+        "arena": 4,
+        "elixirCost": 7,
+        "order": 38,
+        "hitSpeed": 1300,
+        "speed": 45,
+        "deployTime": 1000,
+        "range": 2,
+        "target": "Buildings",
+        "count": 1,
+        "transport": "Air",
+        "stats": [{
+                "level": 1,
+                "lavaHoundHitpoints": 3000,
+                "lavaHoundDamage": 45,
+                "lavaHoundDps": 34,
+                "lavaPupHitpoints": 179,
+                "lavaPupDamage": 45,
+                "lavaPupDps": 45
+            },
+            {
+                "level": 2,
+                "lavaHoundHitpoints": 3300,
+                "lavaHoundDamage": 49,
+                "lavaHoundDps": 37,
+                "lavaPupHitpoints": 196,
+                "lavaPupDamage": 49,
+                "lavaPupDps": 49
+            },
+            {
+                "level": 3,
+                "lavaHoundHitpoints": 3630,
+                "lavaHoundDamage": 54,
+                "lavaHoundDps": 41,
+                "lavaPupHitpoints": 216,
+                "lavaPupDamage": 54,
+                "lavaPupDps": 54
+            },
+            {
+                "level": 4,
+                "lavaHoundHitpoints": 3990,
+                "lavaHoundDamage": 59,
+                "lavaHoundDps": 45,
+                "lavaPupHitpoints": 238,
+                "lavaPupDamage": 59,
+                "lavaPupDps": 59
+            },
+            {
+                "level": 5,
+                "lavaHoundHitpoints": 4380,
+                "lavaHoundDamage": 65,
+                "lavaHoundDps": 50,
+                "lavaPupHitpoints": 261,
+                "lavaPupDamage": 65,
+                "lavaPupDps": 65
+            }
+        ]
+    },
+    {
+        "idName": "zap",
+        "rarity": "Common",
+        "type": "Spell",
+        "name": "Zap",
+        "description": "Zaps enemies, briefly stunning them and dealing damage inside a small radius. Reduced damage to Crown Towers.",
+        "arena": 5,
+        "elixirCost": 2,
+        "order": 39,
+        "radius": 2.5,
+        "stunDuration": 500,
+        "target": "Air & Ground",
+        "stats": [{
+                "level": 1,
+                "areaDamage": 75,
+                "crownTowerDamage": 30
+            },
+            {
+                "level": 2,
+                "areaDamage": 82,
+                "crownTowerDamage": 33
+            },
+            {
+                "level": 3,
+                "areaDamage": 90,
+                "crownTowerDamage": 36
+            },
+            {
+                "level": 4,
+                "areaDamage": 99,
+                "crownTowerDamage": 40
+            },
+            {
+                "level": 5,
+                "areaDamage": 109,
+                "crownTowerDamage": 44
+            },
+            {
+                "level": 6,
+                "areaDamage": 120,
+                "crownTowerDamage": 48
+            },
+            {
+                "level": 7,
+                "areaDamage": 132,
+                "crownTowerDamage": 53
+            },
+            {
+                "level": 8,
+                "areaDamage": 144,
+                "crownTowerDamage": 58
+            },
+            {
+                "level": 9,
+                "areaDamage": 159,
+                "crownTowerDamage": 64
+            },
+            {
+                "level": 10,
+                "areaDamage": 174,
+                "crownTowerDamage": 70
+            },
+            {
+                "level": 11,
+                "areaDamage": 192,
+                "crownTowerDamage": 77
+            },
+            {
+                "level": 12,
+                "areaDamage": 210,
+                "crownTowerDamage": 84
+            },
+            {
+                "level": 13,
+                "areaDamage": 231,
+                "crownTowerDamage": 93
+            }
+        ]
+    },
+    {
+        "idName": "fire-spirits",
+        "rarity": "Common",
+        "type": "Troop",
+        "name": "Fire Spirits",
+        "description": "These three Fire Spirits are on a kamikaze mission to give you a warm hug. It'd be adorable if they weren't on fire.",
+        "arena": 5,
+        "elixirCost": 2,
+        "order": 40,
+        "speed": 120,
+        "deployTime": 1000,
+        "range": 2,
+        "target": "Air & Ground",
+        "count": 3,
+        "transport": "Ground",
+        "stats": [{
+                "level": 1,
+                "hitpoints": 43,
+                "areaDamage": 80
+            },
+            {
+                "level": 2,
+                "hitpoints": 47,
+                "areaDamage": 88
+            },
+            {
+                "level": 3,
+                "hitpoints": 52,
+                "areaDamage": 96
+            },
+            {
+                "level": 4,
+                "hitpoints": 57,
+                "areaDamage": 106
+            },
+            {
+                "level": 5,
+                "hitpoints": 62,
+                "areaDamage": 116
+            },
+            {
+                "level": 6,
+                "hitpoints": 68,
+                "areaDamage": 128
+            },
+            {
+                "level": 7,
+                "hitpoints": 75,
+                "areaDamage": 140
+            },
+            {
+                "level": 8,
+                "hitpoints": 82,
+                "areaDamage": 154
+            },
+            {
+                "level": 9,
+                "hitpoints": 91,
+                "areaDamage": 169
+            },
+            {
+                "level": 10,
+                "hitpoints": 100,
+                "areaDamage": 186
+            },
+            {
+                "level": 11,
+                "hitpoints": 110,
+                "areaDamage": 204
+            },
+            {
+                "level": 12,
+                "hitpoints": 120,
+                "areaDamage": 224
+            },
+            {
+                "level": 13,
+                "hitpoints": 132,
+                "areaDamage": 247
+            }
+        ]
+    },
+    {
+        "idName": "furnace",
+        "rarity": "Rare",
+        "type": "Building",
+        "name": "Furnace",
+        "description": "The Furnace spawns two Fire Spirits at a time. It also makes great brick-oven pancakes.",
+        "arena": 5,
+        "elixirCost": 4,
+        "order": 41,
+        "spawnSpeed": 10000,
+        "target": "Air & Ground",
+        "deployTime": 1000,
+        "lifetime": 50000,
+        "stats": [{
+                "level": 1,
+                "hitpoints": 600,
+                "fireSpiritsLevel": 3
+            },
+            {
+                "level": 2,
+                "hitpoints": 660,
+                "fireSpiritsLevel": 4
+            },
+            {
+                "level": 3,
+                "hitpoints": 726,
+                "fireSpiritsLevel": 5
+            },
+            {
+                "level": 4,
+                "hitpoints": 798,
+                "fireSpiritsLevel": 6
+            },
+            {
+                "level": 5,
+                "hitpoints": 876,
+                "fireSpiritsLevel": 7
+            },
+            {
+                "level": 6,
+                "hitpoints": 960,
+                "fireSpiritsLevel": 8
+            },
+            {
+                "level": 7,
+                "hitpoints": 1056,
+                "fireSpiritsLevel": 9
+            },
+            {
+                "level": 8,
+                "hitpoints": 1158,
+                "fireSpiritsLevel": 10
+            },
+            {
+                "level": 9,
+                "hitpoints": 1276,
+                "fireSpiritsLevel": 11
+            },
+            {
+                "level": 10,
+                "hitpoints": 1398,
+                "fireSpiritsLevel": 12
+            },
+            {
+                "level": 11,
+                "hitpoints": 1536,
+                "fireSpiritsLevel": 13
+            }
+        ]
+    },
+    {
+        "idName": "wizard",
+        "rarity": "Rare",
+        "type": "Troop",
+        "name": "Wizard",
+        "description": "The most awesome man to ever set foot in the arena, the Wizard will blow you away with his handsomeness... and/or fireballs.",
+        "arena": 5,
+        "elixirCost": 5,
+        "order": 42,
+        "hitSpeed": 1400,
+        "speed": 60,
+        "deployTime": 1000,
+        "range": 5.5,
+        "target": "Air & Ground",
+        "count": 1,
+        "transport": "Ground",
+        "stats": [{
+                "level": 1,
+                "hitpoints": 340,
+                "areaDamage": 130,
+                "dps": 92
+            },
+            {
+                "level": 2,
+                "hitpoints": 374,
+                "areaDamage": 143,
+                "dps": 102
+            },
+            {
+                "level": 3,
+                "hitpoints": 411,
+                "areaDamage": 157,
+                "dps": 112
+            },
+            {
+                "level": 4,
+                "hitpoints": 452,
+                "areaDamage": 172,
+                "dps": 122
+            },
+            {
+                "level": 5,
+                "hitpoints": 496,
+                "areaDamage": 189,
+                "dps": 135
+            },
+            {
+                "level": 6,
+                "hitpoints": 544,
+                "areaDamage": 208,
+                "dps": 148
+            },
+            {
+                "level": 7,
+                "hitpoints": 598,
+                "areaDamage": 228,
+                "dps": 162
+            },
+            {
+                "level": 8,
+                "hitpoints": 656,
+                "areaDamage": 250,
+                "dps": 178
+            },
+            {
+                "level": 9,
+                "hitpoints": 720,
+                "areaDamage": 275,
+                "dps": 196
+            },
+            {
+                "level": 10,
+                "hitpoints": 792,
+                "areaDamage": 302,
+                "dps": 215
+            },
+            {
+                "level": 11,
+                "hitpoints": 870,
+                "areaDamage": 332,
+                "dps": 237
+            }
+        ]
+    },
+    {
+        "idName": "poison",
+        "rarity": "Epic",
+        "type": "Spell",
+        "name": "Poison",
+        "description": "Covers the area in a sticky toxin, damaging enemy troops and buildings over time. Yet somehow leaves the grass green and healthy. Go figure!",
+        "arena": 5,
+        "elixirCost": 4,
+        "order": 43,
+        "radius": 3.5,
+        "target": "Air & Ground",
+        "duration": 8000,
+        "stats": [{
+                "level": 1,
+                "dps": 57,
+                "crownTowerDamage": 23
+            },
+            {
+                "level": 2,
+                "dps": 62,
+                "crownTowerDamage": 25
+            },
+            {
+                "level": 3,
+                "dps": 68,
+                "crownTowerDamage": 28
+            },
+            {
+                "level": 4,
+                "dps": 75,
+                "crownTowerDamage": 30
+            },
+            {
+                "level": 5,
+                "dps": 83,
+                "crownTowerDamage": 34
+            },
+            {
+                "level": 6,
+                "dps": 91,
+                "crownTowerDamage": 37
+            },
+            {
+                "level": 7,
+                "dps": 100,
+                "crownTowerDamage": 40
+            },
+            {
+                "level": 8,
+                "dps": 110,
+                "crownTowerDamage": 44
+            }
+        ]
+    },
+    {
+        "idName": "mirror",
+        "rarity": "Epic",
+        "type": "Spell",
+        "name": "Mirror",
+        "description": "Mirrors your last card played for +1 Elixir",
+        "arena": 5,
+        "elixirCost": 1,
+        "order": 44,
+        "stats": [{
+                "level": 1,
+                "commonMirroredLevel": 7,
+                "rareMirroredLevel": 5,
+                "epicMirroredLevel": 2,
+                "legendaryMirroredLevel": 1
+            },
+            {
+                "level": 2,
+                "commonMirroredLevel": 8,
+                "rareMirroredLevel": 6,
+                "epicMirroredLevel": 3,
+                "legendaryMirroredLevel": 1
+            },
+            {
+                "level": 3,
+                "commonMirroredLevel": 9,
+                "rareMirroredLevel": 7,
+                "epicMirroredLevel": 4,
+                "legendaryMirroredLevel": 1
+            },
+            {
+                "level": 4,
+                "commonMirroredLevel": 10,
+                "rareMirroredLevel": 8,
+                "epicMirroredLevel": 5,
+                "legendaryMirroredLevel": 2
+            },
+            {
+                "level": 5,
+                "commonMirroredLevel": 11,
+                "rareMirroredLevel": 9,
+                "epicMirroredLevel": 6,
+                "legendaryMirroredLevel": 3
+            },
+            {
+                "level": 6,
+                "commonMirroredLevel": 12,
+                "rareMirroredLevel": 10,
+                "epicMirroredLevel": 7,
+                "legendaryMirroredLevel": 4
+            },
+            {
+                "level": 7,
+                "commonMirroredLevel": 13,
+                "rareMirroredLevel": 11,
+                "epicMirroredLevel": 8,
+                "legendaryMirroredLevel": 5
+            },
+            {
+                "level": 8,
+                "commonMirroredLevel": 14,
+                "rareMirroredLevel": 12,
+                "epicMirroredLevel": 9,
+                "legendaryMirroredLevel": 6
+            }
+        ]
+    },
+    {
+        "idName": "graveyard",
+        "rarity": "Legendary",
+        "type": "Spell",
+        "name": "Graveyard",
+        "description": "Surprise! It's a party. A Skeleton party, anywhere in the Arena. Yay!",
+        "arena": 5,
+        "elixirCost": 5,
+        "order": 45,
+        "radius": 5,
+        "deployTime": 1500,
+        "duration": 10000,
+        "spawnSpeed": 500,
+        "count": 17,
+        "target": "Ground",
+        "stats": [{
+                "level": 1,
+                "skeletonLevel": 9
+            },
+            {
+                "level": 2,
+                "skeletonLevel": 10
+            },
+            {
+                "level": 3,
+                "skeletonLevel": 11
+            },
+            {
+                "level": 4,
+                "skeletonLevel": 12
+            },
+            {
+                "level": 5,
+                "skeletonLevel": 13
+            }
+        ]
+    },
+    {
+        "idName": "ice-wizard",
+        "rarity": "Legendary",
+        "type": "Troop",
+        "name": "Ice Wizard",
+        "description": "This chill caster throws ice shards that slow down enemies' movement and attack speed. Despite being freezing cold, he has a handlebar mustache that's too hot for TV.",
+        "arena": 5,
+        "elixirCost": 3,
+        "order": 46,
+        "hitSpeed": 1500,
+        "speed": 60,
+        "deployTime": 1000,
+        "range": 5.5,
+        "target": "Air & Ground",
+        "count": 1,
+        "transport": "Ground",
+        "stats": [{
+                "level": 1,
+                "hitpoints": 665,
+                "areaDamage": 63,
+                "dps": 42
+            },
+            {
+                "level": 2,
+                "hitpoints": 731,
+                "areaDamage": 69,
+                "dps": 46
+            },
+            {
+                "level": 3,
+                "hitpoints": 804,
+                "areaDamage": 76,
+                "dps": 50
+            },
+            {
+                "level": 4,
+                "hitpoints": 884,
+                "areaDamage": 83,
+                "dps": 55
+            },
+            {
+                "level": 5,
+                "hitpoints": 970,
+                "areaDamage": 91,
+                "dps": 60
+            }
+        ]
+    },
+    {
+        "idName": "mortar",
+        "rarity": "Common",
+        "type": "Building",
+        "name": "Mortar",
+        "description": "Defensive building with a long range. Shoots exploding boulders that deal area damage. Cannot shoot at targets that get very close!",
+        "arena": 6,
+        "elixirCost": 4,
+        "order": 47,
+        "hitSpeed": 5000,
+        "deployTime": 4000,
+        "lifetime": 30000,
+        "range": 311,
+        "target": "Ground",
+        "stats": [{
+                "level": 1,
+                "hitpoints": 600,
+                "areaDamage": 108,
+                "dps": 21
+            },
+            {
+                "level": 2,
+                "hitpoints": 660,
+                "areaDamage": 119,
+                "dps": 23
+            },
+            {
+                "level": 3,
+                "hitpoints": 726,
+                "areaDamage": 131,
+                "dps": 26
+            },
+            {
+                "level": 4,
+                "hitpoints": 798,
+                "areaDamage": 145,
+                "dps": 29
+            },
+            {
+                "level": 5,
+                "hitpoints": 876,
+                "areaDamage": 158,
+                "dps": 31
+            },
+            {
+                "level": 6,
+                "hitpoints": 960,
+                "areaDamage": 173,
+                "dps": 34
+            },
+            {
+                "level": 7,
+                "hitpoints": 1056,
+                "areaDamage": 190,
+                "dps": 38
+            },
+            {
+                "level": 8,
+                "hitpoints": 1158,
+                "areaDamage": 208,
+                "dps": 41
+            },
+            {
+                "level": 9,
+                "hitpoints": 1272,
+                "areaDamage": 228,
+                "dps": 45
+            },
+            {
+                "level": 10,
+                "hitpoints": 1398,
+                "areaDamage": 251,
+                "dps": 50
+            },
+            {
+                "level": 11,
+                "hitpoints": 1536,
+                "areaDamage": 276,
+                "dps": 55
+            },
+            {
+                "level": 12,
+                "hitpoints": 1686,
+                "areaDamage": 303,
+                "dps": 60
+            },
+            {
+                "level": 13,
+                "hitpoints": 1854,
+                "areaDamage": 333,
+                "dps": 66
+            }
+        ]
+    },
+    {
+        "idName": "elixir-collector",
+        "rarity": "Rare",
+        "type": "Building",
+        "name": "Elixir Collector",
+        "description": "You gotta spend Elixir to make Elixir.",
+        "arena": 6,
+        "elixirCost": 6,
+        "order": 48,
+        "productionSpeed": 8500,
+        "deployTime": 1000,
+        "lifetime": 110000,
+        "stats": [{
+                "level": 1,
+                "hitpoints": 580
+            },
+            {
+                "level": 2,
+                "hitpoints": 638
+            },
+            {
+                "level": 3,
+                "hitpoints": 701
+            },
+            {
+                "level": 4,
+                "hitpoints": 771
+            },
+            {
+                "level": 5,
+                "hitpoints": 846
+            },
+            {
+                "level": 6,
+                "hitpoints": 928
+            },
+            {
+                "level": 7,
+                "hitpoints": 1020
+            },
+            {
+                "level": 8,
+                "hitpoints": 1119
+            },
+            {
+                "level": 9,
+                "hitpoints": 1229
+            },
+            {
+                "level": 10,
+                "hitpoints": 1351
+            },
+            {
+                "level": 11,
+                "hitpoints": 1484
+            }
+        ]
+    },
+    {
+        "idName": "battle-ram",
+        "rarity": "Rare",
+        "type": "Troop",
+        "name": "Battle Ram",
+        "description": "Two Barbarians holding a log charge at the nearest building, dealing significant damage if they connect; then they go to town with their swords!",
+        "arena": 6,
+        "elixirCost": 4,
+        "order": 49,
+        "speed": 60,
+        "deployTime": 1000,
+        "range": 0,
+        "target": "Buildings",
+        "count": 1,
+        "transport": "Ground",
+        "stats": [{
+                "level": 1,
+                "hitpoints": 430,
+                "damage": 140,
+                "chargeDamage": 280,
+                "barbarianLevel": 3
+            },
+            {
+                "level": 2,
+                "hitpoints": 473,
+                "damage": 154,
+                "chargeDamage": 308,
+                "barbarianLevel": 4
+            },
+            {
+                "level": 3,
+                "hitpoints": 520,
+                "damage": 169,
+                "chargeDamage": 338,
+                "barbarianLevel": 5
+            },
+            {
+                "level": 4,
+                "hitpoints": 571,
+                "damage": 186,
+                "chargeDamage": 372,
+                "barbarianLevel": 6
+            },
+            {
+                "level": 5,
+                "hitpoints": 627,
+                "damage": 204,
+                "chargeDamage": 408,
+                "barbarianLevel": 7
+            },
+            {
+                "level": 6,
+                "hitpoints": 688,
+                "damage": 224,
+                "chargeDamage": 448,
+                "barbarianLevel": 8
+            },
+            {
+                "level": 7,
+                "hitpoints": 756,
+                "damage": 246,
+                "chargeDamage": 492,
+                "barbarianLevel": 9
+            },
+            {
+                "level": 8,
+                "hitpoints": 829,
+                "damage": 270,
+                "chargeDamage": 540,
+                "barbarianLevel": 10
+            },
+            {
+                "level": 9,
+                "hitpoints": 911,
+                "damage": 296,
+                "chargeDamage": 592,
+                "barbarianLevel": 11
+            },
+            {
+                "level": 10,
+                "hitpoints": 1001,
+                "damage": 326,
+                "chargeDamage": 652,
+                "barbarianLevel": 12
+            },
+            {
+                "level": 11,
+                "hitpoints": 1100,
+                "damage": 358,
+                "chargeDamage": 716,
+                "barbarianLevel": 13
+            }
+        ]
+    },
+    {
+        "idName": "tornado",
+        "rarity": "Epic",
+        "type": "Spell",
+        "name": "Tornado",
+        "description": "Drags enemy troops to its center while dealing damage over time, just like a magnet. A big, swirling, Tornado-y magnet. Doesn't affect buildings.",
+        "arena": 6,
+        "elixirCost": 3,
+        "order": 50,
+        "radius": 5.5,
+        "duration": 3000,
+        "target": "Troops",
+        "stats": [{
+                "level": 1,
+                "dps": 44
+            },
+            {
+                "level": 2,
+                "dps": 48
+            },
+            {
+                "level": 3,
+                "dps": 53
+            },
+            {
+                "level": 4,
+                "dps": 58
+            },
+            {
+                "level": 5,
+                "dps": 64
+            },
+            {
+                "level": 6,
+                "dps": 70
+            },
+            {
+                "level": 7,
+                "dps": 77
+            },
+            {
+                "level": 8,
+                "dps": 84
+            }
+        ]
+    },
+    {
+        "idName": "golem",
+        "rarity": "Epic",
+        "type": "Troop",
+        "name": "Golem",
+        "description": "Slow but durable, only attacks buildings. When destroyed, explosively splits into two Golemites and deals area damage!",
+        "arena": 6,
+        "elixirCost": 8,
+        "order": 51,
+        "hitSpeed": 2500,
+        "speed": 45,
+        "deployTime": 3000,
+        "range": 0,
+        "target": "Buildings",
+        "count": 1,
+        "transport": "Ground",
+        "stats": [{
+                "level": 1,
+                "golemHitpoints": 3200,
+                "golemDamage": 195,
+                "golemDps": 78,
+                "golemDeathDamage": 195,
+                "golemiteHitpoints": 650,
+                "golemiteDamage": 40,
+                "golemiteDps": 16,
+                "golemiteDeathDamage": 40
+            },
+            {
+                "level": 2,
+                "golemHitpoints": 3520,
+                "golemDamage": 214,
+                "golemDps": 85,
+                "golemDeathDamage": 214,
+                "golemiteHitpoints": 715,
+                "golemiteDamage": 44,
+                "golemiteDps": 17,
+                "golemiteDeathDamage": 44
+            },
+            {
+                "level": 3,
+                "golemHitpoints": 3872,
+                "golemDamage": 235,
+                "golemDps": 94,
+                "golemDeathDamage": 235,
+                "golemiteHitpoints": 786,
+                "golemiteDamage": 48,
+                "golemiteDps": 19,
+                "golemiteDeathDamage": 48
+            },
+            {
+                "level": 4,
+                "golemHitpoints": 4256,
+                "golemDamage": 259,
+                "golemDps": 103,
+                "golemDeathDamage": 259,
+                "golemiteHitpoints": 864,
+                "golemiteDamage": 53,
+                "golemiteDps": 21,
+                "golemiteDeathDamage": 53
+            },
+            {
+                "level": 5,
+                "golemHitpoints": 4672,
+                "golemDamage": 284,
+                "golemDps": 113,
+                "golemDeathDamage": 284,
+                "golemiteHitpoints": 949,
+                "golemiteDamage": 58,
+                "golemiteDps": 23,
+                "golemiteDeathDamage": 58
+            },
+            {
+                "level": 6,
+                "golemHitpoints": 5120,
+                "golemDamage": 312,
+                "golemDps": 124,
+                "golemDeathDamage": 312,
+                "golemiteHitpoints": 1040,
+                "golemiteDamage": 64,
+                "golemiteDps": 25,
+                "golemiteDeathDamage": 64
+            },
+            {
+                "level": 7,
+                "golemHitpoints": 5632,
+                "golemDamage": 343,
+                "golemDps": 137,
+                "golemDeathDamage": 343,
+                "golemiteHitpoints": 1144,
+                "golemiteDamage": 70,
+                "golemiteDps": 28,
+                "golemiteDeathDamage": 70
+            },
+            {
+                "level": 8,
+                "golemHitpoints": 6176,
+                "golemDamage": 376,
+                "golemDps": 150,
+                "golemDeathDamage": 376,
+                "golemiteHitpoints": 1254,
+                "golemiteDamage": 77,
+                "golemiteDps": 30,
+                "golemiteDeathDamage": 77
+            }
+        ]
+    },
+    {
+        "idName": "the-log",
+        "rarity": "Legendary",
+        "type": "Spell",
+        "name": "The Log",
+        "description": "A spilt bottle of Rage turned an innocent tree trunk into \"The Log\". Now it seeks revenge by crushing anything in its path!",
+        "elixirCost": 2,
+        "arena": 6,
+        "order": 52,
+        "target": "Ground",
+        "width": "3.9",
+        "range": 11.6,
+        "stats": [{
+                "level": 1,
+                "areaDamage": 240,
+                "crownTowerDamage": 96
+            },
+            {
+                "level": 2,
+                "areaDamage": 264,
+                "crownTowerDamage": 106
+            },
+            {
+                "level": 3,
+                "areaDamage": 290,
+                "crownTowerDamage": 116
+            },
+            {
+                "level": 4,
+                "areaDamage": 319,
+                "crownTowerDamage": 128
+            },
+            {
+                "level": 5,
+                "areaDamage": 350,
+                "crownTowerDamage": 140
+            }
+        ]
+    },
+    {
+        "idName": "sparky",
+        "rarity": "Legendary",
+        "type": "Troop",
+        "name": "Sparky",
+        "description": "Sparky slowly charges up, then unloads MASSIVE area damage. Overkill isn't in her vocabulary.",
+        "arena": 6,
+        "elixirCost": 6,
+        "order": 53,
+        "hitSpeed": 5000,
+        "speed": 45,
+        "deployTime": 1000,
+        "range": 4.5,
+        "target": "Ground",
+        "count": 1,
+        "transport": "Ground",
+        "stats": [{
+                "level": 1,
+                "hitpoints": 1200,
+                "areaDamage": 1300,
+                "dps": 260
+            },
+            {
+                "level": 2,
+                "hitpoints": 1320,
+                "areaDamage": 1430,
+                "dps": 286
+            },
+            {
+                "level": 3,
+                "hitpoints": 1452,
+                "areaDamage": 1573,
+                "dps": 314
+            },
+            {
+                "level": 4,
+                "hitpoints": 1596,
+                "areaDamage": 1729,
+                "dps": 345
+            },
+            {
+                "level": 5,
+                "hitpoints": 1752,
+                "areaDamage": 1898,
+                "dps": 379
+            }
+        ]
+    },
+    {
+        "idName": "miner",
+        "rarity": "Legendary",
+        "type": "Troop",
+        "name": "Miner",
+        "description": "The Miner can burrow his way underground and appear anywhere in the Arena. It's not magic, it's a shovel.",
+        "arena": 6,
+        "elixirCost": 3,
+        "order": 54,
+        "hitSpeed": 1200,
+        "speed": 90,
+        "deployTime": 1000,
+        "range": 0,
+        "target": "Ground",
+        "count": 1,
+        "transport": "Ground",
+        "stats": [{
+                "level": 1,
+                "hitpoints": 1000,
+                "damage": 160,
+                "dps": 133,
+                "crownTowerDamage": 64
+            },
+            {
+                "level": 2,
+                "hitpoints": 1100,
+                "damage": 176,
+                "dps": 146,
+                "crownTowerDamage": 71
+            },
+            {
+                "level": 3,
+                "hitpoints": 1210,
+                "damage": 193,
+                "dps": 160,
+                "crownTowerDamage": 78
+            },
+            {
+                "level": 4,
+                "hitpoints": 1330,
+                "damage": 212,
+                "dps": 176,
+                "crownTowerDamage": 85
+            },
+            {
+                "level": 5,
+                "hitpoints": 1460,
+                "damage": 233,
+                "dps": 194,
+                "crownTowerDamage": 94
+            }
+        ]
+    },
+    {
+        "idName": "elite-barbarians",
+        "rarity": "Common",
+        "type": "Troop",
+        "name": "Elite Barbarians",
+        "description": "Spawns a pair of leveled up Barbarians. They're like regular Barbarians, only harder, better, faster and stronger.",
+        "arena": 7,
+        "elixirCost": 6,
+        "order": 55,
+        "hitSpeed": 1500,
+        "speed": 120,
+        "deployTime": 1000,
+        "range": 0,
+        "target": "Ground",
+        "count": 2,
+        "transport": "Ground",
+        "stats": [{
+                "level": 1,
+                "hitpoints": 478,
+                "damage": 120,
+                "dps": 80
+            },
+            {
+                "level": 2,
+                "hitpoints": 525,
+                "damage": 132,
+                "dps": 88
+            },
+            {
+                "level": 3,
+                "hitpoints": 578,
+                "damage": 145,
+                "dps": 96
+            },
+            {
+                "level": 4,
+                "hitpoints": 635,
+                "damage": 159,
+                "dps": 106
+            },
+            {
+                "level": 5,
+                "hitpoints": 697,
+                "damage": 175,
+                "dps": 116
+            },
+            {
+                "level": 6,
+                "hitpoints": 764,
+                "damage": 192,
+                "dps": 128
+            },
+            {
+                "level": 7,
+                "hitpoints": 841,
+                "damage": 211,
+                "dps": 140
+            },
+            {
+                "level": 8,
+                "hitpoints": 922,
+                "damage": 231,
+                "dps": 154
+            },
+            {
+                "level": 9,
+                "hitpoints": 1013,
+                "damage": 254,
+                "dps": 169
+            },
+            {
+                "level": 10,
+                "hitpoints": 1113,
+                "damage": 279,
+                "dps": 186
+            },
+            {
+                "level": 11,
+                "hitpoints": 1223,
+                "damage": 307,
+                "dps": 204
+            },
+            {
+                "level": 12,
+                "hitpoints": 1343,
+                "damage": 337,
+                "dps": 224
+            },
+            {
+                "level": 13,
+                "hitpoints": 1477,
+                "damage": 370,
+                "dps": 246
+            }
+        ]
+    },
+    {
+        "idName": "royal-giant",
+        "rarity": "Common",
+        "type": "Troop",
+        "name": "Royal Giant",
+        "description": "Destroying enemy buildings with his massive cannon is his job; making a raggedy blond beard look good is his passion.",
+        "arena": 7,
+        "elixirCost": 6,
+        "order": 56,
+        "hitSpeed": 1700,
+        "speed": 45,
+        "deployTime": 1000,
+        "range": 6.5,
+        "target": "Buildings",
+        "count": 1,
+        "transport": "Ground",
+        "stats": [{
+                "level": 1,
+                "hitpoints": 1200,
+                "damage": 75,
+                "dps": 44
+            },
+            {
+                "level": 2,
+                "hitpoints": 1320,
+                "damage": 85,
+                "dps": 50
+            },
+            {
+                "level": 3,
+                "hitpoints": 1452,
+                "damage": 94,
+                "dps": 55
+            },
+            {
+                "level": 4,
+                "hitpoints": 1596,
+                "damage": 103,
+                "dps": 60
+            },
+            {
+                "level": 5,
+                "hitpoints": 1752,
+                "damage": 109,
+                "dps": 64
+            },
+            {
+                "level": 6,
+                "hitpoints": 1920,
+                "damage": 120,
+                "dps": 70
+            },
+            {
+                "level": 7,
+                "hitpoints": 2112,
+                "damage": 132,
+                "dps": 77
+            },
+            {
+                "level": 8,
+                "hitpoints": 2316,
+                "damage": 144,
+                "dps": 84
+            },
+            {
+                "level": 9,
+                "hitpoints": 2544,
+                "damage": 159,
+                "dps": 93
+            },
+            {
+                "level": 10,
+                "hitpoints": 2796,
+                "damage": 174,
+                "dps": 102
+            },
+            {
+                "level": 11,
+                "hitpoints": 3072,
+                "damage": 192,
+                "dps": 112
+            },
+            {
+                "level": 12,
+                "hitpoints": 3372,
+                "damage": 210,
+                "dps": 123
+            },
+            {
+                "level": 13,
+                "hitpoints": 3708,
+                "damage": 231,
+                "dps": 135
+            }
+        ]
+    },
+    {
+        "idName": "mega-minion",
+        "rarity": "Rare",
+        "type": "Troop",
+        "name": "Mega Minion",
+        "description": "Flying, armored and powerful. What could be its weakness?! Cupcakes.",
+        "elixirCost": 3,
+        "arena": 7,
+        "order": 57,
+        "hitSpeed": 1500,
+        "speed": 60,
+        "deployTime": 1000,
+        "range": 2,
+        "target": "Air & Ground",
+        "count": 1,
+        "transport": "Air",
+        "stats": [{
+                "level": 1,
+                "hitpoints": 395,
+                "damage": "147 [confirmation needed]",
+                "dps": 98
+            },
+            {
+                "level": 2,
+                "hitpoints": 434,
+                "damage": "161 [confirmation needed]",
+                "dps": 107
+            },
+            {
+                "level": 3,
+                "hitpoints": 477,
+                "damage": "177 [confirmation needed]",
+                "dps": 118
+            },
+            {
+                "level": 4,
+                "hitpoints": 525,
+                "damage": "195 [confirmation needed]",
+                "dps": 130
+            },
+            {
+                "level": 5,
+                "hitpoints": 576,
+                "damage": 214,
+                "dps": 142
+            },
+            {
+                "level": 6,
+                "hitpoints": 632,
+                "damage": "235 [confirmation needed]",
+                "dps": 156
+            },
+            {
+                "level": 7,
+                "hitpoints": 695,
+                "damage": "258 [confirmation needed]",
+                "dps": 172
+            },
+            {
+                "level": 8,
+                "hitpoints": 762,
+                "damage": "283 [confirmation needed]",
+                "dps": 188
+            },
+            {
+                "level": 9,
+                "hitpoints": 837,
+                "damage": "311 [confirmation needed]",
+                "dps": 207
+            },
+            {
+                "level": 10,
+                "hitpoints": 920,
+                "damage": "342 [confirmation needed]",
+                "dps": 228
+            },
+            {
+                "level": 11,
+                "hitpoints": 1011,
+                "damage": "376 [confirmation needed]",
+                "dps": 250
+            }
+        ]
+    },
+    {
+        "idName": "three-musketeers",
+        "rarity": "Rare",
+        "type": "Troop",
+        "name": "Three Musketeers",
+        "description": "Trio of powerful, independent markswomen, fighting for justice and honor. Disrespecting them would not be just a mistake, it would be a cardinal sin!",
+        "arena": 7,
+        "elixirCost": 9,
+        "order": 58,
+        "hitSpeed": 1100,
+        "speed": 60,
+        "deployTime": 1000,
+        "range": 6,
+        "target": "Air & Ground",
+        "count": 3,
+        "transport": "Ground",
+        "stats": [{
+                "level": 1,
+                "hitpoints": 340,
+                "damage": 100,
+                "dps": 90
+            },
+            {
+                "level": 2,
+                "hitpoints": 374,
+                "damage": 110,
+                "dps": 100
+            },
+            {
+                "level": 3,
+                "hitpoints": 411,
+                "damage": 121,
+                "dps": 110
+            },
+            {
+                "level": 4,
+                "hitpoints": 452,
+                "damage": 133,
+                "dps": 120
+            },
+            {
+                "level": 5,
+                "hitpoints": 496,
+                "damage": 146,
+                "dps": 132
+            },
+            {
+                "level": 6,
+                "hitpoints": 544,
+                "damage": 160,
+                "dps": 145
+            },
+            {
+                "level": 7,
+                "hitpoints": 598,
+                "damage": 176,
+                "dps": 160
+            },
+            {
+                "level": 8,
+                "hitpoints": 656,
+                "damage": 193,
+                "dps": 175
+            },
+            {
+                "level": 9,
+                "hitpoints": 720,
+                "damage": 212,
+                "dps": 192
+            },
+            {
+                "level": 10,
+                "hitpoints": 792,
+                "damage": 233,
+                "dps": 211
+            },
+            {
+                "level": 11,
+                "hitpoints": 870,
+                "damage": 256,
+                "dps": 232
+            }
+        ]
+    },
+    {
+        "idName": "dark-prince",
+        "rarity": "Epic",
+        "type": "Troop",
+        "name": "Dark Prince",
+        "description": "The Dark Prince deals area damage and lets his spiked club do the talking for him - because when he does talk, it sounds like he has a bucket on his head.",
+        "arena": 7,
+        "elixirCost": 4,
+        "order": 59,
+        "hitSpeed": 1500,
+        "speed": 60,
+        "deployTime": 1000,
+        "range": 0,
+        "target": "Ground",
+        "count": 1,
+        "transport": "Ground",
+        "stats": [{
+                "level": 1,
+                "hitpoints": "735 [confirmation needed]",
+                "shieldHitpoints": 200,
+                "areaDamage": 145,
+                "chargeDamage": 290,
+                "dps": 96
+            },
+            {
+                "level": 2,
+                "hitpoints": "808 [confirmation needed]",
+                "shieldHitpoints": 220,
+                "areaDamage": 159,
+                "chargeDamage": 319,
+                "dps": 106
+            },
+            {
+                "level": 3,
+                "hitpoints": "889 [confirmation needed]",
+                "shieldHitpoints": 242,
+                "areaDamage": 175,
+                "chargeDamage": 350,
+                "dps": 116
+            },
+            {
+                "level": 4,
+                "hitpoints": "977 [confirmation needed]",
+                "shieldHitpoints": 266,
+                "areaDamage": 192,
+                "chargeDamage": 385,
+                "dps": 128
+            },
+            {
+                "level": 5,
+                "hitpoints": "1073 [confirmation needed]",
+                "shieldHitpoints": 292,
+                "areaDamage": 211,
+                "chargeDamage": 423,
+                "dps": 140
+            },
+            {
+                "level": 6,
+                "hitpoints": "1176 [confirmation needed]",
+                "shieldHitpoints": 320,
+                "areaDamage": 232,
+                "chargeDamage": 464,
+                "dps": 154
+            },
+            {
+                "level": 7,
+                "hitpoints": "1293 [confirmation needed]",
+                "shieldHitpoints": 352,
+                "areaDamage": 255,
+                "chargeDamage": 510,
+                "dps": 170
+            },
+            {
+                "level": 8,
+                "hitpoints": "1418 [confirmation needed]",
+                "shieldHitpoints": 386,
+                "areaDamage": 279,
+                "chargeDamage": 559,
+                "dps": 186
+            }
+        ]
+    },
+    {
+        "idName": "guards",
+        "rarity": "Epic",
+        "type": "Troop",
+        "name": "Guards",
+        "description": "Three ruthless bone brothers with shields. Knock off their shields and all that's left are three ruthless bone brothers.",
+        "arena": 7,
+        "elixirCost": 3,
+        "order": 60,
+        "hitSpeed": 1200,
+        "speed": 90,
+        "deployTime": 1000,
+        "range": 0,
+        "target": "Ground",
+        "count": 3,
+        "transport": "Ground",
+        "stats": [{
+                "level": 1,
+                "hitpoints": 65,
+                "shieldHitpoints": 150,
+                "damage": 65,
+                "dps": 54
+            },
+            {
+                "level": 2,
+                "hitpoints": 71,
+                "shieldHitpoints": 165,
+                "damage": 71,
+                "dps": 59
+            },
+            {
+                "level": 3,
+                "hitpoints": 78,
+                "shieldHitpoints": 181,
+                "damage": 78,
+                "dps": 65
+            },
+            {
+                "level": 4,
+                "hitpoints": 86,
+                "shieldHitpoints": 199,
+                "damage": 86,
+                "dps": 71
+            },
+            {
+                "level": 5,
+                "hitpoints": 94,
+                "shieldHitpoints": 219,
+                "damage": 94,
+                "dps": 78
+            },
+            {
+                "level": 6,
+                "hitpoints": 104,
+                "shieldHitpoints": 240,
+                "damage": 104,
+                "dps": 86
+            },
+            {
+                "level": 7,
+                "hitpoints": 114,
+                "shieldHitpoints": 264,
+                "damage": 114,
+                "dps": 95
+            },
+            {
+                "level": 8,
+                "hitpoints": 125,
+                "shieldHitpoints": 289,
+                "damage": 125,
+                "dps": 104
+            }
+        ]
+    },
+    {
+        "idName": "electro-wizard",
+        "rarity": "Legendary",
+        "type": "Troop",
+        "name": "Electro Wizard",
+        "description": "He lands with a \"POW!\", stuns nearby enemies and shoots lightning with both hands! What a show off.",
+        "arena": 7,
+        "elixirCost": 4,
+        "order": 61,
+        "hitSpeed": 1700,
+        "stunDuration": 500,
+        "speed": 90,
+        "deployTime": 1000,
+        "range": 5,
+        "target": "Air & Ground",
+        "count": 1,
+        "transport": "Ground",
+        "stats": [{
+                "level": 1,
+                "hitpoints": 600,
+                "damage": 200,
+                "spawnDamage": 159,
+                "dps": 117
+            },
+            {
+                "level": 2,
+                "hitpoints": 660,
+                "damage": 220,
+                "spawnDamage": 174,
+                "dps": 129
+            },
+            {
+                "level": 3,
+                "hitpoints": 726,
+                "damage": 242,
+                "spawnDamage": 192,
+                "dps": 142
+            },
+            {
+                "level": 4,
+                "hitpoints": 798,
+                "damage": 266,
+                "spawnDamage": 210,
+                "dps": 156
+            },
+            {
+                "level": 5,
+                "hitpoints": 876,
+                "damage": 292,
+                "spawnDamage": 231,
+                "dps": 171
+            }
+        ]
+    },
+    {
+        "idName": "princess",
+        "rarity": "Legendary",
+        "type": "Troop",
+        "name": "Princess",
+        "description": "This stunning Princess shoots flaming arrows from long range. If you're feeling warm feelings towards her, it's probably because you're on fire.",
+        "arena": 7,
+        "elixirCost": 3,
+        "order": 62,
+        "hitSpeed": 3000,
+        "speed": 60,
+        "deployTime": 1000,
+        "range": 9,
+        "target": "Air & Ground",
+        "count": 1,
+        "transport": "Ground",
+        "stats": [{
+                "level": 1,
+                "hitpoints": 216,
+                "areaDamage": 140,
+                "dps": 46
+            },
+            {
+                "level": 2,
+                "hitpoints": 237,
+                "areaDamage": 154,
+                "dps": 51
+            },
+            {
+                "level": 3,
+                "hitpoints": 261,
+                "areaDamage": 169,
+                "dps": 56
+            },
+            {
+                "level": 4,
+                "hitpoints": 287,
+                "areaDamage": 186,
+                "dps": 62
+            },
+            {
+                "level": 5,
+                "hitpoints": 315,
+                "areaDamage": 204,
+                "dps": 68
+            }
+        ]
+    },
+    {
+        "idName": "bats",
+        "rarity": "Common",
+        "type": "Troop",
+        "name": "Bats",
+        "description": "Five tiny flying creatures with big ears. Having big ears doesn't mean they'll listen when asked to stop attacking you.",
+        "arena": 8,
+        "elixirCost": 2,
+        "order": 63,
+        "hitSpeed": 1000,
+        "speed": 120,
+        "deployTime": 1000,
+        "range": 0,
+        "target": "Air & Ground",
+        "count": 5,
+        "transport": "Air",
+        "stats": [{
+                "level": 1,
+                "hitpoints": 32,
+                "damage": 32,
+                "dps": 32
+            },
+            {
+                "level": 2,
+                "hitpoints": 35,
+                "damage": 35,
+                "dps": 35
+            },
+            {
+                "level": 3,
+                "hitpoints": 38,
+                "damage": 38,
+                "dps": 38
+            },
+            {
+                "level": 4,
+                "hitpoints": 42,
+                "damage": 42,
+                "dps": 42
+            },
+            {
+                "level": 5,
+                "hitpoints": 46,
+                "damage": 46,
+                "dps": 46
+            },
+            {
+                "level": 6,
+                "hitpoints": 51,
+                "damage": 51,
+                "dps": 51
+            },
+            {
+                "level": 7,
+                "hitpoints": 56,
+                "damage": 56,
+                "dps": 56
+            },
+            {
+                "level": 8,
+                "hitpoints": 61,
+                "damage": 61,
+                "dps": 61
+            },
+            {
+                "level": 9,
+                "hitpoints": 67,
+                "damage": 67,
+                "dps": 67
+            },
+            {
+                "level": 10,
+                "hitpoints": 74,
+                "damage": 74,
+                "dps": 74
+            },
+            {
+                "level": 11,
+                "hitpoints": 81,
+                "damage": 81,
+                "dps": 81
+            },
+            {
+                "level": 12,
+                "hitpoints": 89,
+                "damage": 89,
+                "dps": 89
+            },
+            {
+                "level": 13,
+                "hitpoints": 98,
+                "damage": 98,
+                "dps": 98
+            }
+        ]
+    },
+    {
+        "idName": "ice-spirit",
+        "rarity": "Common",
+        "type": "Troop",
+        "name": "Ice Spirit",
+        "description": "Spawns one lively little Ice Spirit to freeze a group of enemies. Stay frosty.",
+        "arena": 8,
+        "elixirCost": 1,
+        "order": 64,
+        "speed": 120,
+        "deployTime": 1000,
+        "range": 2.5,
+        "target": "Air & Ground",
+        "freezeDuration": 1500,
+        "transport": "Ground",
+        "stats": [{
+                "level": 1,
+                "hitpoints": 90,
+                "areaDamage": 45
+            },
+            {
+                "level": 2,
+                "hitpoints": 99,
+                "areaDamage": 49
+            },
+            {
+                "level": 3,
+                "hitpoints": 108,
+                "areaDamage": 54
+            },
+            {
+                "level": 4,
+                "hitpoints": 119,
+                "areaDamage": 59
+            },
+            {
+                "level": 5,
+                "hitpoints": 131,
+                "areaDamage": 65
+            },
+            {
+                "level": 6,
+                "hitpoints": 144,
+                "areaDamage": 72
+            },
+            {
+                "level": 7,
+                "hitpoints": 158,
+                "areaDamage": 79
+            },
+            {
+                "level": 8,
+                "hitpoints": 173,
+                "areaDamage": 86
+            },
+            {
+                "level": 9,
+                "hitpoints": 190,
+                "areaDamage": 95
+            },
+            {
+                "level": 10,
+                "hitpoints": 209,
+                "areaDamage": 104
+            },
+            {
+                "level": 11,
+                "hitpoints": 230,
+                "areaDamage": 115
+            },
+            {
+                "level": 12,
+                "hitpoints": 252,
+                "areaDamage": 126
+            },
+            {
+                "level": 13,
+                "hitpoints": 278,
+                "areaDamage": 139
+            }
+        ]
+    },
+    {
+        "idName": "ice-golem",
+        "rarity": "Rare",
+        "type": "Troop",
+        "name": "Ice Golem",
+        "description": "He's though, targets buildings and explodes when destroyed, slowing nearby enemies. Made entirely out of ice... or is he?! Yes.",
+        "arena": 8,
+        "elixirCost": 2,
+        "order": 65,
+        "hitSpeed": 2500,
+        "speed": 45,
+        "deployTime": 1000,
+        "range": 0,
+        "target": "Buildings",
+        "count": 1,
+        "transport": "Ground",
+        "stats": [{
+                "level": 1,
+                "hitpoints": 595,
+                "damage": 40,
+                "dps": 16,
+                "deathDamage": 40
+            },
+            {
+                "level": 2,
+                "hitpoints": 654,
+                "damage": 44,
+                "dps": 17,
+                "deathDamage": 44
+            },
+            {
+                "level": 3,
+                "hitpoints": 719,
+                "damage": 48,
+                "dps": 19,
+                "deathDamage": 48
+            },
+            {
+                "level": 4,
+                "hitpoints": 790,
+                "damage": 53,
+                "dps": 21,
+                "deathDamage": 53
+            },
+            {
+                "level": 5,
+                "hitpoints": 868,
+                "damage": 58,
+                "dps": 23,
+                "deathDamage": 58
+            },
+            {
+                "level": 6,
+                "hitpoints": 952,
+                "damage": 64,
+                "dps": 25,
+                "deathDamage": 64
+            },
+            {
+                "level": 7,
+                "hitpoints": 1047,
+                "damage": 70,
+                "dps": 28,
+                "deathDamage": 70
+            },
+            {
+                "level": 8,
+                "hitpoints": 1148,
+                "damage": 77,
+                "dps": 30,
+                "deathDamage": 77
+            },
+            {
+                "level": 9,
+                "hitpoints": 1261,
+                "damage": 84,
+                "dps": 33,
+                "deathDamage": 84
+            },
+            {
+                "level": 10,
+                "hitpoints": 1386,
+                "damage": 93,
+                "dps": 37,
+                "deathDamage": 93
+            },
+            {
+                "level": 11,
+                "hitpoints": 1523,
+                "damage": 102,
+                "dps": 40,
+                "deathDamage": 102
+            }
+        ]
+    },
+    {
+        "idName": "clone",
+        "rarity": "Epic",
+        "type": "Spell",
+        "name": "Clone",
+        "description": "Doubles your troops in the target area. Cloned troops are fragile, but pack the same punch as the original! Doesn't affect buildings.",
+        "arena": 8,
+        "elixirCost": 3,
+        "order": 66,
+        "cloneHitpoints": "1",
+        "cloneShieldHitpoints": "1",
+        "radius": 3,
+        "stats": [{
+                "level": 1,
+                "commonClonedLevel": 6,
+                "rareClonedLevel": 4,
+                "epicClonedLevel": 1,
+                "legendaryClonedLevel": 1
+            },
+            {
+                "level": 2,
+                "commonClonedLevel": 7,
+                "rareClonedLevel": 5,
+                "epicClonedLevel": 2,
+                "legendaryClonedLevel": 1
+            },
+            {
+                "level": 3,
+                "commonClonedLevel": 8,
+                "rareClonedLevel": 6,
+                "epicClonedLevel": 3,
+                "legendaryClonedLevel": 1
+            },
+            {
+                "level": 4,
+                "commonClonedLevel": 9,
+                "rareClonedLevel": 7,
+                "epicClonedLevel": 4,
+                "legendaryClonedLevel": 1
+            },
+            {
+                "level": 5,
+                "commonClonedLevel": 10,
+                "rareClonedLevel": 8,
+                "epicClonedLevel": 5,
+                "legendaryClonedLevel": 2
+            },
+            {
+                "level": 6,
+                "commonClonedLevel": 11,
+                "rareClonedLevel": 9,
+                "epicClonedLevel": 6,
+                "legendaryClonedLevel": 3
+            },
+            {
+                "level": 7,
+                "commonClonedLevel": 12,
+                "rareClonedLevel": 10,
+                "epicClonedLevel": 7,
+                "legendaryClonedLevel": 4
+            },
+            {
+                "level": 8,
+                "commonClonedLevel": 13,
+                "rareClonedLevel": 11,
+                "epicClonedLevel": 8,
+                "legendaryClonedLevel": 5
+            }
+        ]
+    },
+    {
+        "idName": "bowler",
+        "rarity": "Epic",
+        "type": "Troop",
+        "name": "Bowler",
+        "description": "This big blue dude digs the simple things in life - Dark Elixir drinks and throwing rocks. His massive boulders roll through their target, hitting everything behind for a strike!",
+        "arena": 8,
+        "elixirCost": 5,
+        "order": 67,
+        "hitSpeed": 2500,
+        "speed": 45,
+        "deployTime": 1000,
+        "range": 5,
+        "target": "Ground",
+        "count": 1,
+        "transport": "Ground",
+        "stats": [{
+                "level": 1,
+                "hitpoints": 1200,
+                "areaDamage": 180,
+                "dps": 72
+            },
+            {
+                "level": 2,
+                "hitpoints": 1320,
+                "areaDamage": 198,
+                "dps": 79
+            },
+            {
+                "level": 3,
+                "hitpoints": 1452,
+                "areaDamage": 217,
+                "dps": 86
+            },
+            {
+                "level": 4,
+                "hitpoints": 1596,
+                "areaDamage": 239,
+                "dps": 95
+            },
+            {
+                "level": 5,
+                "hitpoints": 1752,
+                "areaDamage": 262,
+                "dps": 104
+            },
+            {
+                "level": 6,
+                "hitpoints": 1920,
+                "areaDamage": 288,
+                "dps": 115
+            },
+            {
+                "level": 7,
+                "hitpoints": 2112,
+                "areaDamage": 316,
+                "dps": 126
+            },
+            {
+                "level": 8,
+                "hitpoints": 2316,
+                "areaDamage": 347,
+                "dps": 138
+            }
+        ]
+    },
+    {
+        "idName": "night-witch",
+        "rarity": "Legendary",
+        "type": "Troop",
+        "name": "Night Witch",
+        "description": "Summons Bats to do her bidding, even after death! And if you get too close, she isn't afraid of pitching in with her mean-looking battle staff.",
+        "arena": 8,
+        "elixirCost": 4,
+        "order": 68,
+        "hitSpeed": 1500,
+        "speed": 60,
+        "deployTime": 1000,
+        "spawnSpeed": 5000,
+        "range": 0,
+        "target": "Ground",
+        "count": 1,
+        "transport": "Ground",
+        "stats": [{
+                "level": 1,
+                "hitpoints": 750,
+                "damage": 285,
+                "dps": 190,
+                "batLevel": 9
+            },
+            {
+                "level": 2,
+                "hitpoints": 825,
+                "damage": 313,
+                "dps": 208,
+                "batLevel": 10
+            },
+            {
+                "level": 3,
+                "hitpoints": 907,
+                "damage": 344,
+                "dps": 229,
+                "batLevel": 11
+            },
+            {
+                "level": 4,
+                "hitpoints": 997,
+                "damage": 379,
+                "dps": 252,
+                "batLevel": 12
+            },
+            {
+                "level": 5,
+                "hitpoints": 1095,
+                "damage": 416,
+                "dps": 277,
+                "batLevel": 13
+            }
+        ]
+    },
+    {
+        "idName": "lumberjack",
+        "rarity": "Legendary",
+        "type": "Troop",
+        "name": "Lumberjack",
+        "description": "He chops trees by day and hunts The Log by night. His bottle of Rage spills everywhere when he dies.",
+        "arena": 8,
+        "elixirCost": 4,
+        "order": 69,
+        "hitSpeed": 700,
+        "speed": 120,
+        "deployTime": 1000,
+        "range": 0,
+        "target": "Ground",
+        "rageEffect": "+35%",
+        "transport": "Ground",
+        "stats": [{
+                "level": 1,
+                "hitpoints": 950,
+                "damage": 200,
+                "dps": 285,
+                "rageLevel": 4
+            },
+            {
+                "level": 2,
+                "hitpoints": 1045,
+                "damage": 220,
+                "dps": 314,
+                "rageLevel": 5
+            },
+            {
+                "level": 3,
+                "hitpoints": 1149,
+                "damage": 242,
+                "dps": 345,
+                "rageLevel": 6
+            },
+            {
+                "level": 4,
+                "hitpoints": 1263,
+                "damage": 266,
+                "dps": 380,
+                "rageLevel": 7
+            },
+            {
+                "level": 5,
+                "hitpoints": 1387,
+                "damage": 290,
+                "dps": 414,
+                "rageLevel": 8
+            }
+        ]
+    },
+    {
+        "idName": "goblin-gang",
+        "rarity": "Common",
+        "type": "Troop",
+        "name": "Goblin Gang",
+        "description": "Spawns six Goblins - three with knives, three with spears - at a discounted Elixir cost. It's like a Goblin Value Pack!",
+        "arena": 9,
+        "elixirCost": 3,
+        "order": 70,
+        "hitSpeed": "1100/1300",
+        "speed": 120,
+        "deployTime": 1000,
+        "range": "0/5",
+        "target": "Ground/Air & Ground",
+        "count": "3/3",
+        "transport": "Ground",
+        "stats": [{
+                "level": 1,
+                "goblinHitpoints": 80,
+                "goblinDamage": 50,
+                "goblinDps": 45,
+                "spearGoblinHitpoints": 52,
+                "spearGoblinDamage": 24,
+                "spearGoblinDps": 18
+            },
+            {
+                "level": 2,
+                "goblinHitpoints": 88,
+                "goblinDamage": 55,
+                "goblinDps": 50,
+                "spearGoblinHitpoints": 57,
+                "spearGoblinDamage": 26,
+                "spearGoblinDps": 20
+            },
+            {
+                "level": 3,
+                "goblinHitpoints": 96,
+                "goblinDamage": 60,
+                "goblinDps": 54,
+                "spearGoblinHitpoints": 62,
+                "spearGoblinDamage": 29,
+                "spearGoblinDps": 22
+            },
+            {
+                "level": 4,
+                "goblinHitpoints": 106,
+                "goblinDamage": 66,
+                "goblinDps": 60,
+                "spearGoblinHitpoints": 69,
+                "spearGoblinDamage": 31,
+                "spearGoblinDps": 23
+            },
+            {
+                "level": 5,
+                "goblinHitpoints": 116,
+                "goblinDamage": 73,
+                "goblinDps": 66,
+                "spearGoblinHitpoints": 75,
+                "spearGoblinDamage": 35,
+                "spearGoblinDps": 26
+            },
+            {
+                "level": 6,
+                "goblinHitpoints": 128,
+                "goblinDamage": 80,
+                "goblinDps": 72,
+                "spearGoblinHitpoints": 83,
+                "spearGoblinDamage": 38,
+                "spearGoblinDps": 29
+            },
+            {
+                "level": 7,
+                "goblinHitpoints": 140,
+                "goblinDamage": 88,
+                "goblinDps": 80,
+                "spearGoblinHitpoints": 91,
+                "spearGoblinDamage": 42,
+                "spearGoblinDps": 32
+            },
+            {
+                "level": 8,
+                "goblinHitpoints": 154,
+                "goblinDamage": 96,
+                "goblinDps": 87,
+                "spearGoblinHitpoints": 100,
+                "spearGoblinDamage": 46,
+                "spearGoblinDps": 35
+            },
+            {
+                "level": 9,
+                "goblinHitpoints": 169,
+                "goblinDamage": 106,
+                "goblinDps": 96,
+                "spearGoblinHitpoints": 110,
+                "spearGoblinDamage": 50,
+                "spearGoblinDps": 38
+            },
+            {
+                "level": 10,
+                "goblinHitpoints": 186,
+                "goblinDamage": 116,
+                "goblinDps": 105,
+                "spearGoblinHitpoints": 121,
+                "spearGoblinDamage": 55,
+                "spearGoblinDps": 42
+            },
+            {
+                "level": 11,
+                "goblinHitpoints": 204,
+                "goblinDamage": 128,
+                "goblinDps": 116,
+                "spearGoblinHitpoints": 133,
+                "spearGoblinDamage": 61,
+                "spearGoblinDps": 46
+            },
+            {
+                "level": 12,
+                "goblinHitpoints": 224,
+                "goblinDamage": 140,
+                "goblinDps": 127,
+                "spearGoblinHitpoints": 146,
+                "spearGoblinDamage": 67,
+                "spearGoblinDps": 51
+            },
+            {
+                "level": 13,
+                "goblinHitpoints": 247,
+                "goblinDamage": 154,
+                "goblinDps": 140,
+                "spearGoblinHitpoints": 160,
+                "spearGoblinDamage": 74,
+                "spearGoblinDps": 56
+            }
+        ]
+    },
+    {
+        "idName": "dart-goblin",
+        "rarity": "Rare",
+        "type": "Troop",
+        "name": "Dart Goblin",
+        "description": "Runs fast, shoots far and chews gum. How does he blow darts with a mouth full of gum? Years of didgeridoo lessons.",
+        "arena": 9,
+        "elixirCost": 3,
+        "order": 71,
+        "hitSpeed": 650,
+        "speed": 120,
+        "deployTime": 1000,
+        "range": 6.5,
+        "target": "Air & Ground",
+        "count": 1,
+        "transport": "Ground",
+        "stats": [{
+                "level": 1,
+                "hitpoints": 123,
+                "damage": 53,
+                "dps": 81
+            },
+            {
+                "level": 2,
+                "hitpoints": 135,
+                "damage": 58,
+                "dps": 89
+            },
+            {
+                "level": 3,
+                "hitpoints": 148,
+                "damage": 64,
+                "dps": 98
+            },
+            {
+                "level": 4,
+                "hitpoints": 163,
+                "damage": 70,
+                "dps": 107
+            },
+            {
+                "level": 5,
+                "hitpoints": 179,
+                "damage": 77,
+                "dps": 118
+            },
+            {
+                "level": 6,
+                "hitpoints": 196,
+                "damage": 84,
+                "dps": 129
+            },
+            {
+                "level": 7,
+                "hitpoints": 216,
+                "damage": 93,
+                "dps": 143
+            },
+            {
+                "level": 8,
+                "hitpoints": 237,
+                "damage": 102,
+                "dps": 156
+            },
+            {
+                "level": 9,
+                "hitpoints": 260,
+                "damage": 112,
+                "dps": 172
+            },
+            {
+                "level": 10,
+                "hitpoints": 286,
+                "damage": 123,
+                "dps": 189
+            },
+            {
+                "level": 11,
+                "hitpoints": 314,
+                "damage": 135,
+                "dps": 207
+            }
+        ]
+    },
+    {
+        "idName": "executioner",
+        "rarity": "Epic",
+        "type": "Troop",
+        "name": "Executioner",
+        "description": "He throws his axe like a boomerang, striking all enemies on the way out AND back. It's a miracle he doesn't lose his arm.",
+        "arena": 9,
+        "elixirCost": 5,
+        "order": 72,
+        "hitSpeed": 2400,
+        "speed": 60,
+        "deployTime": 1000,
+        "range": 4.5,
+        "target": "Air & Ground",
+        "count": 1,
+        "transport": "Ground",
+        "stats": [{
+                "level": 1,
+                "hitpoints": 760,
+                "areaDamage": "100 x2",
+                "dps": "41 x2"
+            },
+            {
+                "level": 2,
+                "hitpoints": 836,
+                "areaDamage": "110 x2",
+                "dps": "45 x2"
+            },
+            {
+                "level": 3,
+                "hitpoints": 919,
+                "areaDamage": "121 x2",
+                "dps": "50 x2"
+            },
+            {
+                "level": 4,
+                "hitpoints": 1010,
+                "areaDamage": "133 x2",
+                "dps": "55 x2"
+            },
+            {
+                "level": 5,
+                "hitpoints": 1109,
+                "areaDamage": "146 x2",
+                "dps": "60 x2"
+            },
+            {
+                "level": 6,
+                "hitpoints": 1216,
+                "areaDamage": "160 x2",
+                "dps": "66 x2"
+            },
+            {
+                "level": 7,
+                "hitpoints": 1337,
+                "areaDamage": "176 x2",
+                "dps": "73 x2"
+            },
+            {
+                "level": 8,
+                "hitpoints": 1466,
+                "areaDamage": "193 x2",
+                "dps": "80 x2"
+            }
+        ]
+    },
+    {
+        "idName": "heal",
+        "rarity": "Rare",
+        "type": "Spell",
+        "name": "Heal",
+        "description": "Heal your troops to keep them in the fight! Friendly troops are healed over time while in the target area. Doesn't affect buildings.",
+        "arena": 10,
+        "elixirCost": 3,
+        "order": 73,
+        "radius": 3,
+        "duration": 3000,
+        "stats": [{
+                "level": 1,
+                "healingPerSecond": 100
+            },
+            {
+                "level": 2,
+                "healingPerSecond": 110
+            },
+            {
+                "level": 3,
+                "healingPerSecond": 121
+            },
+            {
+                "level": 4,
+                "healingPerSecond": 133
+            },
+            {
+                "level": 5,
+                "healingPerSecond": 146
+            },
+            {
+                "level": 6,
+                "healingPerSecond": 160
+            },
+            {
+                "level": 7,
+                "healingPerSecond": 176
+            },
+            {
+                "level": 8,
+                "healingPerSecond": 193
+            },
+            {
+                "level": 9,
+                "healingPerSecond": 212
+            },
+            {
+                "level": 10,
+                "healingPerSecond": 233
+            },
+            {
+                "level": 11,
+                "healingPerSecond": 256
+            }
+        ]
+    },
+    {
+        "idName": "bandit",
+        "rarity": "Legendary",
+        "type": "Troop",
+        "name": "Bandit",
+        "description": "The Bandit dashes to her target and delivers an extra big hit! While dashing, she can't be touched. The mask keeps her indentity safe... and gives her bonus cool points!",
+        "arena": 9,
+        "elixirCost": 3,
+        "order": 74,
+        "hitSpeed": 1000,
+        "speed": 90,
+        "deployTime": 1000,
+        "range": 0,
+        "dashRange": "4-6",
+        "target": "Ground",
+        "count": 1,
+        "transport": "Ground",
+        "stats": [{
+                "level": 1,
+                "hitpoints": 750,
+                "damage": 160,
+                "dashDamage": 320,
+                "dps": 160
+            },
+            {
+                "level": 2,
+                "hitpoints": 825,
+                "damage": 176,
+                "dashDamage": 352,
+                "dps": 176
+            },
+            {
+                "level": 3,
+                "hitpoints": 907,
+                "damage": 193,
+                "dashDamage": 387,
+                "dps": 193
+            },
+            {
+                "level": 4,
+                "hitpoints": 997,
+                "damage": 212,
+                "dashDamage": 425,
+                "dps": 212
+            },
+            {
+                "level": 5,
+                "hitpoints": 1095,
+                "damage": 233,
+                "dashDamage": 467,
+                "dps": 233
+            }
+        ]
+    }
+]

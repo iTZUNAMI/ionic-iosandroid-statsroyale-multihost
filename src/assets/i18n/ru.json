@@ -1,0 +1,166 @@
+{
+    "BACK_BUTTON_TEXT" : "Назад",
+    
+    
+    "TAB1_TITLE": "Игроки",
+    "TAB2_TITLE": "Поиск",
+    "TAB3_TITLE": "MK Клан",
+    "TAB4_TITLE": "Помощь",
+    "TAB5_TITLE": "Ещё",
+    
+    
+    "TUTORIAL_SKIP_BUTTON" : "Пропустить",
+    "TUTORIAL_CONTINUE_BUTTON" : "Продолжить",
+    "TUTORIAL_FINISH_BUTTON" : "Добавить",
+    
+    "TUTORIAL_SLIDE1_TITLE": "Приветствую в The Mad King",
+    "TUTORIAL_SLIDE1_DESCRIPTION": "<b>Следующие сундуки</b><br>Когда следующий Легендарный, или Эпический? Мы вас покрыли",
+    
+    "TUTORIAL_SLIDE2_TITLE": "Добавьте свой профиль!",
+    "TUTORIAL_SLIDE2_DESCRIPTION": "Вы также можете <b>добавить профиль</b>вашего <b>друга</b> или любимого <b>Youtube</b> игрока! ",
+    
+    "TUTORIAL_SLIDE3_TITLE": "Настройка быстра и легка",
+    "TUTORIAL_SLIDE3_DESCRIPTION": "Просто добавьте <b>Clash Royale #ТЭГ</b><br><br>",
+    
+    "TUTORIAL_SLIDE4_TITLE": "Нравится?",
+    "TUTORIAL_SLIDE4_DESCRIPTION": "Покажи свой клан друзьям!",
+    
+    
+    
+    "LIST_MASTER_TITLE": "Игроки",
+    
+    "ITEM_CREATE_TITLE": "Новый игрок",
+    "ITEM_NAME_HEADER" : "Псевдоним",
+    "ITEM_NAME_PLACEHOLDER" : "e.g. myaccount",
+    "ITEM_TAG_HEADER" : "#ТЭГ игрока Clash Royale",
+    "ITEM_TAG_PLACEHOLDER" : "Пример : 2YJUJQLQ (без #)",
+    "ITEM_AVATAR_HEADER" : "Выбери Аватар",
+    "ITEM_CREATE_ADDED" : "Добавлено",
+    "ITEM_AVATAR_REQ" : "*Введите данные во все поля для создания профиля",
+    
+    "LIST_TOAST" : "Приветствие : Нажми + и добавь свой профиль!\nПодробнее в помощи",
+    "SEARCH_ADD" : "Поиск в списке игроков",
+    
+    
+    "DONE_BUTTON" : "Завершено",
+    "CANCEL_BUTTON" : "Отмена",
+    "DELETE_BUTTON" : "Стереть",
+    "YOUTUBE_BUTTON" : "Ютубер",
+    "SHARE_BUTTON" : "Поделиться",
+    
+    "SHARE_YOUTUBER" : "Проверить канал",
+    "SHARE_ALL" : "Проверить профиль",
+    "SHARE_NOME" : "The Mad King App: ",
+    
+    "SEARCH_TITLE": "Поиск",
+    "SEARCH_PLACEHOLDER" : "Пример : \"MOLT\"",
+    
+    
+    "AVATAR_A": "Лучницы",
+    "AVATAR_B": "Маленький Дракон",
+    "AVATAR_B1": "Бандитка",
+    "AVATAR_B2": "Варвары",
+    "AVATAR_B3": "Подрывник",
+    "AVATAR_B4": "Вышибала",
+    "AVATAR_D": "Тёмный Принц",
+    "AVATAR_E": "Громовержец",
+    "AVATAR_E1": "Палач",
+    "AVATAR_G": "Гигант",
+    "AVATAR_G1": "Гигантский Скелет",
+    "AVATAR_G2": "Гоблины",
+    "AVATAR_G3": "Голем",
+    "AVATAR_I": "Ледяной Маг",
+    "AVATAR_M": "Мегаминьон",
+    "AVATAR_M1": "Шахтёр",
+    "AVATAR_M2": "Мини ПЕККА",
+    "AVATAR_M3": "Мушкетёр",
+    "AVATAR_M4": "Мегарыцарь",
+    "AVATAR_N": "Ночная Ведьма",
+    "AVATAR_P": "ПЕККА",
+    "AVATAR_P2": "Принц",
+    "AVATAR_P3": "Принцесса",
+    "AVATAR_R": "Королевский Гигант",
+    "AVATAR_T": "Три Мушкетёра",
+    "AVATAR_W": "Ведьма",
+    
+    
+    
+    "ITEM_DETAILS_INVALID" : "Неверный #ТЭГ",
+    "ITEM_DETAILS_INVALID_LONG" : "Проверьте правильность вашего #ТЭГА в Clash Royale. Прокрутите страницу во вкладку Игроки для удаления Прифиля",
+    "ITEM_DETAILS_INVALID_LONG_2" : "Ошибка в написании ТЕГА, проверь не перепутал ли ты 0 с O? ",
+    "ITEM_DETAILS_LIVELLO" : "Уровень",
+    "ITEM_DETAILS_NOCLAN" : "Без клана",
+    "ITEM_DETAILS_NEXTCHEST" : "Входящий сундук",
+    "ITEM_DETAILS_NEXTCHEST_LONG" : "Проверь, сколько нужно открыть сундуков чтобы найти Легендарный!",
+    "ITEM_DETAILS_NEXTCHEST2" : "Следующий",
+    "ITEM_DETAILS_NEXTCHEST3" : "Легендарный или Эпический ?",
+    "ITEM_DETAILS_NEXTCHEST4" : "Вам нужно больше сундуков чтобы найти хороший сундук",
+    "ITEM_DETAILS_WAIT" : "Профиль добавлен!",
+    "ITEM_DETAILS_WAIT_LONG" : "Подожди несколько минут и проверь правильность",
+    "ITEM_DETAILS_WAIT_LONG_2" : "Если вы видите эту ошибку 2-3 часа, зайдите во вкладку Помощь для общей ошибки",
+    "ITEM_DETAILS_NEXTCHEST_PRIMO" : "Следующий Сундук",
+    "ITEM_DETAILS_UPDATE" : "Info: Сундуки обновляются каждые 24 часа",
+    "ITEM_DETAILS_UPDATE_LAST" : "Последний запрос: ",
+    "ITEM_DETAILS_UPDATE_NOW" : "Обновить сейчас",
+    "ITEM_DETAILS_UPDATE_LATER" : "Запрос статистики!",
+    "ITEM_DETAILS_UPDATE_DONE" : "Статистика обновлена! Обновление может занять 2-3 минуты, если ничего не изменилось попробуй ещё ",
+    "ITEM_DETAILS_UPDATE_TOOGLE" : " Включить автоматическое обновление",
+    "ITEM_DETAILS_ON" : "Включено",
+    "ITEM_DETAILS_OFF" : "Выключено",
+    "ITEM_DETAILS_MYINFO" : "Статистика" ,
+    "ITEM_DETAILS_MYCHEST" : "Сундуки",
+    "ITEM_DETAILS_MYCLAN" : "Клан Royale",
+    "ITEM_DETAILS_MYCLAN_NOCLAN" : "У вас нету клана в Clash Royale",
+    "ITEM_DETAILS_MYCLAN_ADD" : "Участники клана The Mad King",
+    "ITEM_DETAILS_MYCLAN_ADD2" : "Пригласите всех !",
+    "ITEM_DETAILS_ERROR0" : "Обслуживание Сервера.. Попробуй позже!",
+    
+    "ITEM_DETAILS_STATS_TITOLO" : "Последняя статистика и трофеи",
+    "ITEM_DETAILS_STATS_B1" : "Рекорд трофеев",
+    "ITEM_DETAILS_STATS_B2" : "Сейчас трофеев",
+    "ITEM_DETAILS_STATS_B3" : "Выигранные карты в испытаниях",
+    "ITEM_DETAILS_STATS_B4" : "Выигранные карты в турнирах",
+    "ITEM_DETAILS_STATS_B5" : "Отдано карт",
+    "ITEM_DETAILS_STATS_B6" : "Предыдущий Сезонный Ранг",
+    "ITEM_DETAILS_STATS_B7" : "Предыдущие Сезонные Трофеи",
+    "ITEM_DETAILS_STATS_B8" : "Лучший Сезон",
+    "ITEM_DETAILS_STATS_B9" : "Победа",
+    "ITEM_DETAILS_STATS_B10" : "Поражение",
+    "ITEM_DETAILS_STATS_B11" : "Победа в 3 короны",
+    
+    
+    "TAB3_TITLE_NAV" : "Клан The Mad King",
+    "TAB3_RECENT" : "Последние игроки в The Mad King Clan",
+    
+    
+    
+    "TAB4_TITLE_NAV" : "Помочь ?!",
+    "TAB4_TEXT1" : "Быстрая помощь",
+    "TAB4_TEXT2" : "Шаг 1",
+    "TAB4_TEXT3" : "Открой Clash Royale. Нажми на свой профиль, там ты увидишь свой #ТЭГ.",
+    "TAB4_TEXT4" : "Пример #ТЭГА : 2YJUJQLQ (только без #)",
+    "TAB4_TEXT4_1" : "Обычная ошибка",
+    "TAB4_TEXT4_2" : "Проверь правильно ли ты ввёл, может ты перепутал O(букву) с 0(цифрой).",
+    "TAB4_TEXT5" : "Шаг 2",
+    "TAB4_TEXT6" : "Открой TheMK. Зайди во вкладку Игроки и нажми '+' в верхнем правом углу. Далее введи свой ТЭГ из профиля (пример 2YJUJQLQ) и прочую информацию",
+    "TAB4_TEXT61" : "Неправильно ввёл данные? Для удаления нажми на профиль, а затем на корзину",
+    "TAB4_TEXT7" : "Шаг 3 : Готово ",
+    "TAB4_TEXT8" : "Отлично! Проверь свой профиль на вкладке Игроки.",
+    
+    
+    "TAB5_TITLE_NAV" : "Информация",
+    "TAB5_TEXT1" : "Наконец, вы можете сэкономить деньги и проверить когда вы получите хороший сундук в Clash Royale.",
+    "TAB5_TEXT2" : "Разработчик",
+    "TAB5_TEXT2_1" : "iTZUNAMI создатель The Mad King",
+    "TAB5_TEXT3" : "Наш сайт",
+    "TAB5_TEXT4" : "Связаться",
+    "TAB5_TEXT5" : "Перевёл",
+    "TAB5_TEXT6" : "Поможете перевести на ваш язык?"
+    
+    
+    
+    
+    
+    
+    }
+    

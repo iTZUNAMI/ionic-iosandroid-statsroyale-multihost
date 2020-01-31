@@ -1,0 +1,166 @@
+{
+    "BACK_BUTTON_TEXT" : "Voltar",
+    
+    
+    "TAB1_TITLE": "Jogadores",
+    "TAB2_TITLE": "Buscar",
+    "TAB3_TITLE": "MK Clan",
+    "TAB4_TITLE": "Ajuda",
+    "TAB5_TITLE": "Mais",
+    
+    
+    "TUTORIAL_SKIP_BUTTON" : "Pular",
+    "TUTORIAL_CONTINUE_BUTTON" : "Continuar",
+    "TUTORIAL_FINISH_BUTTON" : "Adicionar meu Perfil",
+    
+    "TUTORIAL_SLIDE1_TITLE": "Bem vindo ao The Mad King",
+    "TUTORIAL_SLIDE1_DESCRIPTION": "<b>Próximos Baús</b><br>Querendo saber quando o baú Lendário ou Épico está chegando? Nós descobrimos pra você",
+    
+    "TUTORIAL_SLIDE2_TITLE": "Adicione seu perfil!",
+    "TUTORIAL_SLIDE2_DESCRIPTION": "Você pode também <b>adicionar qualquer perfil</b>, dos seus <b>amigos</b> ou do seu <b>Youtuber</b> favorito! ",
+    
+    "TUTORIAL_SLIDE3_TITLE": "Configurar é fácil e rápido",
+    "TUTORIAL_SLIDE3_DESCRIPTION": "Apenas insira sua <b>#TAG do Clash Royale</b><br><br>",
+    
+    "TUTORIAL_SLIDE4_TITLE": "Gostou?",
+    "TUTORIAL_SLIDE4_DESCRIPTION": "Compartilhe com seus amigos e com seu clã!",
+    
+    
+    
+    "LIST_MASTER_TITLE": "Jogadores",
+    
+    "ITEM_CREATE_TITLE": "Novo Jogador",
+    "ITEM_NAME_HEADER" : "Nick",
+    "ITEM_NAME_PLACEHOLDER" : "ex. MinhaContaClash",
+    "ITEM_TAG_HEADER" : "#TAG do Clash Royale",
+    "ITEM_TAG_PLACEHOLDER" : "ex. : 2YJUJQLQ (sem #)",
+    "ITEM_AVATAR_HEADER" : "Escolha seu Avatar",
+    "ITEM_CREATE_ADDED" : "Adicionado",
+    "ITEM_AVATAR_REQ" : "*Todos os campos são obrigatórios para criar o perfil",
+    
+    "LIST_TOAST" : "Bem Vindo : Pressione + para adicionar seu perfil!\nInstruções na aba Ajuda",
+    "SEARCH_ADD" : "Busque na sua lista local de jogadores",
+    
+    
+    "DONE_BUTTON" : "Feito",
+    "CANCEL_BUTTON" : "Cancelar",
+    "DELETE_BUTTON" : "Excluir",
+    "YOUTUBE_BUTTON" : "Youtuber",
+    "SHARE_BUTTON" : "Compartilhar",
+    
+    "SHARE_YOUTUBER" : "Checar este canal",
+    "SHARE_ALL" : "Checar este perfil",
+    "SHARE_NOME" : "The Mad King App: ",
+    
+    "SEARCH_TITLE": "Buscar",
+    "SEARCH_PLACEHOLDER" : "ex. : \"MOLT\"",
+    
+    
+    "AVATAR_A": "Arqueiras",
+    "AVATAR_B": "Bebê Dragão",
+    "AVATAR_B1": "Bandida",
+    "AVATAR_B2": "Barbaros",
+    "AVATAR_B3": "Bombardeiro",
+    "AVATAR_B4": "Lançador",
+    "AVATAR_D": "Príncipe das Trevas",
+    "AVATAR_E": "Mago Elétrico",
+    "AVATAR_E1": "Executor",
+    "AVATAR_G": "Gigante",
+    "AVATAR_G1": "Gigante Esqueleto",
+    "AVATAR_G2": "Goblins",
+    "AVATAR_G3": "Golem",
+    "AVATAR_I": "Mago de Gelo",
+    "AVATAR_M": "Mega Servo",
+    "AVATAR_M1": "Servos",
+    "AVATAR_M2": "Mini PEKKA",
+    "AVATAR_M3": "Mosqueteira",
+    "AVATAR_M4": "Mega Cavaleiro",
+    "AVATAR_N": "Bruxa Sombria",
+    "AVATAR_P": "PEKKA",
+    "AVATAR_P2": "Príncipe",
+    "AVATAR_P3": "Princesa",
+    "AVATAR_R": "Gigante Real",
+    "AVATAR_T": "Três Mosqueteiras",
+    "AVATAR_W": "Bruxa",
+    
+    
+    
+    "ITEM_DETAILS_INVALID" : "#TAG Inválida",
+    "ITEM_DETAILS_INVALID_LONG" : "Verifique qual é #TAG corrrta do seu perfil no Clash Royale. Deslize para a esquerda na Aba Jogadores para excluir esse usuário ou pressione o botão de excluir",
+    "ITEM_DETAILS_INVALID_LONG_2" : "Um erro comum é digitar a letra O ao invés do número 0. Por favor, verifique corretamente.",
+    "ITEM_DETAILS_LIVELLO" : "Nível",
+    "ITEM_DETAILS_NOCLAN" : "Sem Clã",
+    "ITEM_DETAILS_NEXTCHEST" : "Próximos Baús",
+    "ITEM_DETAILS_NEXTCHEST_LONG" : "Verifique quantos baús você tem que abrir até chegar o Baú Lendário!",
+    "ITEM_DETAILS_NEXTCHEST2" : "Seguido por",
+    "ITEM_DETAILS_NEXTCHEST3" : "Baú Lendário ou Épico?",
+    "ITEM_DETAILS_NEXTCHEST4" : "Você precisa abrir mais Baús para abrir um bom Baú...",
+    "ITEM_DETAILS_WAIT" : "Perfil Adicionado!",
+    "ITEM_DETAILS_WAIT_LONG" : "Aguarde alguns minutos para verificar novamente",
+    "ITEM_DETAILS_WAIT_LONG_2" : "Se estiver vendo está página depois de 2-3h, provavelmente esta TAG ESTÁ ERRADA. Veja na página Ajuda para ver os Erros Comuns",
+    "ITEM_DETAILS_NEXTCHEST_PRIMO" : "Próximo Baú",
+    "ITEM_DETAILS_UPDATE" : "Informação: os baús são atualizados a cada 24h",
+    "ITEM_DETAILS_UPDATE_LAST" : "Última atualização: ",
+    "ITEM_DETAILS_UPDATE_NOW" : "Atualizar Agora",
+    "ITEM_DETAILS_UPDATE_LATER" : "Atualizado Recentemente",
+    "ITEM_DETAILS_UPDATE_DONE" : "Atualização Solicitada! Normalmente demora entre 2-3 minutos. Então se não estiver atualizado ainda, tente novamente",
+    "ITEM_DETAILS_UPDATE_TOOGLE" : "Ativar atualizações automaticas",
+    "ITEM_DETAILS_ON" : "Ativado",
+    "ITEM_DETAILS_OFF" : "Desativado",
+    "ITEM_DETAILS_MYINFO" : "Infos" ,
+    "ITEM_DETAILS_MYCHEST" : "Baús",
+    "ITEM_DETAILS_MYCLAN" : "Clã Royale",
+    "ITEM_DETAILS_MYCLAN_NOCLAN" : "Você não está em nenhum clã no Clash Royale",
+    "ITEM_DETAILS_MYCLAN_ADD" : "Membros do clã que estão usando The Mad King",
+    "ITEM_DETAILS_MYCLAN_ADD2" : "Convidar Todos !",
+    "ITEM_DETAILS_ERROR0" : "Servidor em manutenção..volte mais tarde!",
+    
+    "ITEM_DETAILS_STATS_TITOLO" : "Últimas estatísticas e Troféus",
+    "ITEM_DETAILS_STATS_B1" : "Troféus mais altos",
+    "ITEM_DETAILS_STATS_B2" : "Troféus Atuais",
+    "ITEM_DETAILS_STATS_B3" : "Cartas ganhas no Desafio",
+    "ITEM_DETAILS_STATS_B4" : "Cartas ganhas no Torneio",
+    "ITEM_DETAILS_STATS_B5" : "Doações",
+    "ITEM_DETAILS_STATS_B6" : "Ranking na Última Temporada",
+    "ITEM_DETAILS_STATS_B7" : "Troféus na Última Temporada",
+    "ITEM_DETAILS_STATS_B8" : "Maior pontuação da Última Temporada",
+    "ITEM_DETAILS_STATS_B9" : "Total de vitórias",
+    "ITEM_DETAILS_STATS_B10" : "Total de Derrotas",
+    "ITEM_DETAILS_STATS_B11" : "Vitórias com 3 Coroas",
+    
+    
+    "TAB3_TITLE_NAV" : "Clã The Mad King",
+    "TAB3_RECENT" : "Novos Jogadores no clã The Mad King",
+    
+    
+    
+    "TAB4_TITLE_NAV" : "Ajuda ?!",
+    "TAB4_TEXT1" : "Ajuda Rápida",
+    "TAB4_TEXT2" : "1º Passo",
+    "TAB4_TEXT3" : "Abra o Clash Royale. Toque no seu nome e abaixo do seu me de Jogador você verá a sua TAG do Clash Royale.",
+    "TAB4_TEXT4" : "Veja no exemplo acima, está TAG de exemplo: 2YJUJQLQ (sem #)",
+    "TAB4_TEXT4_1" : "Erro comum",
+    "TAB4_TEXT4_2" : "Um erro comum é digitar a letra O ao invés do número 0. Por favor, verifique corretamente.",
+    "TAB4_TEXT5" : "2º Passo",
+    "TAB4_TEXT6" : "Abra agora este app. Vá para Jogadores e pressione '+' para adicionar, no canto superior direito. No campo TAG escreva sua TAG DO Clash Royale (por exemplo 2YJUJQLQ) e complete com as outras informações",
+    "TAB4_TEXT61" : "Nome ou TAG errado? Deslize para a esquerda na Aba Jogadores para excluir ou pressione o botão de Excluir",
+    "TAB4_TEXT7" : "3º Passo : Oh Yeah!",
+    "TAB4_TEXT8" : "Tudo certo! Veja seu perfil pressionando a Aba Jogadores.",
+    
+    
+    "TAB5_TITLE_NAV" : "Sobre",
+    "TAB5_TEXT1" : "Finalmente você vai poder economizar seu suado dinheirinho e verificar quando você vai receber um Baú bem da hora no Clash Royale.",
+    "TAB5_TEXT2" : "Desenvolvedor",
+    "TAB5_TEXT2_1" : "The Mad King foi criado para os jogadores por iTZUNAMI",
+    "TAB5_TEXT3" : "Website",
+    "TAB5_TEXT4" : "Contatos",
+    "TAB5_TEXT5" : "Traduções por",
+    "TAB5_TEXT6" : "Nos ajude a traduzir para seu idioma!"
+    
+    
+    
+    
+    
+    
+    }
+    

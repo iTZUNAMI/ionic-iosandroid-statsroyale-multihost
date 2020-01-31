@@ -1,0 +1,39 @@
+tutto cmd admin
+xaxaxaxa11
+https://ionicframework.com/docs/intro/deploying/
+
+
+no comando corretto = lento, usare il prod 
+ionic cordova build android --prod --release
+
+
+(creo o se non gia fatto la key)
+Cd Program Files (x86)\Java\jdk1.8.0_112\bin
+keytool -genkey -v -keystore stats-royale-key.jks -keyalg RSA -keysize 2048 -validity 10000 -alias stats-royale
+
+sposto unsigned app nella cartella jdk
+Cd Program Files (x86)\Java\jdk1.8.0_112\bin
+
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore stats-royale-key.jks android-release-unsigned.apk stats-royale
+
+
+sposto app 
+cd Android\sdk\build-tools\25.0.2
+
+zipalign -v 4 android-release-unsigned.apk FINALE.apk
+
+apksigner verify FINALE.apk
+
+
+
+
+
+
+
+
+
+
+
+vecchio che va lento
+ionic cordova build android --release
+comando corretto!!
