@@ -32,19 +32,19 @@ Note:
 This is not a WebView app of the fan created website statsroyale.com.
 
 ## Screenshots (Android)
-![alt-text-1](/resources/build android/en1.png "title-1") ![alt-text-1](/resources/build android/en2.png "title-1")
-
-<img src="/resources/build android/en3.png" width="500px"/>
-<img src="/resources/build android/en4.png" width="500px"/>
-<img src="/resources/build android/en5.png" width="500px"/>
+<img src="/resources/build android/en1.png" width="450px"/>
+<img src="/resources/build android/en2.png" width="450px"/>
+<img src="/resources/build android/en3.png" width="450px"/>
+<img src="/resources/build android/en4.png" width="450px"/>
+<img src="/resources/build android/en5.png" width="450px"/>
 
 ## Screenshots (iOS)
 
-<img src="/resources/build ios/Simulator Screen Shot 19 ago 2017, 18.10.52.png" width="500px"/>
-<img src="/resources/build ios/Simulator Screen Shot 19 ago 2017, 18.11.13.png" width="500px"/>
-<img src="/resources/build ios/Simulator Screen Shot 19 ago 2017, 18.11.26.png" width="500px"/>
-<img src="/resources/build ios/Simulator Screen Shot 19 ago 2017, 18.11.31.png" width="500px"/>
-<img src="/resources/build ios/Simulator Screen Shot 19 ago 2017, 18.11.44.png" width="500px"/>
+<img src="/resources/build ios/Simulator Screen Shot 19 ago 2017, 18.10.52.png" width="450px"/>
+<img src="/resources/build ios/Simulator Screen Shot 19 ago 2017, 18.11.13.png" width="450px"/>
+<img src="/resources/build ios/Simulator Screen Shot 19 ago 2017, 18.11.26.png" width="450px"/>
+<img src="/resources/build ios/Simulator Screen Shot 19 ago 2017, 18.11.31.png" width="450px"/>
+<img src="/resources/build ios/Simulator Screen Shot 19 ago 2017, 18.11.44.png" width="450px"/>
 
 ## Screenshots (Tablet)
 
